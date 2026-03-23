@@ -1,0 +1,596 @@
+{
+  "project_info": {
+    "name": "src",
+    "path": "C:\\Users\\nirbh\\Desktop\\Projects\\F1Mod\\src",
+    "generated_at": "2026-03-23T11:51:40.0329034",
+    "total_files": 27,
+    "total_size": 19871
+  },
+  "structure": {
+    "generated": {
+      "resources": {
+      }
+    },
+    "main": {
+      "java": {
+        "net": {
+          "grodax": {
+            "f1mod": {
+              "block": {
+                "custom": {
+                  "TrackBlock.java": {
+                    "type": "file",
+                    "info": {
+                      "size": 627,
+                      "last_modified": "2026-03-23T11:51:39.6369039",
+                      "mime_type": "text/x-java-source",
+                      "extension": ".java"
+                    }
+                  }
+                },
+                "ModBlocks.java": {
+                  "type": "file",
+                  "info": {
+                    "size": 1797,
+                    "last_modified": "2026-03-23T11:51:39.671904",
+                    "mime_type": "text/x-java-source",
+                    "extension": ".java"
+                  }
+                }
+              },
+              "Config.java": {
+                "type": "file",
+                "info": {
+                  "size": 2706,
+                  "last_modified": "2026-03-23T11:51:39.6869056",
+                  "mime_type": "text/x-java-source",
+                  "extension": ".java"
+                }
+              },
+              "F1Mod.java": {
+                "type": "file",
+                "info": {
+                  "size": 3084,
+                  "last_modified": "2026-03-23T11:51:39.6959049",
+                  "mime_type": "text/x-java-source",
+                  "extension": ".java"
+                }
+              },
+              "item": {
+                "custom": {
+                  "ChiselItem.java": {
+                    "type": "file",
+                    "info": {
+                      "size": 1538,
+                      "last_modified": "2026-03-23T11:51:39.7049058",
+                      "mime_type": "text/x-java-source",
+                      "extension": ".java"
+                    }
+                  }
+                },
+                "ModCreativeModeTabs.java": {
+                  "type": "file",
+                  "info": {
+                    "size": 1365,
+                    "last_modified": "2026-03-23T11:51:39.7179054",
+                    "mime_type": "text/x-java-source",
+                    "extension": ".java"
+                  }
+                },
+                "ModItems.java": {
+                  "type": "file",
+                  "info": {
+                    "size": 957,
+                    "last_modified": "2026-03-23T11:51:39.7259054",
+                    "mime_type": "text/x-java-source",
+                    "extension": ".java"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "resources": {
+        "assets": {
+          "f1mod": {
+            "blockstates": {
+              "factory_block.json": {
+                "type": "file",
+                "info": {
+                  "size": 86,
+                  "last_modified": "2026-03-23T11:51:39.7599056",
+                  "mime_type": "text/plain",
+                  "extension": ".json"
+                }
+              },
+              "track_block.json": {
+                "type": "file",
+                "info": {
+                  "size": 84,
+                  "last_modified": "2026-03-23T11:51:39.7689052",
+                  "mime_type": "text/plain",
+                  "extension": ".json"
+                }
+              }
+            },
+            "lang": {
+              "en_us.json": {
+                "type": "file",
+                "info": {
+                  "size": 204,
+                  "last_modified": "2026-03-23T11:51:39.780905",
+                  "mime_type": "text/plain",
+                  "extension": ".json"
+                }
+              }
+            },
+            "models": {
+              "block": {
+                "factory_block.json": {
+                  "type": "file",
+                  "info": {
+                    "size": 107,
+                    "last_modified": "2026-03-23T11:51:39.7939049",
+                    "mime_type": "text/plain",
+                    "extension": ".json"
+                  }
+                },
+                "track_block.json": {
+                  "type": "file",
+                  "info": {
+                    "size": 105,
+                    "last_modified": "2026-03-23T11:51:39.8019049",
+                    "mime_type": "text/plain",
+                    "extension": ".json"
+                  }
+                }
+              },
+              "item": {
+                "chisel.json": {
+                  "type": "file",
+                  "info": {
+                    "size": 102,
+                    "last_modified": "2026-03-23T11:51:39.8139053",
+                    "mime_type": "text/plain",
+                    "extension": ".json"
+                  }
+                },
+                "f1_car.json": {
+                  "type": "file",
+                  "info": {
+                    "size": 102,
+                    "last_modified": "2026-03-23T11:51:39.8219054",
+                    "mime_type": "text/plain",
+                    "extension": ".json"
+                  }
+                },
+                "factory_block.json": {
+                  "type": "file",
+                  "info": {
+                    "size": 45,
+                    "last_modified": "2026-03-23T11:51:39.8289032",
+                    "mime_type": "text/plain",
+                    "extension": ".json"
+                  }
+                },
+                "track_block.json": {
+                  "type": "file",
+                  "info": {
+                    "size": 43,
+                    "last_modified": "2026-03-23T11:51:39.8359051",
+                    "mime_type": "text/plain",
+                    "extension": ".json"
+                  }
+                }
+              }
+            },
+            "textures": {
+              "block": {
+                "factory_block.png": {
+                  "type": "file",
+                  "info": {
+                    "size": 203,
+                    "last_modified": "2026-03-23T11:51:39.8529053",
+                    "mime_type": "image/png",
+                    "extension": ".png"
+                  }
+                },
+                "track_block.png": {
+                  "type": "file",
+                  "info": {
+                    "size": 211,
+                    "last_modified": "2026-03-23T11:51:39.8599043",
+                    "mime_type": "image/png",
+                    "extension": ".png"
+                  }
+                }
+              },
+              "item": {
+                "chisel.png": {
+                  "type": "file",
+                  "info": {
+                    "size": 174,
+                    "last_modified": "2026-03-23T11:51:39.8719045",
+                    "mime_type": "image/png",
+                    "extension": ".png"
+                  }
+                },
+                "f1_car.png": {
+                  "type": "file",
+                  "info": {
+                    "size": 219,
+                    "last_modified": "2026-03-23T11:51:39.8799074",
+                    "mime_type": "image/png",
+                    "extension": ".png"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "data": {
+          "f1mod": {
+            "loot_table": {
+              "blocks": {
+                "factory_block.json": {
+                  "type": "file",
+                  "info": {
+                    "size": 217,
+                    "last_modified": "2026-03-23T11:51:39.9079043",
+                    "mime_type": "text/plain",
+                    "extension": ".json"
+                  }
+                },
+                "track_block.json": {
+                  "type": "file",
+                  "info": {
+                    "size": 215,
+                    "last_modified": "2026-03-23T11:51:39.9159067",
+                    "mime_type": "text/plain",
+                    "extension": ".json"
+                  }
+                }
+              }
+            },
+            "recipe": {
+              "factory_block.json": {
+                "type": "file",
+                "info": {
+                  "size": 322,
+                  "last_modified": "2026-03-23T11:51:39.9339041",
+                  "mime_type": "text/plain",
+                  "extension": ".json"
+                }
+              }
+            }
+          },
+          "minecraft": {
+            "tags": {
+              "block": {
+                "mineable": {
+                  "pickaxe.json": {
+                    "type": "file",
+                    "info": {
+                      "size": 98,
+                      "last_modified": "2026-03-23T11:51:39.9529075",
+                      "mime_type": "text/plain",
+                      "extension": ".json"
+                    }
+                  }
+                },
+                "needs_iron_tool.json": {
+                  "type": "file",
+                  "info": {
+                    "size": 98,
+                    "last_modified": "2026-03-23T11:51:39.9649058",
+                    "mime_type": "text/plain",
+                    "extension": ".json"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "META-INF": {
+          "mods.toml": {
+            "type": "file",
+            "info": {
+              "size": 5079,
+              "last_modified": "2026-03-23T11:51:39.9909042",
+              "mime_type": "text/plain",
+              "extension": ".toml"
+            }
+          }
+        },
+        "pack.mcmeta": {
+          "type": "file",
+          "info": {
+            "size": 83,
+            "last_modified": "2026-03-23T11:51:40.0019048",
+            "mime_type": "text/plain",
+            "extension": ".mcmeta"
+          }
+        }
+      }
+    },
+    "test": {
+      "java": {
+      },
+      "resources": {
+      }
+    }
+  },
+  "files": [
+    {
+      "path": "main\\java\\net\\grodax\\f1mod\\block\\custom\\TrackBlock.java",
+      "content": "package net.grodax.f1mod.block.custom;\r\n\r\nimport net.minecraft.core.BlockPos;\r\nimport net.minecraft.world.entity.Entity;\r\nimport net.minecraft.world.level.Level;\r\nimport net.minecraft.world.level.block.Block;\r\nimport net.minecraft.world.level.block.state.BlockState;\r\n\r\npublic class TrackBlock extends Block {\r\n    public TrackBlock(Properties properties) {\r\n        super(properties);\r\n    }\r\n\r\n    @Override\r\n    public void stepOn(Level pLevel, BlockPos pPos, BlockState pState, Entity pEntity) {\r\n        if (pEntity instanceof Player Player) {\r\n\r\n        }\r\n        super.stepOn(pLevel, pPos, pState, pEntity);\r\n    }\r\n}\r\n",
+      "info": {
+        "size": 627,
+        "last_modified": "2026-03-23T11:51:39.6369039",
+        "mime_type": "text/x-java-source",
+        "extension": ".java"
+      }
+    },
+    {
+      "path": "main\\java\\net\\grodax\\f1mod\\block\\ModBlocks.java",
+      "content": "package net.grodax.f1mod.block;\r\n\r\nimport net.grodax.f1mod.F1Mod;\r\nimport net.grodax.f1mod.block.custom.TrackBlock;\r\nimport net.grodax.f1mod.item.ModItems;\r\nimport net.minecraft.world.item.BlockItem;\r\nimport net.minecraft.world.item.Item;\r\nimport net.minecraft.world.level.block.Block;\r\nimport net.minecraft.world.level.block.SoundType;\r\nimport net.minecraft.world.level.block.state.BlockBehaviour;\r\nimport net.minecraftforge.eventbus.api.IEventBus;\r\nimport net.minecraftforge.registries.DeferredRegister;\r\nimport net.minecraftforge.registries.ForgeRegistries;\r\nimport net.minecraftforge.registries.RegistryObject;\r\n\r\nimport java.util.function.Supplier;\r\n\r\npublic class ModBlocks {\r\n    public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, F1Mod.MOD_ID);\r\n\r\n    public static final RegistryObject<Block> FACTORY_BLOCK = registerBlock(\"factory_block\", () -> new Block(BlockBehaviour.Properties.of()\r\n            .strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));\r\n\r\n\r\n    public static final RegistryObject<Block> TRACK_BLOCK = registerBlock(\"track_block\", () -> new TrackBlock(BlockBehaviour.Properties.of()\r\n            .strength(5f).requiresCorrectToolForDrops()));\r\n\r\n    private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {\r\n        RegistryObject<T> toReturn = BLOCKS.register(name, block);\r\n        registerBlockItem(name, toReturn);\r\n        return toReturn;\r\n    }\r\n\r\n    private static <T extends Block> void registerBlockItem(String name, RegistryObject<T> block) {\r\n        ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));\r\n    }\r\n\r\n    public static void register(IEventBus eventBus) {\r\n        BLOCKS.register(eventBus);\r\n    }\r\n}\r\n",
+      "info": {
+        "size": 1797,
+        "last_modified": "2026-03-23T11:51:39.671904",
+        "mime_type": "text/x-java-source",
+        "extension": ".java"
+      }
+    },
+    {
+      "path": "main\\java\\net\\grodax\\f1mod\\Config.java",
+      "content": "package net.grodax.f1mod;\n\nimport net.minecraft.resources.ResourceLocation;\nimport net.minecraft.world.item.Item;\nimport net.minecraftforge.common.ForgeConfigSpec;\nimport net.minecraftforge.eventbus.api.SubscribeEvent;\nimport net.minecraftforge.fml.common.Mod;\nimport net.minecraftforge.fml.event.config.ModConfigEvent;\nimport net.minecraftforge.registries.ForgeRegistries;\n\nimport java.util.List;\nimport java.util.Set;\nimport java.util.stream.Collectors;\n\n// An example config class. This is not required, but it's a good idea to have one to keep your config organized.\n// Demonstrates how to use Forge's config APIs\n@Mod.EventBusSubscriber(modid = F1Mod.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)\npublic class Config\n{\n    private static final ForgeConfigSpec.Builder BUILDER = new ForgeConfigSpec.Builder();\n\n    private static final ForgeConfigSpec.BooleanValue LOG_DIRT_BLOCK = BUILDER\n            .comment(\"Whether to log the dirt block on common setup\")\n            .define(\"logDirtBlock\", true);\n\n    private static final ForgeConfigSpec.IntValue MAGIC_NUMBER = BUILDER\n            .comment(\"A magic number\")\n            .defineInRange(\"magicNumber\", 42, 0, Integer.MAX_VALUE);\n\n    public static final ForgeConfigSpec.ConfigValue<String> MAGIC_NUMBER_INTRODUCTION = BUILDER\n            .comment(\"What you want the introduction message to be for the magic number\")\n            .define(\"magicNumberIntroduction\", \"The magic number is... \");\n\n    // a list of strings that are treated as resource locations for items\n    private static final ForgeConfigSpec.ConfigValue<List<? extends String>> ITEM_STRINGS = BUILDER\n            .comment(\"A list of items to log on common setup.\")\n            .defineListAllowEmpty(\"items\", List.of(\"minecraft:iron_ingot\"), Config::validateItemName);\n\n    static final ForgeConfigSpec SPEC = BUILDER.build();\n\n    public static boolean logDirtBlock;\n    public static int magicNumber;\n    public static String magicNumberIntroduction;\n    public static Set<Item> items;\n\n    private static boolean validateItemName(final Object obj)\n    {\n        return obj instanceof final String itemName && ForgeRegistries.ITEMS.containsKey(ResourceLocation.tryParse(itemName));\n    }\n\n    @SubscribeEvent\n    static void onLoad(final ModConfigEvent event)\n    {\n        logDirtBlock = LOG_DIRT_BLOCK.get();\n        magicNumber = MAGIC_NUMBER.get();\n        magicNumberIntroduction = MAGIC_NUMBER_INTRODUCTION.get();\n\n        // convert the list of strings into a set of items\n        items = ITEM_STRINGS.get().stream()\n                .map(itemName -> ForgeRegistries.ITEMS.getValue(ResourceLocation.tryParse(itemName)))\n                .collect(Collectors.toSet());\n    }\n}\n",
+      "info": {
+        "size": 2706,
+        "last_modified": "2026-03-23T11:51:39.6869056",
+        "mime_type": "text/x-java-source",
+        "extension": ".java"
+      }
+    },
+    {
+      "path": "main\\java\\net\\grodax\\f1mod\\F1Mod.java",
+      "content": "package net.grodax.f1mod;\n\nimport com.mojang.logging.LogUtils;\nimport net.grodax.f1mod.block.ModBlocks;\nimport net.grodax.f1mod.item.ModCreativeModeTabs;\nimport net.grodax.f1mod.item.ModItems;\nimport net.minecraft.world.item.CreativeModeTab;\nimport net.minecraft.world.item.CreativeModeTabs;\nimport net.minecraftforge.api.distmarker.Dist;\nimport net.minecraftforge.common.MinecraftForge;\nimport net.minecraftforge.event.BuildCreativeModeTabContentsEvent;\nimport net.minecraftforge.event.server.ServerStartingEvent;\nimport net.minecraftforge.eventbus.api.IEventBus;\nimport net.minecraftforge.eventbus.api.SubscribeEvent;\nimport net.minecraftforge.fml.common.Mod;\nimport net.minecraftforge.fml.config.ModConfig;\nimport net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;\nimport net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;\nimport net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;\nimport org.slf4j.Logger;\n\n// The value here should match an entry in the META-INF/mods.toml file\n@Mod(F1Mod.MOD_ID)\npublic class F1Mod\n{\n    // Define mod id in a common place for everything to reference\n    public static final String MOD_ID = \"f1mod\";\n    // Directly reference a slf4j logger\n    public static final Logger LOGGER = LogUtils.getLogger();\n\n\n    public F1Mod(FMLJavaModLoadingContext context)\n    {\n        IEventBus modEventBus = context.getModEventBus();\n\n        // Register the commonSetup method for modloading\n        modEventBus.addListener(this::commonSetup);\n\n        ModCreativeModeTabs.register(modEventBus);\n\n        ModItems.register(modEventBus);\n        ModBlocks.register((modEventBus));\n\n        // Register ourselves for server and other game events we are interested in\n        MinecraftForge.EVENT_BUS.register(this);\n\n        // Register the item to a creative tab\n        modEventBus.addListener(this::addCreative);\n\n        // Register our mod's ForgeConfigSpec so that Forge can create and load the config file for us\n        context.registerConfig(ModConfig.Type.COMMON, Config.SPEC);\n    }\n\n    private void commonSetup(final FMLCommonSetupEvent event)\n    {\n\n    }\n\n    // Add the example block item to the building blocks tab\n    private void addCreative(BuildCreativeModeTabContentsEvent event)\n    {\n        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {\n            event.accept(ModItems.F1CAR);\n        }\n\n        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {\n            event.accept(ModBlocks.FACTORY_BLOCK);\n        }\n    }\n\n    // You can use SubscribeEvent and let the Event Bus discover methods to call\n    @SubscribeEvent\n    public void onServerStarting(ServerStartingEvent event)\n    {\n\n    }\n\n    // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent\n    @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)\n    public static class ClientModEvents\n    {\n        @SubscribeEvent\n        public static void onClientSetup(FMLClientSetupEvent event)\n        {\n\n        }\n    }\n}\n",
+      "info": {
+        "size": 3084,
+        "last_modified": "2026-03-23T11:51:39.6959049",
+        "mime_type": "text/x-java-source",
+        "extension": ".java"
+      }
+    },
+    {
+      "path": "main\\java\\net\\grodax\\f1mod\\item\\custom\\ChiselItem.java",
+      "content": "package net.grodax.f1mod.item.custom;\r\n\r\nimport net.grodax.f1mod.block.ModBlocks;\r\nimport net.minecraft.server.level.ServerLevel;\r\nimport net.minecraft.server.level.ServerPlayer;\r\nimport net.minecraft.sounds.SoundEvents;\r\nimport net.minecraft.sounds.SoundSource;\r\nimport net.minecraft.world.InteractionResult;\r\nimport net.minecraft.world.entity.EquipmentSlot;\r\nimport net.minecraft.world.item.Item;\r\nimport net.minecraft.world.item.context.UseOnContext;\r\nimport net.minecraft.world.level.Level;\r\nimport net.minecraft.world.level.block.Block;\r\nimport net.minecraft.world.level.block.Blocks;\r\n\r\npublic class ChiselItem extends Item {\r\n    public ChiselItem(Properties pProperties) {\r\n        super(pProperties);\r\n    }\r\n\r\n    @Override\r\n    public InteractionResult useOn(UseOnContext pContext) {\r\n        Level level = pContext.getLevel();\r\n        Block clickedBlock = level.getBlockState(pContext.getClickedPos()).getBlock();\r\n\r\n        if (!level.isClientSide() && clickedBlock == Blocks.BLACK_CONCRETE) {\r\n            level.setBlockAndUpdate(pContext.getClickedPos(), ModBlocks.TRACK_BLOCK.get().defaultBlockState());\r\n            pContext.getItemInHand().hurtAndBreak(1, ((ServerLevel) level), ((ServerPlayer) pContext.getPlayer()),\r\n                                            item -> pContext.getPlayer().onEquippedItemBroken(item, EquipmentSlot.MAINHAND));\r\n            level.playSound(null, pContext.getClickedPos(), SoundEvents.ANVIL_PLACE, SoundSource.BLOCKS);\r\n        }\r\n\r\n        return InteractionResult.SUCCESS;\r\n    }\r\n}\r\n",
+      "info": {
+        "size": 1538,
+        "last_modified": "2026-03-23T11:51:39.7049058",
+        "mime_type": "text/x-java-source",
+        "extension": ".java"
+      }
+    },
+    {
+      "path": "main\\java\\net\\grodax\\f1mod\\item\\ModCreativeModeTabs.java",
+      "content": "package net.grodax.f1mod.item;\r\n\r\nimport net.grodax.f1mod.F1Mod;\r\nimport net.grodax.f1mod.block.ModBlocks;\r\nimport net.minecraft.core.registries.Registries;\r\nimport net.minecraft.network.chat.Component;\r\nimport net.minecraft.world.item.CreativeModeTab;\r\nimport net.minecraft.world.item.ItemStack;\r\nimport net.minecraftforge.eventbus.api.IEventBus;\r\nimport net.minecraftforge.registries.DeferredRegister;\r\nimport net.minecraftforge.registries.RegistryObject;\r\n\r\npublic class ModCreativeModeTabs {\r\n    public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, F1Mod.MOD_ID);\r\n\r\n    public static final RegistryObject<CreativeModeTab> F1_TAB = CREATIVE_MODE_TABS.register(\"f1_tab\", () -> CreativeModeTab.builder()\r\n            .icon(() -> new ItemStack(ModItems.F1CAR.get()))\r\n            .title(Component.translatable(\"creativetab.f1mod.f1_tab\"))\r\n            .displayItems((pParameters, pOutput) -> {\r\n                pOutput.accept(ModItems.F1CAR.get());\r\n                pOutput.accept(ModBlocks.FACTORY_BLOCK.get());\r\n                pOutput.accept(ModItems.CHISEL.get());\r\n                pOutput.accept(ModBlocks.TRACK_BLOCK.get());\r\n            })\r\n            .build());\r\n\r\n    public static void register(IEventBus eventBus) {\r\n        CREATIVE_MODE_TABS.register(eventBus);\r\n    }\r\n}\r\n",
+      "info": {
+        "size": 1365,
+        "last_modified": "2026-03-23T11:51:39.7179054",
+        "mime_type": "text/x-java-source",
+        "extension": ".java"
+      }
+    },
+    {
+      "path": "main\\java\\net\\grodax\\f1mod\\item\\ModItems.java",
+      "content": "package net.grodax.f1mod.item;\r\n\r\nimport net.grodax.f1mod.F1Mod;\r\nimport net.grodax.f1mod.item.custom.ChiselItem;\r\nimport net.minecraft.world.item.Item;\r\nimport net.minecraftforge.eventbus.api.IEventBus;\r\nimport net.minecraftforge.registries.DeferredRegister;\r\nimport net.minecraftforge.registries.ForgeRegistries;\r\nimport net.minecraftforge.registries.RegistryObject;\r\n\r\npublic class ModItems {\r\n    // tells Minecraft that these are our items, so add them to the game\r\n    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, F1Mod.MOD_ID);\r\n\r\n    public static final RegistryObject<Item> F1CAR = ITEMS.register(\"f1_car\", () -> new Item(new Item.Properties()));\r\n\r\n    public static final RegistryObject<Item> CHISEL = ITEMS.register(\"chisel\", () -> new ChiselItem(new Item.Properties().durability(32)));\r\n\r\n    public static void register(IEventBus eventBus) {\r\n        ITEMS.register(eventBus);\r\n    }\r\n\r\n}\r\n",
+      "info": {
+        "size": 957,
+        "last_modified": "2026-03-23T11:51:39.7259054",
+        "mime_type": "text/x-java-source",
+        "extension": ".java"
+      }
+    },
+    {
+      "path": "main\\resources\\assets\\f1mod\\blockstates\\factory_block.json",
+      "content": "{\r\n  \"variants\": {\r\n    \"\": {\r\n    \"model\": \"f1mod:block/factory_block\"\r\n    }\r\n  }\r\n}",
+      "info": {
+        "size": 86,
+        "last_modified": "2026-03-23T11:51:39.7599056",
+        "mime_type": "text/plain",
+        "extension": ".json"
+      }
+    },
+    {
+      "path": "main\\resources\\assets\\f1mod\\blockstates\\track_block.json",
+      "content": "{\r\n  \"variants\": {\r\n    \"\": {\r\n    \"model\": \"f1mod:block/track_block\"\r\n    }\r\n  }\r\n}",
+      "info": {
+        "size": 84,
+        "last_modified": "2026-03-23T11:51:39.7689052",
+        "mime_type": "text/plain",
+        "extension": ".json"
+      }
+    },
+    {
+      "path": "main\\resources\\assets\\f1mod\\lang\\en_us.json",
+      "content": "{\r\n  \"item.f1mod.f1_car\": \"F1 Car\",\r\n\r\n  \"block.f1mod.factory_block\": \"Factory\",\r\n\r\n  \"creativetab.f1mod.f1_tab\": \"F1\",\r\n\r\n  \"item.f1mod.chisel\": \"Chisel\",\r\n\r\n  \"block.f1mod.track_block\": \"Track Block\"\r\n}",
+      "info": {
+        "size": 204,
+        "last_modified": "2026-03-23T11:51:39.780905",
+        "mime_type": "text/plain",
+        "extension": ".json"
+      }
+    },
+    {
+      "path": "main\\resources\\assets\\f1mod\\models\\block\\factory_block.json",
+      "content": "{\r\n  \"parent\": \"minecraft:block/cube_all\",\r\n  \"textures\": {\r\n    \"all\": \"f1mod:block/factory_block\"\r\n  }\r\n}",
+      "info": {
+        "size": 107,
+        "last_modified": "2026-03-23T11:51:39.7939049",
+        "mime_type": "text/plain",
+        "extension": ".json"
+      }
+    },
+    {
+      "path": "main\\resources\\assets\\f1mod\\models\\block\\track_block.json",
+      "content": "{\r\n  \"parent\": \"minecraft:block/cube_all\",\r\n  \"textures\": {\r\n    \"all\": \"f1mod:block/track_block\"\r\n  }\r\n}",
+      "info": {
+        "size": 105,
+        "last_modified": "2026-03-23T11:51:39.8019049",
+        "mime_type": "text/plain",
+        "extension": ".json"
+      }
+    },
+    {
+      "path": "main\\resources\\assets\\f1mod\\models\\item\\chisel.json",
+      "content": "{\r\n  \"parent\": \"minecraft:item/generated\",\r\n  \"textures\": {\r\n    \"layer0\": \"f1mod:item/chisel\"\r\n  }\r\n}",
+      "info": {
+        "size": 102,
+        "last_modified": "2026-03-23T11:51:39.8139053",
+        "mime_type": "text/plain",
+        "extension": ".json"
+      }
+    },
+    {
+      "path": "main\\resources\\assets\\f1mod\\models\\item\\f1_car.json",
+      "content": "{\r\n  \"parent\": \"minecraft:item/generated\",\r\n  \"textures\": {\r\n    \"layer0\": \"f1mod:item/f1_car\"\r\n  }\r\n}",
+      "info": {
+        "size": 102,
+        "last_modified": "2026-03-23T11:51:39.8219054",
+        "mime_type": "text/plain",
+        "extension": ".json"
+      }
+    },
+    {
+      "path": "main\\resources\\assets\\f1mod\\models\\item\\factory_block.json",
+      "content": "{\r\n  \"parent\": \"f1mod:block/factory_block\"\r\n}",
+      "info": {
+        "size": 45,
+        "last_modified": "2026-03-23T11:51:39.8289032",
+        "mime_type": "text/plain",
+        "extension": ".json"
+      }
+    },
+    {
+      "path": "main\\resources\\assets\\f1mod\\models\\item\\track_block.json",
+      "content": "{\r\n  \"parent\": \"f1mod:block/track_block\"\r\n}",
+      "info": {
+        "size": 43,
+        "last_modified": "2026-03-23T11:51:39.8359051",
+        "mime_type": "text/plain",
+        "extension": ".json"
+      }
+    },
+    {
+      "path": "main\\resources\\assets\\f1mod\\textures\\block\\factory_block.png",
+      "content": "PNG\r\n\u001a\n\u0000\u0000\u0000\rIHDR\u0000\u0000\u0000\u0010\u0000\u0000\u0000\u0010\b\u0006\u0000\u0000\u0000\u001fóÿa\u0000\u0000\u0000\u0001sRGB\u0000®Î\u001cé\u0000\u0000\u0000\u0004gAMA\u0000\u0000±\u000büa\u0005\u0000\u0000\u0000\tpHYs\u0000\u0000\u000eÃ\u0000\u0000\u000eÃ\u0001Ço¨d\u0000\u0000\u0000`IDAT8Oc`Xôâ?\f\u001f>|\u0018ÎÆÆÇ*,.I\u0018N\t,b0>V\u0003êëëá\u0018Ml8\u0019ðVFå?%r\u0003Nìþ\u001fÑ%qad=p\u0017 \u000b\u0012á.@7TL¹\u000b°\t\u0012ÂÈz¨ç\u0005r1\u0000JÛbúR\u0000\u0000\u0000\u0000IEND®B`",
+      "info": {
+        "size": 203,
+        "last_modified": "2026-03-23T11:51:39.8529053",
+        "mime_type": "image/png",
+        "extension": ".png"
+      }
+    },
+    {
+      "path": "main\\resources\\assets\\f1mod\\textures\\block\\track_block.png",
+      "content": "PNG\r\n\u001a\n\u0000\u0000\u0000\rIHDR\u0000\u0000\u0000\u0010\u0000\u0000\u0000\u0010\b\u0006\u0000\u0000\u0000\u001fóÿa\u0000\u0000\u0000\u0001sRGB\u0000®Î\u001cé\u0000\u0000\u0000\u0004gAMA\u0000\u0000±\u000büa\u0005\u0000\u0000\u0000\tpHYs\u0000\u0000\u000eÃ\u0000\u0000\u000eÃ\u0001Ço¨d\u0000\u0000\u0000hIDAT8O¥[\u000eÀ \b\u0004¹9wî\u0005lú¥ìÐ~L¢£N±]xï\u0000Q\u000e¨ê\u0013¸'iíI\u0003E@4 ºø78 7{K;.\u0007\"X\u0000â\\3[£ruÈ:<Ð\u0004ÄäÓ\u001b¬¾Ñï%\nXv\u0001Î=´O×ÙC\u0000\u0000\u0000\u0000IEND®B`",
+      "info": {
+        "size": 211,
+        "last_modified": "2026-03-23T11:51:39.8599043",
+        "mime_type": "image/png",
+        "extension": ".png"
+      }
+    },
+    {
+      "path": "main\\resources\\assets\\f1mod\\textures\\item\\chisel.png",
+      "content": "PNG\r\n\u001a\n\u0000\u0000\u0000\rIHDR\u0000\u0000\u0000\u0010\u0000\u0000\u0000\u0010\b\u0006\u0000\u0000\u0000\u001fóÿa\u0000\u0000\u0000\u0001sRGB\u0000®Î\u001cé\u0000\u0000\u0000\u0004gAMA\u0000\u0000±\u000büa\u0005\u0000\u0000\u0000\tpHYs\u0000\u0000\u000eÃ\u0000\u0000\u000eÃ\u0001Ço¨d\u0000\u0000\u0000CIDAT8OcøO!`@\u0017 \u0015\fb\u0003\u000e\u001f>q\u0001¬\u0006 kÆgÈp5\u0000\u0004\u0018\u0018\u0018à\u001aAl\\\u0000§\fHÓÎªp0\u001e5L\u0003@\u0000¤\u0011f\u0010\u0000\u0000\rÇ®ÂUK1\u0000\u0000\u0000\u0000IEND®B`",
+      "info": {
+        "size": 174,
+        "last_modified": "2026-03-23T11:51:39.8719045",
+        "mime_type": "image/png",
+        "extension": ".png"
+      }
+    },
+    {
+      "path": "main\\resources\\assets\\f1mod\\textures\\item\\f1_car.png",
+      "content": "PNG\r\n\u001a\n\u0000\u0000\u0000\rIHDR\u0000\u0000\u0000\u0010\u0000\u0000\u0000\u0010\b\u0006\u0000\u0000\u0000\u001fóÿa\u0000\u0000\u0000\u0001sRGB\u0000®Î\u001cé\u0000\u0000\u0000\u0004gAMA\u0000\u0000±\u000büa\u0005\u0000\u0000\u0000\tpHYs\u0000\u0000\u000eÃ\u0000\u0000\u000eÃ\u0001Ço¨d\u0000\u0000\u0000pIDAT8O\u0001\nÀ \f\u0003ûÿO;\u00144Þª\u0007Û IoÑÀ8R\u001dú!Ivâã×,\t\u001c\u001f++\u001fïjTuóËN%èÌþ:ðxS\nÖq%ù\u0015ø1m:( \u0003Ê$?Ç\u0004IF¦%\u0014í÷Ê\nÿQ\u0012¼¢Ûtåv:\\ªè&ý\u0000+ß\n!§ñ5\u0000\u0000\u0000\u0000IEND®B`",
+      "info": {
+        "size": 219,
+        "last_modified": "2026-03-23T11:51:39.8799074",
+        "mime_type": "image/png",
+        "extension": ".png"
+      }
+    },
+    {
+      "path": "main\\resources\\data\\f1mod\\loot_table\\blocks\\factory_block.json",
+      "content": "{\r\n  \"type\": \"minecraft:block\",\r\n  \"pools\": [\r\n    {\r\n      \"rolls\": 1,\r\n      \"entries\": [\r\n        {\r\n          \"type\": \"minecraft:item\",\r\n          \"name\": \"f1mod:factory_block\"\r\n        }\r\n      ]\r\n    }\r\n  ]\r\n}\r\n",
+      "info": {
+        "size": 217,
+        "last_modified": "2026-03-23T11:51:39.9079043",
+        "mime_type": "text/plain",
+        "extension": ".json"
+      }
+    },
+    {
+      "path": "main\\resources\\data\\f1mod\\loot_table\\blocks\\track_block.json",
+      "content": "{\r\n  \"type\": \"minecraft:block\",\r\n  \"pools\": [\r\n    {\r\n      \"rolls\": 1,\r\n      \"entries\": [\r\n        {\r\n          \"type\": \"minecraft:item\",\r\n          \"name\": \"f1mod:track_block\"\r\n        }\r\n      ]\r\n    }\r\n  ]\r\n}\r\n",
+      "info": {
+        "size": 215,
+        "last_modified": "2026-03-23T11:51:39.9159067",
+        "mime_type": "text/plain",
+        "extension": ".json"
+      }
+    },
+    {
+      "path": "main\\resources\\data\\f1mod\\recipe\\factory_block.json",
+      "content": "{\r\n  \"type\": \"minecraft:crafting_shaped\",\r\n  \"category\": \"misc\",\r\n  \"key\": {\r\n    \"B\": {\r\n      \"item\": \"minecraft:brick\"\r\n    },\r\n    \"I\": {\r\n      \"item\": \"minecraft:iron_ingot\"\r\n    }\r\n  },\r\n  \"pattern\": [\r\n    \"III\",\r\n    \"BBB\",\r\n    \"BBB\"\r\n  ],\r\n  \"result\": {\r\n    \"count\": 1,\r\n    \"id\": \"f1mod:factory_block\"\r\n  }\r\n}",
+      "info": {
+        "size": 322,
+        "last_modified": "2026-03-23T11:51:39.9339041",
+        "mime_type": "text/plain",
+        "extension": ".json"
+      }
+    },
+    {
+      "path": "main\\resources\\data\\minecraft\\tags\\block\\mineable\\pickaxe.json",
+      "content": "{\r\n  \"replace\": false,\r\n  \"values\": [\r\n    \"f1mod:factory_block\",\r\n    \"f1mod:track_block\"\r\n  ]\r\n}",
+      "info": {
+        "size": 98,
+        "last_modified": "2026-03-23T11:51:39.9529075",
+        "mime_type": "text/plain",
+        "extension": ".json"
+      }
+    },
+    {
+      "path": "main\\resources\\data\\minecraft\\tags\\block\\needs_iron_tool.json",
+      "content": "{\r\n  \"replace\": false,\r\n  \"values\": [\r\n    \"f1mod:factory_block\",\r\n    \"f1mod:track_block\"\r\n  ]\r\n}",
+      "info": {
+        "size": 98,
+        "last_modified": "2026-03-23T11:51:39.9649058",
+        "mime_type": "text/plain",
+        "extension": ".json"
+      }
+    },
+    {
+      "path": "main\\resources\\META-INF\\mods.toml",
+      "content": "# This is an example mods.toml file. It contains the data relating to the loading mods.\n# There are several mandatory fields (#mandatory), and many more that are optional (#optional).\n# The overall format is standard TOML format, v0.5.0.\n# Note that there are a couple of TOML lists in this file.\n# Find more information on toml format here:  https://github.com/toml-lang/toml\n# The name of the mod loader type to load - for regular FML @Mod mods it should be javafml\nmodLoader=\"javafml\" #mandatory\n# A version range to match for said mod loader - for regular FML @Mod it will be the forge version\nloaderVersion=\"${loader_version_range}\" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.\n# The license for you mod. This is mandatory metadata and allows for easier comprehension of your redistributive properties.\n# Review your options at https://choosealicense.com/. All rights reserved is the default copyright stance, and is thus the default here.\nlicense=\"${mod_license}\"\n# A URL to refer people to when problems occur with this mod\n#issueTrackerURL=\"https://change.me.to.your.issue.tracker.example.invalid/\" #optional\n# If your mod is purely client-side and has no multiplayer functionality (be it dedicated servers or Open to LAN),\n# set this to true, and Forge will set the correct displayTest for you and skip loading your mod on dedicated servers.\n#clientSideOnly=true #optional - defaults to false if absent\n# A list of mods - how many allowed here is determined by the individual mod loader\n[[mods]] #mandatory\n# The modid of the mod\nmodId=\"${mod_id}\" #mandatory\n# The version number of the mod\nversion=\"${mod_version}\" #mandatory\n# A display name for the mod\ndisplayName=\"${mod_name}\" #mandatory\n# A URL to query for updates for this mod. See the JSON update specification https://docs.minecraftforge.net/en/latest/misc/updatechecker/\n#updateJSONURL=\"https://change.me.example.invalid/updates.json\" #optional\n# A URL for the \"homepage\" for this mod, displayed in the mod UI\n#displayURL=\"https://change.me.to.your.mods.homepage.example.invalid/\" #optional\n# A file name (in the root of the mod JAR) containing a logo for display\n#logoFile=\"examplemod.png\" #optional\n# A text field displayed in the mod UI\n#credits=\"\" #optional\n# A text field displayed in the mod UI\nauthors=\"${mod_authors}\" #optional\n# Display Test controls the display for your mod in the server connection screen\n# MATCH_VERSION means that your mod will cause a red X if the versions on client and server differ. This is the default behaviour and should be what you choose if you have server and client elements to your mod.\n# IGNORE_SERVER_VERSION means that your mod will not cause a red X if it's present on the server but not on the client. This is what you should use if you're a server only mod.\n# IGNORE_ALL_VERSION means that your mod will not cause a red X if it's present on the client or the server. This is a special case and should only be used if your mod has no server component.\n# NONE means that no display test is set on your mod. You need to do this yourself, see IExtensionPoint.DisplayTest for more information. You can define any scheme you wish with this value.\n# IMPORTANT NOTE: this is NOT an instruction as to which environments (CLIENT or DEDICATED SERVER) your mod loads on. Your mod should load (and maybe do nothing!) whereever it finds itself.\n#displayTest=\"MATCH_VERSION\" # if nothing is specified, MATCH_VERSION is the default when clientSideOnly=false, otherwise IGNORE_ALL_VERSION when clientSideOnly=true (#optional)\n\n# The description text for the mod (multi line!) (#mandatory)\ndescription='''${mod_description}'''\n# A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.\n[[dependencies.${mod_id}]] #optional\n    # the modid of the dependency\n    modId=\"forge\" #mandatory\n    # Does this dependency have to exist - if not, ordering below must be specified\n    mandatory=true #mandatory\n    # The version range of the dependency\n    versionRange=\"${forge_version_range}\" #mandatory\n    # An ordering relationship for the dependency - BEFORE or AFTER required if the dependency is not mandatory\n    # BEFORE - This mod is loaded BEFORE the dependency\n    # AFTER - This mod is loaded AFTER the dependency\n    ordering=\"NONE\"\n    # Side this dependency is applied on - BOTH, CLIENT, or SERVER\n    side=\"BOTH\"\n# Here's another dependency\n[[dependencies.${mod_id}]]\n    modId=\"minecraft\"\n    mandatory=true\n    # This version range declares a minimum of the current minecraft version up to but not including the next major version\n    versionRange=\"${minecraft_version_range}\"\n    ordering=\"NONE\"\n    side=\"BOTH\"\n\n# Features are specific properties of the game environment, that you may want to declare you require. This example declares\n# that your mod requires GL version 3.2 or higher. Other features will be added. They are side aware so declaring this won't\n# stop your mod loading on the server for example.\n#[features.${mod_id}]\n#openGLVersion=\"[3.2,)\"\n",
+      "info": {
+        "size": 5079,
+        "last_modified": "2026-03-23T11:51:39.9909042",
+        "mime_type": "text/plain",
+        "extension": ".toml"
+      }
+    },
+    {
+      "path": "main\\resources\\pack.mcmeta",
+      "content": "{\n  \"pack\": {\n    \"description\": \"${mod_id} resources\",\n    \"pack_format\": 34\n  }\n}",
+      "info": {
+        "size": 83,
+        "last_modified": "2026-03-23T11:51:40.0019048",
+        "mime_type": "text/plain",
+        "extension": ".mcmeta"
+      }
+    }
+  ]
+}

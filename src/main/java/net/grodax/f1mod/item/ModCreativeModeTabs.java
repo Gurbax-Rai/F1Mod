@@ -19,6 +19,8 @@ public class ModCreativeModeTabs {
             .displayItems((pParameters, pOutput) -> {
                 pOutput.accept(ModItems.F1CAR.get());
                 pOutput.accept(ModBlocks.FACTORY_BLOCK.get());
+                pOutput.accept(ModItems.CHISEL.get());
+                pOutput.accept(ModBlocks.TRACK_BLOCK.get());
             })
             .build());
 

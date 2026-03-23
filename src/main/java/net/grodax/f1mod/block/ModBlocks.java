@@ -1,6 +1,7 @@
 package net.grodax.f1mod.block;
 
 import net.grodax.f1mod.F1Mod;
+import net.grodax.f1mod.block.custom.TrackBlock;
 import net.grodax.f1mod.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -20,6 +21,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> FACTORY_BLOCK = registerBlock("factory_block", () -> new Block(BlockBehaviour.Properties.of()
             .strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
 
+
+    public static final RegistryObject<Block> TRACK_BLOCK = registerBlock("track_block", () -> new TrackBlock(BlockBehaviour.Properties.of()
+            .strength(5f).requiresCorrectToolForDrops()));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

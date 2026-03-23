@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "f1mod:factory_block"
+    "f1mod:factory_block",
+    "f1mod:track_block"
   ]
 }
