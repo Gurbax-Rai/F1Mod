@@ -1,6 +1,7 @@
 package net.grodax.f1mod;
 
 import com.mojang.logging.LogUtils;
+import net.grodax.f1mod.entity.ModEntities;
 import net.grodax.f1mod.block.ModBlocks;
 import net.grodax.f1mod.item.ModCreativeModeTabs;
 import net.grodax.f1mod.item.ModItems;
@@ -39,7 +40,8 @@ public class F1Mod
         ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
-        ModBlocks.register((modEventBus));
+        ModBlocks.register(modEventBus);
+        ModEntities.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
