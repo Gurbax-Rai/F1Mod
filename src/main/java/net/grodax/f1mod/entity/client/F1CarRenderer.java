@@ -3,6 +3,7 @@ package net.grodax.f1mod.entity.client;
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.vertex.VertexConsumer;
 
+import com.mojang.math.Axis;
 import net.grodax.f1mod.F1Mod;
 import net.grodax.f1mod.entity.custom.F1CarEntity;
 import net.grodax.f1mod.entity.client.model.F1CarModel;
@@ -43,6 +44,8 @@ public class F1CarRenderer extends EntityRenderer<F1CarEntity> {
         float scale = 1.0f; // Adjust this value if car still looks too small or large
         poseStack.scale(scale, scale , scale); // 16 = pixels per block
         poseStack.translate(0.0f, 2.0f, 0.0f);
+        poseStack.mulPose(Axis.YP.rotationDegrees(180.0F - entity.getYRot()));
+
         // Render the model
         model.renderToBuffer(poseStack, vertexConsumer, packedLight, OverlayTexture.NO_OVERLAY, 0xFFFFFF);
 

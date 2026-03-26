@@ -3,6 +3,7 @@ package net.grodax.f1mod.entity.custom;
 import net.grodax.f1mod.block.ModBlocks;
 import net.grodax.f1mod.entity.ModEntities;
 import net.grodax.f1mod.item.ModItems;
+import net.minecraft.client.Minecraft;
 import net.minecraft.core.BlockPos;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.syncher.SynchedEntityData;
@@ -20,12 +21,17 @@ public class F1CarEntity extends Boat {
     // ===============================
     // CONFIG
     // ===============================
-    private static final float BASE_ACCEL = 0.04f;
-    private static final float MAX_SPEED = 1.2f;
-    private static final float DRS_BOOST = 1.8f;
+    private static final float BASE_ACCEL = 0.08f;
+    private static final float MAX_SPEED = 0.6f;
+    private static final float DRS_BOOST = 1.5f;
+    private static final float TURN_STRENGTH = 3.5f;
+    private static final float FRICTION = 0.92f;
+    private static final float STRAIGHT_SPEED_FRICTION = 0.98f;
 
     private float currentSpeed = 0f;
     private boolean drsActive = false;
+    private float turnAngle = 0f;
+    private boolean wasMoving = false;
 
     public F1CarEntity(EntityType<? extends Boat> type, Level level) {
         super(type, level);
@@ -57,10 +63,13 @@ public class F1CarEntity extends Boat {
 
             if (passenger instanceof Player player) {
                 controlCar(player);
+
+                // Update passenger rotation based on car movement
+                updatePassengerRotation(player);
             }
         } else {
-            // natural slowdown
-            currentSpeed *= 0.95f;
+            // Natural slowdown - more realistic for car
+            currentSpeed *= 0.85f;
         }
     }
 
@@ -71,13 +80,19 @@ public class F1CarEntity extends Boat {
         float forward = player.zza;
         float strafe = player.xxa;
 
-        // ACCELERATION
+        // ACCELERATION - more responsive
         if (forward > 0) {
             currentSpeed += BASE_ACCEL;
         } else if (forward < 0) {
-            currentSpeed -= BASE_ACCEL * 0.5f;
+            currentSpeed -= BASE_ACCEL * 0.75f;
         } else {
-            currentSpeed *= 0.98f; // friction
+            // Apply friction based on current speed and direction
+            if (Math.abs(currentSpeed) > 0.01f) {
+                float friction = isOnTrack() ? 0.95f : 0.92f;
+                currentSpeed *= friction;
+            } else {
+                currentSpeed = 0f;
+            }
         }
 
         // SPEED LIMIT
@@ -85,23 +100,57 @@ public class F1CarEntity extends Boat {
 
         // Track boost
         if (isOnTrack()) {
-            max *= 1.3f;
+            max *= 1.25f;
         }
 
-        currentSpeed = clamp(currentSpeed, -0.4f, max);
+        currentSpeed = clamp(currentSpeed, -0.3f, max);
 
-        // TURNING (harder at high speed)
-        float turnFactor = 1.0f - (Math.abs(currentSpeed) / max);
-        float turnSpeed = 3.0f * turnFactor;
+        // TURNING - fixed direction issue
+        boolean isMoving = Math.abs(forward) > 0.1f || Math.abs(strafe) > 0.1f;
 
-        this.setYRot(this.getYRot() + strafe * turnSpeed);
+        if (Math.abs(strafe) > 0.1f) {
+            // Invert strafe for proper turning direction
+            float invertedStrafe = -strafe;
 
-        // MOVEMENT
+            // Calculate turn based on speed - faster at lower speeds
+            float turnSpeed = TURN_STRENGTH * (1.0f - Math.min(1.0f, Math.abs(currentSpeed) / max));
+            turnAngle += invertedStrafe * turnSpeed;
+
+            // Apply turning to rotation
+            this.setYRot(this.getYRot() + turnAngle);
+
+            // Reduce turn angle over time for smoother steering
+            turnAngle *= 0.7f;
+        } else {
+            // Gradually reduce turn angle when not turning
+            turnAngle *= 0.85f;
+        }
+
+        // MOVEMENT - more car-like physics
         Vec3 look = this.getLookAngle();
         Vec3 movement = look.scale(currentSpeed);
 
         this.setDeltaMovement(movement);
         this.move(MoverType.SELF, this.getDeltaMovement());
+    }
+
+    // ===============================
+    // UPDATE PASSENGER ROTATION
+    // ===============================
+    private void updatePassengerRotation(Player player) {
+        // If car is moving, make passenger look forward in the direction of travel
+        if (Minecraft.getInstance().options.keyUp.isDown() || Minecraft.getInstance().options.keyLeft.isDown() || Minecraft.getInstance().options.keyRight.isDown() || Minecraft.getInstance().options.keyDown.isDown()) {
+            // Set passenger's body rotation to match car's rotation
+            player.setYBodyRot(this.getYRot());
+            player.setYHeadRot(this.getYRot());
+
+            // Keep passenger facing forward relative to car movement
+            player.absRotateTo(this.getYRot(), player.getXRot());
+        } else {
+            // If not moving, let player control their own rotation freely
+            // But still update body rotation to match current car rotation for consistency
+            player.setYBodyRot(this.getYRot());
+        }
     }
 
     // ===============================
@@ -154,12 +203,16 @@ public class F1CarEntity extends Boat {
     protected void readAdditionalSaveData(CompoundTag tag) {
         currentSpeed = tag.getFloat("Speed");
         drsActive = tag.getBoolean("DRS");
+        turnAngle = tag.getFloat("TurnAngle");
+        wasMoving = tag.getBoolean("WasMoving");
     }
 
     @Override
     protected void addAdditionalSaveData(CompoundTag tag) {
         tag.putFloat("Speed", currentSpeed);
         tag.putBoolean("DRS", drsActive);
+        tag.putFloat("TurnAngle", turnAngle);
+        tag.putBoolean("WasMoving", wasMoving);
     }
 
     // ===============================
