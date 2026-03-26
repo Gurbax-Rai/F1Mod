@@ -15,7 +15,7 @@ public class ModEntities {
 
     public static final RegistryObject<EntityType<F1CarEntity>> F1_CAR_ENTITY =
             ENTITIES.register("f1_car_entity", () -> EntityType.Builder.<F1CarEntity>of(F1CarEntity::new, MobCategory.MISC)
-                    .sized(1.5F, 0.7F) // Width and height
+                    .sized(5F, 2F) // Width and height
                     .clientTrackingRange(10)
                     .build("f1_car_entity"));
 

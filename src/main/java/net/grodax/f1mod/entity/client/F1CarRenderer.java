@@ -17,7 +17,7 @@ import net.minecraft.resources.ResourceLocation;
 public class F1CarRenderer extends EntityRenderer<F1CarEntity> {
 
     private static final ResourceLocation TEXTURE =
-            ResourceLocation.fromNamespaceAndPath(F1Mod.MOD_ID, "textures/entity/f1_car.png");
+            ResourceLocation.fromNamespaceAndPath(F1Mod.MOD_ID, "textures/entity/f1_car_entity.png");
 
     private final F1CarModel<F1CarEntity> model;
 
@@ -41,10 +41,10 @@ public class F1CarRenderer extends EntityRenderer<F1CarEntity> {
 
         // Scale the model so it's roughly 1 Minecraft block in size
         float scale = 1.0f; // Adjust this value if car still looks too small or large
-        poseStack.scale(scale * 16f, scale * 16f, scale * 16f); // 16 = pixels per block
-
+        poseStack.scale(scale, scale , scale); // 16 = pixels per block
+        poseStack.translate(0.0f, 2.0f, 0.0f);
         // Render the model
-        model.renderToBuffer(poseStack, vertexConsumer, packedLight, OverlayTexture.NO_OVERLAY, 0);
+        model.renderToBuffer(poseStack, vertexConsumer, packedLight, OverlayTexture.NO_OVERLAY, 0xFFFFFF);
 
         poseStack.popPose(); // Restore transform
 
