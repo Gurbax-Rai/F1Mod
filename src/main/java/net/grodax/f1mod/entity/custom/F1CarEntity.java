@@ -141,8 +141,6 @@ public class F1CarEntity extends Boat {
         // If car is moving, make passenger look forward in the direction of travel
         if (Minecraft.getInstance().options.keyUp.isDown() || Minecraft.getInstance().options.keyLeft.isDown() || Minecraft.getInstance().options.keyRight.isDown() || Minecraft.getInstance().options.keyDown.isDown()) {
             // Set passenger's body rotation to match car's rotation
-            player.setYBodyRot(this.getYRot());
-            player.setYHeadRot(this.getYRot());
 
             // Keep passenger facing forward relative to car movement
             player.absRotateTo(this.getYRot(), player.getXRot());

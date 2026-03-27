@@ -40,11 +40,15 @@ public class F1CarRenderer extends EntityRenderer<F1CarEntity> {
 
         poseStack.pushPose(); // Save current transform state
 
-        // Scale the model so it's roughly 1 Minecraft block in size
-        float scale = 1.0f; // Adjust this value if car still looks too small or large
-        poseStack.scale(scale, scale , scale); // 16 = pixels per block
-        poseStack.translate(0.0f, 2.0f, 0.0f);
         poseStack.mulPose(Axis.YP.rotationDegrees(180.0F - entity.getYRot()));
+
+        poseStack.translate(0.0f, 0f, 0.0f);
+
+        // Scale the model so it's roughly 1 Minecraft block in size
+        float scale = 2f; // Adjust this value if car still looks too small or large
+        poseStack.scale(scale, scale , scale); // 16 = pixels per block
+
+        model.setupAnim(entity, 0, 0, partialTicks, 0, 0);
 
         // Render the model
         model.renderToBuffer(poseStack, vertexConsumer, packedLight, OverlayTexture.NO_OVERLAY, 0xFFFFFF);
