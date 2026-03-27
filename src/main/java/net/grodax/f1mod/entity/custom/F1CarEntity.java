@@ -1,12 +1,17 @@
 package net.grodax.f1mod.entity.custom;
 
 import net.grodax.f1mod.block.ModBlocks;
+import net.grodax.f1mod.client.KeyBindings;
 import net.grodax.f1mod.entity.ModEntities;
 import net.grodax.f1mod.item.ModItems;
+import net.grodax.f1mod.sound.ModSounds;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.BlockPos;
 import net.minecraft.nbt.CompoundTag;
+import net.minecraft.network.syncher.EntityDataAccessor;
+import net.minecraft.network.syncher.EntityDataSerializers;
 import net.minecraft.network.syncher.SynchedEntityData;
+import net.minecraft.sounds.SoundEvent;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.*;
@@ -14,10 +19,15 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.vehicle.Boat;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.Vec3;
+import net.minecraftforge.event.TickEvent;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+
 
 public class F1CarEntity extends Boat {
-
+    private static final EntityDataAccessor<Boolean> IS_DRS_ACTIVE =
+            SynchedEntityData.defineId(F1CarEntity.class, EntityDataSerializers.BOOLEAN);
     // ===============================
     // CONFIG
     // ===============================
@@ -28,10 +38,15 @@ public class F1CarEntity extends Boat {
     private static final float FRICTION = 0.92f;
     private static final float STRAIGHT_SPEED_FRICTION = 0.98f;
 
+    private float steeringAngle;
+
     private float currentSpeed = 0f;
     private boolean drsActive = false;
     private float turnAngle = 0f;
     private boolean wasMoving = false;
+    private static boolean drsPressedLastTick = false;
+
+    private int soundTick = 0;
 
     public F1CarEntity(EntityType<? extends Boat> type, Level level) {
         super(type, level);
@@ -63,14 +78,22 @@ public class F1CarEntity extends Boat {
 
             if (passenger instanceof Player player) {
                 controlCar(player);
-
-                // Update passenger rotation based on car movement
-                updatePassengerRotation(player);
+                playEngineSound();
             }
         } else {
             // Natural slowdown - more realistic for car
             currentSpeed *= 0.85f;
         }
+
+        if (this.isVehicle() && this.getControllingPassenger() instanceof Player player) {
+            float turn = player.xxa; // A/D keys
+
+            this.steeringAngle = turn * 30.0F; // max 30 degrees
+        }
+    }
+
+    public float getSteeringAngle() {
+        return this.steeringAngle;
     }
 
     // ===============================
@@ -96,7 +119,7 @@ public class F1CarEntity extends Boat {
         }
 
         // SPEED LIMIT
-        float max = drsActive ? MAX_SPEED * DRS_BOOST : MAX_SPEED;
+        float max = this.isDrsActive() ? 1.5F : 1.0F;
 
         // Track boost
         if (isOnTrack()) {
@@ -111,9 +134,9 @@ public class F1CarEntity extends Boat {
         if (Math.abs(strafe) > 0.1f) {
             // Invert strafe for proper turning direction
             float invertedStrafe = -strafe;
-
+            float drsTurnModifier = this.isDrsActive() ? 0.5f : 1.0f;
             // Calculate turn based on speed - faster at lower speeds
-            float turnSpeed = TURN_STRENGTH * (1.0f - Math.min(1.0f, Math.abs(currentSpeed) / max));
+            float turnSpeed = (TURN_STRENGTH * drsTurnModifier) * (1.0f - Math.min(1.0f, Math.abs(currentSpeed) / max));
             turnAngle += invertedStrafe * turnSpeed;
 
             // Apply turning to rotation
@@ -135,23 +158,6 @@ public class F1CarEntity extends Boat {
     }
 
     // ===============================
-    // UPDATE PASSENGER ROTATION
-    // ===============================
-    private void updatePassengerRotation(Player player) {
-//        // If car is moving, make passenger look forward in the direction of travel
-//        if (Minecraft.getInstance().options.keyUp.isDown() || Minecraft.getInstance().options.keyLeft.isDown() || Minecraft.getInstance().options.keyRight.isDown() || Minecraft.getInstance().options.keyDown.isDown()) {
-//            // Set passenger's body rotation to match car's rotation
-//
-//            // Keep passenger facing forward relative to car movement
-//            player.absRotateTo(this.getYRot(), player.getXRot());
-//        } else {
-//            // If not moving, let player control their own rotation freely
-//            // But still update body rotation to match current car rotation for consistency
-//            player.setYBodyRot(this.getYRot());
-//        }
-    }
-
-    // ===============================
     // TRACK DETECTION
     // ===============================
     private boolean isOnTrack() {
@@ -162,8 +168,29 @@ public class F1CarEntity extends Boat {
     // ===============================
     // DRS (toggle later via keybind)
     // ===============================
+    @SubscribeEvent
+    public static void onClientTick(TickEvent.ClientTickEvent event) {
+        Minecraft mc = Minecraft.getInstance();
+        if (mc.player == null) return;
+
+        boolean pressed = KeyBindings.TOGGLE_DRS.isDown();
+
+        // Trigger only on press, not hold
+        if (pressed && !drsPressedLastTick) {
+            if (mc.player.getVehicle() instanceof net.grodax.f1mod.entity.custom.F1CarEntity car) {
+                car.toggleDRS(); // client-side toggle
+            }
+        }
+
+        drsPressedLastTick = pressed;
+    }
+
     public void toggleDRS() {
         this.drsActive = !this.drsActive;
+    }
+
+    public boolean isDrsActive() {
+        return this.drsActive;
     }
 
     // ===============================
@@ -213,12 +240,50 @@ public class F1CarEntity extends Boat {
         tag.putBoolean("WasMoving", wasMoving);
     }
 
+    //SOUNDS
+    @Override
+    protected void checkInsideBlocks() {
+        // Boats play splashing sounds here; overriding with empty logic stops it
+    }
+
+    @Override
+    protected void playStepSound(BlockPos pos, BlockState state) {
+        // Cars don't "step," but if you want a custom tire-on-gravel sound later,
+        // you would put it here. For now, keep it empty.
+    }
+
+    @Override
+    public SoundEvent getPaddleSound() {
+        // Stops the "splashing" sounds when you press A/D (strafe)
+        return null;
+    }
+
+    private void playEngineSound() {
+        soundTick++;
+
+        // Calculate how often to loop based on speed.
+        // Faster speed = shorter delay between sound triggers.
+        int playInterval = currentSpeed > 0.5f ? 10 : 20;
+
+        if (soundTick % playInterval == 0 && currentSpeed != 0) {
+            // Pitch logic: 0.5f is low/idle, 2.0f is high/screaming
+            float pitch = 0.5f + (Math.min(currentSpeed, 1.5f) * 1.0f);
+            float volume = 0.3f + (Math.min(Math.abs(currentSpeed), 0.6f) * 0.7f);
+
+            this.level().playLocalSound(this.getX(), this.getY(), this.getZ(),
+                    ModSounds.ENGINE_SOUND.get(), this.getSoundSource(),
+                    volume, pitch, false);
+        }
+    }
+
     // ===============================
     // REQUIRED (1.21)
     // ===============================
     @Override
     protected void defineSynchedData(SynchedEntityData.Builder builder) {
         super.defineSynchedData(builder);
+        // 2. Initialize it as false (Closed)
+        builder.define(IS_DRS_ACTIVE, false);
     }
 
     // ===============================

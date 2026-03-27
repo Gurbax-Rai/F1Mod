@@ -2,9 +2,9 @@
   "project_info": {
     "name": "src",
     "path": "C:\\Users\\nirbh\\Desktop\\Projects\\F1Mod\\src",
-    "generated_at": "2026-03-25T17:09:13.1183548",
+    "generated_at": "2026-03-27T11:58:01.9375658",
     "total_files": 47,
-    "total_size": 58140
+    "total_size": 72299
   },
   "structure": {
     "generated": {
@@ -14,7 +14,7 @@
             "type": "file",
             "info": {
               "size": 229,
-              "last_modified": "2026-03-25T17:09:12.1282798",
+              "last_modified": "2026-03-27T11:58:00.8702637",
               "mime_type": "text/plain",
               "extension": "."
             }
@@ -23,7 +23,7 @@
             "type": "file",
             "info": {
               "size": 76,
-              "last_modified": "2026-03-25T17:09:12.1483768",
+              "last_modified": "2026-03-27T11:58:00.9157329",
               "mime_type": "text/plain",
               "extension": "."
             }
@@ -32,7 +32,7 @@
             "type": "file",
             "info": {
               "size": 223,
-              "last_modified": "2026-03-25T17:09:12.1613775",
+              "last_modified": "2026-03-27T11:58:00.9297512",
               "mime_type": "text/plain",
               "extension": "."
             }
@@ -41,7 +41,7 @@
             "type": "file",
             "info": {
               "size": 256,
-              "last_modified": "2026-03-25T17:09:12.1733777",
+              "last_modified": "2026-03-27T11:58:00.9447762",
               "mime_type": "text/plain",
               "extension": "."
             }
@@ -50,7 +50,7 @@
             "type": "file",
             "info": {
               "size": 571,
-              "last_modified": "2026-03-25T17:09:12.1843781",
+              "last_modified": "2026-03-27T11:58:00.9618148",
               "mime_type": "text/plain",
               "extension": "."
             }
@@ -59,7 +59,7 @@
             "type": "file",
             "info": {
               "size": 216,
-              "last_modified": "2026-03-25T17:09:12.2018761",
+              "last_modified": "2026-03-27T11:58:00.9753293",
               "mime_type": "text/plain",
               "extension": "."
             }
@@ -114,7 +114,7 @@
                     "type": "file",
                     "info": {
                       "size": 1366,
-                      "last_modified": "2026-03-25T17:09:12.3828755",
+                      "last_modified": "2026-03-27T11:58:01.1789387",
                       "mime_type": "text/x-java-source",
                       "extension": ".java"
                     }
@@ -124,7 +124,7 @@
                   "type": "file",
                   "info": {
                     "size": 1797,
-                    "last_modified": "2026-03-25T17:09:12.4080035",
+                    "last_modified": "2026-03-27T11:58:01.1999699",
                     "mime_type": "text/x-java-source",
                     "extension": ".java"
                   }
@@ -135,7 +135,7 @@
                   "type": "file",
                   "info": {
                     "size": 964,
-                    "last_modified": "2026-03-25T17:09:12.4260019",
+                    "last_modified": "2026-03-27T11:58:01.2215301",
                     "mime_type": "text/x-java-source",
                     "extension": ".java"
                   }
@@ -145,7 +145,7 @@
                 "type": "file",
                 "info": {
                   "size": 2706,
-                  "last_modified": "2026-03-25T17:09:12.4430018",
+                  "last_modified": "2026-03-27T11:58:01.2405797",
                   "mime_type": "text/x-java-source",
                   "extension": ".java"
                 }
@@ -155,7 +155,7 @@
                   "type": "file",
                   "info": {
                     "size": 2151,
-                    "last_modified": "2026-03-25T17:09:12.4540034",
+                    "last_modified": "2026-03-27T11:58:01.2511893",
                     "mime_type": "text/x-java-source",
                     "extension": ".java"
                   }
@@ -164,7 +164,7 @@
                   "type": "file",
                   "info": {
                     "size": 989,
-                    "last_modified": "2026-03-25T17:09:12.4635154",
+                    "last_modified": "2026-03-27T11:58:01.2616897",
                     "mime_type": "text/x-java-source",
                     "extension": ".java"
                   }
@@ -173,7 +173,7 @@
                   "type": "file",
                   "info": {
                     "size": 945,
-                    "last_modified": "2026-03-25T17:09:12.4733143",
+                    "last_modified": "2026-03-27T11:58:01.2721963",
                     "mime_type": "text/x-java-source",
                     "extension": ".java"
                   }
@@ -182,7 +182,7 @@
                   "type": "file",
                   "info": {
                     "size": 1168,
-                    "last_modified": "2026-03-25T17:09:12.4832702",
+                    "last_modified": "2026-03-27T11:58:01.2826973",
                     "mime_type": "text/x-java-source",
                     "extension": ".java"
                   }
@@ -191,7 +191,7 @@
                   "type": "file",
                   "info": {
                     "size": 651,
-                    "last_modified": "2026-03-25T17:09:12.4932702",
+                    "last_modified": "2026-03-27T11:58:01.2932035",
                     "mime_type": "text/x-java-source",
                     "extension": ".java"
                   }
@@ -200,7 +200,7 @@
                   "type": "file",
                   "info": {
                     "size": 892,
-                    "last_modified": "2026-03-25T17:09:12.5032701",
+                    "last_modified": "2026-03-27T11:58:01.3037043",
                     "mime_type": "text/x-java-source",
                     "extension": ".java"
                   }
@@ -209,7 +209,7 @@
                   "type": "file",
                   "info": {
                     "size": 1290,
-                    "last_modified": "2026-03-25T17:09:12.5131915",
+                    "last_modified": "2026-03-27T11:58:01.3142107",
                     "mime_type": "text/x-java-source",
                     "extension": ".java"
                   }
@@ -220,8 +220,8 @@
                   "F1CarRenderer.java": {
                     "type": "file",
                     "info": {
-                      "size": 2288,
-                      "last_modified": "2026-03-25T17:09:12.530774",
+                      "size": 2580,
+                      "last_modified": "2026-03-27T11:58:01.3318309",
                       "mime_type": "text/x-java-source",
                       "extension": ".java"
                     }
@@ -230,8 +230,8 @@
                     "F1CarModel.java": {
                       "type": "file",
                       "info": {
-                        "size": 4595,
-                        "last_modified": "2026-03-25T17:09:12.540774",
+                        "size": 24897,
+                        "last_modified": "2026-03-27T11:58:01.3423418",
                         "mime_type": "text/x-java-source",
                         "extension": ".java"
                       }
@@ -242,8 +242,8 @@
                   "F1CarEntity.java": {
                     "type": "file",
                     "info": {
-                      "size": 5442,
-                      "last_modified": "2026-03-25T17:09:12.5667738",
+                      "size": 8268,
+                      "last_modified": "2026-03-27T11:58:01.3683834",
                       "mime_type": "text/x-java-source",
                       "extension": ".java"
                     }
@@ -252,8 +252,8 @@
                 "ModEntities.java": {
                   "type": "file",
                   "info": {
-                    "size": 1073,
-                    "last_modified": "2026-03-25T17:09:12.5837738",
+                    "size": 1070,
+                    "last_modified": "2026-03-27T11:58:01.3865043",
                     "mime_type": "text/x-java-source",
                     "extension": ".java"
                   }
@@ -263,7 +263,7 @@
                 "type": "file",
                 "info": {
                   "size": 3169,
-                  "last_modified": "2026-03-25T17:09:12.6017737",
+                  "last_modified": "2026-03-27T11:58:01.4035133",
                   "mime_type": "text/x-java-source",
                   "extension": ".java"
                 }
@@ -274,7 +274,7 @@
                     "type": "file",
                     "info": {
                       "size": 1538,
-                      "last_modified": "2026-03-25T17:09:12.6107747",
+                      "last_modified": "2026-03-27T11:58:01.4140255",
                       "mime_type": "text/x-java-source",
                       "extension": ".java"
                     }
@@ -283,7 +283,7 @@
                     "type": "file",
                     "info": {
                       "size": 1178,
-                      "last_modified": "2026-03-25T17:09:12.6275512",
+                      "last_modified": "2026-03-27T11:58:01.424538",
                       "mime_type": "text/x-java-source",
                       "extension": ".java"
                     }
@@ -293,7 +293,7 @@
                   "type": "file",
                   "info": {
                     "size": 1365,
-                    "last_modified": "2026-03-25T17:09:12.6455519",
+                    "last_modified": "2026-03-27T11:58:01.442068",
                     "mime_type": "text/x-java-source",
                     "extension": ".java"
                   }
@@ -302,7 +302,7 @@
                   "type": "file",
                   "info": {
                     "size": 934,
-                    "last_modified": "2026-03-25T17:09:12.6551155",
+                    "last_modified": "2026-03-27T11:58:01.4526173",
                     "mime_type": "text/x-java-source",
                     "extension": ".java"
                   }
@@ -320,7 +320,7 @@
                 "type": "file",
                 "info": {
                   "size": 86,
-                  "last_modified": "2026-03-25T17:09:12.7051151",
+                  "last_modified": "2026-03-27T11:58:01.5021377",
                   "mime_type": "text/plain",
                   "extension": ".json"
                 }
@@ -329,7 +329,7 @@
                 "type": "file",
                 "info": {
                   "size": 84,
-                  "last_modified": "2026-03-25T17:09:12.7141153",
+                  "last_modified": "2026-03-27T11:58:01.5126397",
                   "mime_type": "text/plain",
                   "extension": ".json"
                 }
@@ -340,7 +340,7 @@
                 "type": "file",
                 "info": {
                   "size": 204,
-                  "last_modified": "2026-03-25T17:09:12.7321154",
+                  "last_modified": "2026-03-27T11:58:01.5306486",
                   "mime_type": "text/plain",
                   "extension": ".json"
                 }
@@ -352,7 +352,7 @@
                   "type": "file",
                   "info": {
                     "size": 107,
-                    "last_modified": "2026-03-25T17:09:12.7501153",
+                    "last_modified": "2026-03-27T11:58:01.5501621",
                     "mime_type": "text/plain",
                     "extension": ".json"
                   }
@@ -361,7 +361,7 @@
                   "type": "file",
                   "info": {
                     "size": 105,
-                    "last_modified": "2026-03-25T17:09:12.7591155",
+                    "last_modified": "2026-03-27T11:58:01.5616628",
                     "mime_type": "text/plain",
                     "extension": ".json"
                   }
@@ -372,7 +372,7 @@
                   "type": "file",
                   "info": {
                     "size": 102,
-                    "last_modified": "2026-03-25T17:09:12.7761154",
+                    "last_modified": "2026-03-27T11:58:01.57967",
                     "mime_type": "text/plain",
                     "extension": ".json"
                   }
@@ -381,7 +381,7 @@
                   "type": "file",
                   "info": {
                     "size": 102,
-                    "last_modified": "2026-03-25T17:09:12.7861155",
+                    "last_modified": "2026-03-27T11:58:01.5901767",
                     "mime_type": "text/plain",
                     "extension": ".json"
                   }
@@ -390,7 +390,7 @@
                   "type": "file",
                   "info": {
                     "size": 45,
-                    "last_modified": "2026-03-25T17:09:12.7951157",
+                    "last_modified": "2026-03-27T11:58:01.5996769",
                     "mime_type": "text/plain",
                     "extension": ".json"
                   }
@@ -399,7 +399,7 @@
                   "type": "file",
                   "info": {
                     "size": 43,
-                    "last_modified": "2026-03-25T17:09:12.8051151",
+                    "last_modified": "2026-03-27T11:58:01.6091834",
                     "mime_type": "text/plain",
                     "extension": ".json"
                   }
@@ -412,7 +412,7 @@
                   "type": "file",
                   "info": {
                     "size": 203,
-                    "last_modified": "2026-03-25T17:09:12.8301158",
+                    "last_modified": "2026-03-27T11:58:01.6356913",
                     "mime_type": "image/png",
                     "extension": ".png"
                   }
@@ -421,18 +421,18 @@
                   "type": "file",
                   "info": {
                     "size": 211,
-                    "last_modified": "2026-03-25T17:09:12.8401155",
+                    "last_modified": "2026-03-27T11:58:01.6516983",
                     "mime_type": "image/png",
                     "extension": ".png"
                   }
                 }
               },
               "entity": {
-                "f1_car.png": {
+                "f1_car_entity.png": {
                   "type": "file",
                   "info": {
-                    "size": 12271,
-                    "last_modified": "2026-03-25T17:09:12.8581141",
+                    "size": 3013,
+                    "last_modified": "2026-03-27T11:58:01.6707056",
                     "mime_type": "image/png",
                     "extension": ".png"
                   }
@@ -443,7 +443,7 @@
                   "type": "file",
                   "info": {
                     "size": 174,
-                    "last_modified": "2026-03-25T17:09:12.8751155",
+                    "last_modified": "2026-03-27T11:58:01.6887145",
                     "mime_type": "image/png",
                     "extension": ".png"
                   }
@@ -452,7 +452,7 @@
                   "type": "file",
                   "info": {
                     "size": 219,
-                    "last_modified": "2026-03-25T17:09:12.8841171",
+                    "last_modified": "2026-03-27T11:58:01.6992207",
                     "mime_type": "image/png",
                     "extension": ".png"
                   }
@@ -469,7 +469,7 @@
                   "type": "file",
                   "info": {
                     "size": 217,
-                    "last_modified": "2026-03-25T17:09:12.9263581",
+                    "last_modified": "2026-03-27T11:58:01.7407374",
                     "mime_type": "text/plain",
                     "extension": ".json"
                   }
@@ -478,7 +478,7 @@
                   "type": "file",
                   "info": {
                     "size": 215,
-                    "last_modified": "2026-03-25T17:09:12.935358",
+                    "last_modified": "2026-03-27T11:58:01.7502431",
                     "mime_type": "text/plain",
                     "extension": ".json"
                   }
@@ -490,7 +490,7 @@
                 "type": "file",
                 "info": {
                   "size": 322,
-                  "last_modified": "2026-03-25T17:09:12.9603581",
+                  "last_modified": "2026-03-27T11:58:01.7762504",
                   "mime_type": "text/plain",
                   "extension": ".json"
                 }
@@ -505,7 +505,7 @@
                     "type": "file",
                     "info": {
                       "size": 98,
-                      "last_modified": "2026-03-25T17:09:12.9853577",
+                      "last_modified": "2026-03-27T11:58:01.8027609",
                       "mime_type": "text/plain",
                       "extension": ".json"
                     }
@@ -515,7 +515,7 @@
                   "type": "file",
                   "info": {
                     "size": 98,
-                    "last_modified": "2026-03-25T17:09:13.0033571",
+                    "last_modified": "2026-03-27T11:58:01.8207676",
                     "mime_type": "text/plain",
                     "extension": ".json"
                   }
@@ -529,7 +529,7 @@
             "type": "file",
             "info": {
               "size": 5079,
-              "last_modified": "2026-03-25T17:09:13.0443573",
+              "last_modified": "2026-03-27T11:58:01.8632878",
               "mime_type": "text/plain",
               "extension": ".toml"
             }
@@ -539,7 +539,7 @@
           "type": "file",
           "info": {
             "size": 83,
-            "last_modified": "2026-03-25T17:09:13.0693551",
+            "last_modified": "2026-03-27T11:58:01.8875407",
             "mime_type": "text/plain",
             "extension": ".mcmeta"
           }
@@ -559,7 +559,7 @@
       "content": "// 1.21.1\t2026-03-23T13:15:53.3337998\tLoot Tables\r\n9529ed4498f1c679cbe0dc2862a0794b307bd5dd data/f1mod/loot_table/blocks/factory_block.json\r\n2bfe7c208beea1c04e0baa36260475d932afc199 data/f1mod/loot_table/blocks/track_block.json\r\n",
       "info": {
         "size": 229,
-        "last_modified": "2026-03-25T17:09:12.1282798",
+        "last_modified": "2026-03-27T11:58:00.8702637",
         "mime_type": "text/plain",
         "extension": "."
       }
@@ -569,7 +569,7 @@
       "content": "// 1.21.1\t2026-03-23T13:41:18.9103261\tTags for minecraft:item mod id f1mod\r\n",
       "info": {
         "size": 76,
-        "last_modified": "2026-03-25T17:09:12.1483768",
+        "last_modified": "2026-03-27T11:58:00.9157329",
         "mime_type": "text/plain",
         "extension": "."
       }
@@ -579,7 +579,7 @@
       "content": "// 1.21.1\t2026-03-23T13:59:03.7837527\tRecipes\r\n8769ff73f9e236a9d0cc2b027ca65dba13f8dc46 data/f1mod/advancement/recipes/misc/factory_block.json\r\n903a743f1fbf23f011fd016c0d76637e135230ea data/f1mod/recipe/factory_block.json\r\n",
       "info": {
         "size": 223,
-        "last_modified": "2026-03-25T17:09:12.1613775",
+        "last_modified": "2026-03-27T11:58:00.9297512",
         "mime_type": "text/plain",
         "extension": "."
       }
@@ -589,7 +589,7 @@
       "content": "// 1.21.1\t2026-03-23T13:41:18.9123246\tTags for minecraft:block mod id f1mod\r\n8d55f9742686db3e7a003bebc952ac9f6c53f7bc data/minecraft/tags/block/mineable/pickaxe.json\r\n8d55f9742686db3e7a003bebc952ac9f6c53f7bc data/minecraft/tags/block/needs_iron_tool.json\r\n",
       "info": {
         "size": 256,
-        "last_modified": "2026-03-25T17:09:12.1733777",
+        "last_modified": "2026-03-27T11:58:00.9447762",
         "mime_type": "text/plain",
         "extension": "."
       }
@@ -599,7 +599,7 @@
       "content": "// 1.21.1\t2026-03-23T13:29:29.9528326\tBlock States: f1mod\r\na9420aaee81d02ce6112e7687a9c08bb73cca2ef assets/f1mod/blockstates/factory_block.json\r\n8fe0ee6dd6e149776bc919edc10ea5f17bc289e5 assets/f1mod/blockstates/track_block.json\r\n616bcaba7e8dea4f53d91cb13780dfedf4aeaab0 assets/f1mod/models/block/factory_block.json\r\n19c92b2da6b2c1c462da5c7506e44217927cd537 assets/f1mod/models/block/track_block.json\r\ne51b5719cd837e0d800f97933836fec6224db7a3 assets/f1mod/models/item/factory_block.json\r\n93846f8502f3c90728c2dd61fea64d0b9d13ea8f assets/f1mod/models/item/track_block.json\r\n",
       "info": {
         "size": 571,
-        "last_modified": "2026-03-25T17:09:12.1843781",
+        "last_modified": "2026-03-27T11:58:00.9618148",
         "mime_type": "text/plain",
         "extension": "."
       }
@@ -609,7 +609,7 @@
       "content": "// 1.21.1\t2026-03-23T13:29:29.9508318\tItem Models: f1mod\r\n9e10c964c74a23d77951faeaec69c882a02973ad assets/f1mod/models/item/chisel.json\r\n8c31a73222df6890b8fda7a361885cc9dc9dd45f assets/f1mod/models/item/f1_car.json\r\n",
       "info": {
         "size": 216,
-        "last_modified": "2026-03-25T17:09:12.2018761",
+        "last_modified": "2026-03-27T11:58:00.9753293",
         "mime_type": "text/plain",
         "extension": "."
       }
@@ -619,7 +619,7 @@
       "content": "package net.grodax.f1mod.block.custom;\r\n\r\nimport net.minecraft.core.BlockPos;\r\nimport net.minecraft.world.entity.Entity;\r\nimport net.minecraft.world.level.Level;\r\nimport net.minecraft.world.level.block.Block;\r\nimport net.minecraft.world.level.block.state.BlockState;\r\nimport net.minecraft.world.entity.player.Player;\r\nimport net.minecraft.world.phys.Vec3;\r\n\r\npublic class TrackBlock extends Block {\r\n    public TrackBlock(Properties properties) {\r\n        super(properties);\r\n    }\r\n\r\n    @Override\r\n    public void stepOn(Level pLevel, BlockPos pPos, BlockState pState, Entity pEntity) {\r\n        if (pEntity instanceof Player player) {\r\n            // Apply a controlled speed boost that doesn't cause infinite acceleration\r\n            Vec3 deltaMovement = player.getDeltaMovement();\r\n\r\n            // Only apply boost if player is moving slowly (to prevent overpowered jumping)\r\n            double speed = Math.sqrt(deltaMovement.x * deltaMovement.x + deltaMovement.z * deltaMovement.z);\r\n            if (speed < 0.5) { // Only boost when moving slowly\r\n                player.setDeltaMovement(\r\n                        deltaMovement.x * 1.3,  // Moderate boost\r\n                        deltaMovement.y,\r\n                        deltaMovement.z * 1.3\r\n                );\r\n            }\r\n        }\r\n        super.stepOn(pLevel, pPos, pState, pEntity);\r\n    }\r\n}\r\n",
       "info": {
         "size": 1366,
-        "last_modified": "2026-03-25T17:09:12.3828755",
+        "last_modified": "2026-03-27T11:58:01.1789387",
         "mime_type": "text/x-java-source",
         "extension": ".java"
       }
@@ -629,7 +629,7 @@
       "content": "package net.grodax.f1mod.block;\r\n\r\nimport net.grodax.f1mod.F1Mod;\r\nimport net.grodax.f1mod.block.custom.TrackBlock;\r\nimport net.grodax.f1mod.item.ModItems;\r\nimport net.minecraft.world.item.BlockItem;\r\nimport net.minecraft.world.item.Item;\r\nimport net.minecraft.world.level.block.Block;\r\nimport net.minecraft.world.level.block.SoundType;\r\nimport net.minecraft.world.level.block.state.BlockBehaviour;\r\nimport net.minecraftforge.eventbus.api.IEventBus;\r\nimport net.minecraftforge.registries.DeferredRegister;\r\nimport net.minecraftforge.registries.ForgeRegistries;\r\nimport net.minecraftforge.registries.RegistryObject;\r\n\r\nimport java.util.function.Supplier;\r\n\r\npublic class ModBlocks {\r\n    public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, F1Mod.MOD_ID);\r\n\r\n    public static final RegistryObject<Block> FACTORY_BLOCK = registerBlock(\"factory_block\", () -> new Block(BlockBehaviour.Properties.of()\r\n            .strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));\r\n\r\n\r\n    public static final RegistryObject<Block> TRACK_BLOCK = registerBlock(\"track_block\", () -> new TrackBlock(BlockBehaviour.Properties.of()\r\n            .strength(5f).requiresCorrectToolForDrops()));\r\n\r\n    private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {\r\n        RegistryObject<T> toReturn = BLOCKS.register(name, block);\r\n        registerBlockItem(name, toReturn);\r\n        return toReturn;\r\n    }\r\n\r\n    private static <T extends Block> void registerBlockItem(String name, RegistryObject<T> block) {\r\n        ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));\r\n    }\r\n\r\n    public static void register(IEventBus eventBus) {\r\n        BLOCKS.register(eventBus);\r\n    }\r\n}\r\n",
       "info": {
         "size": 1797,
-        "last_modified": "2026-03-25T17:09:12.4080035",
+        "last_modified": "2026-03-27T11:58:01.1999699",
         "mime_type": "text/x-java-source",
         "extension": ".java"
       }
@@ -639,7 +639,7 @@
       "content": "package net.grodax.f1mod.client;\r\n\r\nimport net.grodax.f1mod.entity.ModEntities;\r\nimport net.grodax.f1mod.entity.client.F1CarRenderer;\r\nimport net.grodax.f1mod.entity.client.model.F1CarModel;\r\n\r\nimport net.minecraftforge.api.distmarker.Dist;\r\nimport net.minecraftforge.client.event.EntityRenderersEvent;\r\nimport net.minecraftforge.eventbus.api.SubscribeEvent;\r\nimport net.minecraftforge.fml.common.Mod;\r\n\r\n@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)\r\npublic class ClientModEvents {\r\n\r\n    @SubscribeEvent\r\n    public static void registerRenderers(EntityRenderersEvent.RegisterRenderers event) {\r\n        event.registerEntityRenderer(ModEntities.F1_CAR_ENTITY.get(), F1CarRenderer::new);\r\n    }\r\n\r\n    @SubscribeEvent\r\n    public static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {\r\n        event.registerLayerDefinition(F1CarModel.LAYER_LOCATION, F1CarModel::createBodyLayer);\r\n    }\r\n}",
       "info": {
         "size": 964,
-        "last_modified": "2026-03-25T17:09:12.4260019",
+        "last_modified": "2026-03-27T11:58:01.2215301",
         "mime_type": "text/x-java-source",
         "extension": ".java"
       }
@@ -649,7 +649,7 @@
       "content": "package net.grodax.f1mod;\n\nimport net.minecraft.resources.ResourceLocation;\nimport net.minecraft.world.item.Item;\nimport net.minecraftforge.common.ForgeConfigSpec;\nimport net.minecraftforge.eventbus.api.SubscribeEvent;\nimport net.minecraftforge.fml.common.Mod;\nimport net.minecraftforge.fml.event.config.ModConfigEvent;\nimport net.minecraftforge.registries.ForgeRegistries;\n\nimport java.util.List;\nimport java.util.Set;\nimport java.util.stream.Collectors;\n\n// An example config class. This is not required, but it's a good idea to have one to keep your config organized.\n// Demonstrates how to use Forge's config APIs\n@Mod.EventBusSubscriber(modid = F1Mod.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)\npublic class Config\n{\n    private static final ForgeConfigSpec.Builder BUILDER = new ForgeConfigSpec.Builder();\n\n    private static final ForgeConfigSpec.BooleanValue LOG_DIRT_BLOCK = BUILDER\n            .comment(\"Whether to log the dirt block on common setup\")\n            .define(\"logDirtBlock\", true);\n\n    private static final ForgeConfigSpec.IntValue MAGIC_NUMBER = BUILDER\n            .comment(\"A magic number\")\n            .defineInRange(\"magicNumber\", 42, 0, Integer.MAX_VALUE);\n\n    public static final ForgeConfigSpec.ConfigValue<String> MAGIC_NUMBER_INTRODUCTION = BUILDER\n            .comment(\"What you want the introduction message to be for the magic number\")\n            .define(\"magicNumberIntroduction\", \"The magic number is... \");\n\n    // a list of strings that are treated as resource locations for items\n    private static final ForgeConfigSpec.ConfigValue<List<? extends String>> ITEM_STRINGS = BUILDER\n            .comment(\"A list of items to log on common setup.\")\n            .defineListAllowEmpty(\"items\", List.of(\"minecraft:iron_ingot\"), Config::validateItemName);\n\n    static final ForgeConfigSpec SPEC = BUILDER.build();\n\n    public static boolean logDirtBlock;\n    public static int magicNumber;\n    public static String magicNumberIntroduction;\n    public static Set<Item> items;\n\n    private static boolean validateItemName(final Object obj)\n    {\n        return obj instanceof final String itemName && ForgeRegistries.ITEMS.containsKey(ResourceLocation.tryParse(itemName));\n    }\n\n    @SubscribeEvent\n    static void onLoad(final ModConfigEvent event)\n    {\n        logDirtBlock = LOG_DIRT_BLOCK.get();\n        magicNumber = MAGIC_NUMBER.get();\n        magicNumberIntroduction = MAGIC_NUMBER_INTRODUCTION.get();\n\n        // convert the list of strings into a set of items\n        items = ITEM_STRINGS.get().stream()\n                .map(itemName -> ForgeRegistries.ITEMS.getValue(ResourceLocation.tryParse(itemName)))\n                .collect(Collectors.toSet());\n    }\n}\n",
       "info": {
         "size": 2706,
-        "last_modified": "2026-03-25T17:09:12.4430018",
+        "last_modified": "2026-03-27T11:58:01.2405797",
         "mime_type": "text/x-java-source",
         "extension": ".java"
       }
@@ -659,7 +659,7 @@
       "content": "package net.grodax.f1mod.datagen;\r\n\r\nimport net.grodax.f1mod.F1Mod;\r\nimport net.minecraft.core.HolderLookup;\r\nimport net.minecraft.data.DataGenerator;\r\nimport net.minecraft.data.PackOutput;\r\nimport net.minecraft.data.loot.LootTableProvider;\r\nimport net.minecraft.world.level.storage.loot.parameters.LootContextParamSets;\r\nimport net.minecraftforge.common.data.BlockTagsProvider;\r\nimport net.minecraftforge.common.data.ExistingFileHelper;\r\nimport net.minecraftforge.data.event.GatherDataEvent;\r\nimport net.minecraftforge.eventbus.api.SubscribeEvent;\r\nimport net.minecraftforge.fml.common.Mod;\r\nimport java.util.*;\r\n\r\nimport java.util.Collections;\r\nimport java.util.concurrent.CompletableFuture;\r\n\r\n@Mod.EventBusSubscriber(modid = F1Mod.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)\r\npublic class DataGenerators {\r\n    @SubscribeEvent\r\n    public static void gatherData(GatherDataEvent event) {\r\n        DataGenerator generator = event.getGenerator();\r\n        PackOutput packOutput = generator.getPackOutput();\r\n        ExistingFileHelper existingFileHelper = event.getExistingFileHelper();\r\n        CompletableFuture<HolderLookup.Provider> lookupProvider = event.getLookupProvider();\r\n\r\n        generator.addProvider(event.includeServer(), new LootTableProvider(packOutput, Collections.emptySet(),\r\n                List.of(new LootTableProvider.SubProviderEntry(ModBlockLootTableProvider::new, LootContextParamSets.BLOCK)), lookupProvider));\r\n\r\n        generator.addProvider(event.includeServer(), new ModRecipeProvider(packOutput, lookupProvider));\r\n\r\n        BlockTagsProvider blockTagsProvider = new ModBlockTagProvider(packOutput, lookupProvider, existingFileHelper);\r\n        generator.addProvider(event.includeServer(), blockTagsProvider);\r\n        generator.addProvider(event.includeServer(), new ModItemTagProvider(packOutput, lookupProvider, blockTagsProvider.contentsGetter(), existingFileHelper));\r\n\r\n        generator.addProvider(event.includeClient(), new ModItemModelProvider(packOutput, existingFileHelper));\r\n        generator.addProvider(event.includeClient(), new ModBlockStateProvider(packOutput, existingFileHelper));\r\n\r\n    }\r\n}\r\n",
       "info": {
         "size": 2151,
-        "last_modified": "2026-03-25T17:09:12.4540034",
+        "last_modified": "2026-03-27T11:58:01.2511893",
         "mime_type": "text/x-java-source",
         "extension": ".java"
       }
@@ -669,7 +669,7 @@
       "content": "package net.grodax.f1mod.datagen;\r\n\r\nimport net.grodax.f1mod.block.ModBlocks;\r\nimport net.minecraft.core.HolderLookup;\r\nimport net.minecraft.data.loot.BlockLootSubProvider;\r\nimport net.minecraft.world.flag.FeatureFlagSet;\r\nimport net.minecraft.world.flag.FeatureFlags;\r\nimport net.minecraft.world.item.Item;\r\nimport net.minecraft.world.level.block.Block;\r\nimport net.minecraftforge.registries.RegistryObject;\r\n\r\nimport java.util.Set;\r\n\r\npublic class ModBlockLootTableProvider extends BlockLootSubProvider {\r\n    protected ModBlockLootTableProvider(HolderLookup.Provider pRegistries) {\r\n        super(Set.of(), FeatureFlags.REGISTRY.allFlags(), pRegistries);\r\n    }\r\n\r\n    @Override\r\n    protected void generate() {\r\n        dropSelf(ModBlocks.FACTORY_BLOCK.get());\r\n        dropSelf(ModBlocks.TRACK_BLOCK.get());\r\n    }\r\n\r\n    @Override\r\n    protected Iterable<Block> getKnownBlocks() {\r\n        return ModBlocks.BLOCKS.getEntries().stream().map(RegistryObject::get)::iterator;\r\n    }\r\n}\r\n",
       "info": {
         "size": 989,
-        "last_modified": "2026-03-25T17:09:12.4635154",
+        "last_modified": "2026-03-27T11:58:01.2616897",
         "mime_type": "text/x-java-source",
         "extension": ".java"
       }
@@ -679,7 +679,7 @@
       "content": "package net.grodax.f1mod.datagen;\r\n\r\nimport net.grodax.f1mod.F1Mod;\r\nimport net.grodax.f1mod.block.ModBlocks;\r\nimport net.minecraft.data.PackOutput;\r\nimport net.minecraft.world.level.block.Block;\r\nimport net.minecraftforge.client.model.generators.BlockStateProvider;\r\nimport net.minecraftforge.common.data.ExistingFileHelper;\r\nimport net.minecraftforge.registries.RegistryObject;\r\n\r\npublic class ModBlockStateProvider extends BlockStateProvider {\r\n    public ModBlockStateProvider(PackOutput output, ExistingFileHelper exFileHelper) {\r\n        super(output, F1Mod.MOD_ID, exFileHelper);\r\n    }\r\n\r\n    @Override\r\n    protected void registerStatesAndModels() {\r\n        blockWithItem(ModBlocks.FACTORY_BLOCK);\r\n        blockWithItem(ModBlocks.TRACK_BLOCK);\r\n    }\r\n\r\n    private void blockWithItem(RegistryObject<Block> blockRegistryObject) {\r\n        simpleBlockWithItem(blockRegistryObject.get(), cubeAll(blockRegistryObject.get()));\r\n    }\r\n}\r\n",
       "info": {
         "size": 945,
-        "last_modified": "2026-03-25T17:09:12.4733143",
+        "last_modified": "2026-03-27T11:58:01.2721963",
         "mime_type": "text/x-java-source",
         "extension": ".java"
       }
@@ -689,7 +689,7 @@
       "content": "package net.grodax.f1mod.datagen;\r\n\r\nimport net.grodax.f1mod.F1Mod;\r\nimport net.grodax.f1mod.block.ModBlocks;\r\nimport net.minecraft.core.HolderLookup;\r\nimport net.minecraft.data.PackOutput;\r\nimport net.minecraft.tags.BlockTags;\r\nimport net.minecraftforge.common.data.BlockTagsProvider;\r\nimport net.minecraftforge.common.data.ExistingFileHelper;\r\nimport org.jetbrains.annotations.Nullable;\r\n\r\nimport java.util.concurrent.CompletableFuture;\r\n\r\npublic class ModBlockTagProvider extends BlockTagsProvider {\r\n    public ModBlockTagProvider(PackOutput output, CompletableFuture<HolderLookup.Provider> lookupProvider, @Nullable ExistingFileHelper existingFileHelper) {\r\n        super(output, lookupProvider, F1Mod.MOD_ID, existingFileHelper);\r\n    }\r\n\r\n    @Override\r\n    protected void addTags(HolderLookup.Provider pProvider) {\r\n        tag(BlockTags.MINEABLE_WITH_PICKAXE)\r\n                .add(ModBlocks.FACTORY_BLOCK.get())\r\n                .add(ModBlocks.TRACK_BLOCK.get()\r\n                );\r\n\r\n        tag(BlockTags.NEEDS_IRON_TOOL)\r\n                .add(ModBlocks.FACTORY_BLOCK.get())\r\n                .add(ModBlocks.TRACK_BLOCK.get()\r\n                );\r\n    }\r\n}\r\n",
       "info": {
         "size": 1168,
-        "last_modified": "2026-03-25T17:09:12.4832702",
+        "last_modified": "2026-03-27T11:58:01.2826973",
         "mime_type": "text/x-java-source",
         "extension": ".java"
       }
@@ -699,7 +699,7 @@
       "content": "package net.grodax.f1mod.datagen;\r\n\r\nimport net.grodax.f1mod.F1Mod;\r\nimport net.grodax.f1mod.item.ModItems;\r\nimport net.minecraft.data.PackOutput;\r\nimport net.minecraftforge.client.model.generators.ItemModelProvider;\r\nimport net.minecraftforge.common.data.ExistingFileHelper;\r\n\r\npublic class ModItemModelProvider extends ItemModelProvider {\r\n    public ModItemModelProvider(PackOutput output, ExistingFileHelper existingFileHelper) {\r\n        super(output, F1Mod.MOD_ID, existingFileHelper);\r\n    }\r\n\r\n    @Override\r\n    protected void registerModels() {\r\n        basicItem(ModItems.F1CAR.get());\r\n        basicItem(ModItems.CHISEL.get());\r\n    }\r\n}\r\n",
       "info": {
         "size": 651,
-        "last_modified": "2026-03-25T17:09:12.4932702",
+        "last_modified": "2026-03-27T11:58:01.2932035",
         "mime_type": "text/x-java-source",
         "extension": ".java"
       }
@@ -709,7 +709,7 @@
       "content": "package net.grodax.f1mod.datagen;\r\n\r\nimport net.grodax.f1mod.F1Mod;\r\nimport net.minecraft.core.HolderLookup;\r\nimport net.minecraft.data.PackOutput;\r\nimport net.minecraft.data.tags.ItemTagsProvider;\r\nimport net.minecraft.world.level.block.Block;\r\nimport net.minecraftforge.common.data.ExistingFileHelper;\r\nimport org.jetbrains.annotations.Nullable;\r\n\r\nimport java.util.concurrent.CompletableFuture;\r\n\r\npublic class ModItemTagProvider extends ItemTagsProvider {\r\n    public ModItemTagProvider(PackOutput packOutput, CompletableFuture<HolderLookup.Provider> completableFuture, CompletableFuture<TagLookup<Block>> lookupCompletableFuture, @Nullable ExistingFileHelper existingFileHelper) {\r\n        super(packOutput, completableFuture, lookupCompletableFuture, F1Mod.MOD_ID, existingFileHelper);\r\n    }\r\n\r\n    @Override\r\n    protected void addTags(HolderLookup.Provider pProvider) {\r\n\r\n    }\r\n}\r\n",
       "info": {
         "size": 892,
-        "last_modified": "2026-03-25T17:09:12.5032701",
+        "last_modified": "2026-03-27T11:58:01.3037043",
         "mime_type": "text/x-java-source",
         "extension": ".java"
       }
@@ -719,47 +719,47 @@
       "content": "package net.grodax.f1mod.datagen;\r\n\r\nimport net.grodax.f1mod.block.ModBlocks;\r\nimport net.minecraft.core.HolderLookup;\r\nimport net.minecraft.data.PackOutput;\r\nimport net.minecraft.data.recipes.RecipeCategory;\r\nimport net.minecraft.data.recipes.RecipeOutput;\r\nimport net.minecraft.data.recipes.RecipeProvider;\r\nimport net.minecraft.data.recipes.ShapedRecipeBuilder;\r\nimport net.minecraft.world.item.Items;\r\nimport net.minecraft.world.item.MinecartItem;\r\nimport net.minecraftforge.common.crafting.conditions.IConditionBuilder;\r\n\r\nimport java.util.concurrent.CompletableFuture;\r\n\r\npublic class ModRecipeProvider extends RecipeProvider implements IConditionBuilder {\r\n    public ModRecipeProvider(PackOutput pOutput, CompletableFuture<HolderLookup.Provider> pRegistries) {\r\n        super(pOutput, pRegistries);\r\n    }\r\n\r\n    @Override\r\n    protected void buildRecipes(RecipeOutput pRecipeOutput) {\r\n        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.FACTORY_BLOCK.get())\r\n                .pattern(\"III\")\r\n                .pattern(\"BBB\")\r\n                .pattern(\"BBB\")\r\n                .define('I', Items.IRON_INGOT)\r\n                .define('B', Items.BRICK)\r\n                .unlockedBy(getHasName(Items.IRON_INGOT), has(Items.IRON_INGOT)).save(pRecipeOutput);\r\n\r\n\r\n    }\r\n}\r\n",
       "info": {
         "size": 1290,
-        "last_modified": "2026-03-25T17:09:12.5131915",
+        "last_modified": "2026-03-27T11:58:01.3142107",
         "mime_type": "text/x-java-source",
         "extension": ".java"
       }
     },
     {
       "path": "main\\java\\net\\grodax\\f1mod\\entity\\client\\F1CarRenderer.java",
-      "content": "package net.grodax.f1mod.entity.client;\r\n\r\nimport com.mojang.blaze3d.vertex.PoseStack;\r\nimport com.mojang.blaze3d.vertex.VertexConsumer;\r\n\r\nimport net.grodax.f1mod.F1Mod;\r\nimport net.grodax.f1mod.entity.custom.F1CarEntity;\r\nimport net.grodax.f1mod.entity.client.model.F1CarModel;\r\n\r\nimport net.minecraft.client.renderer.MultiBufferSource;\r\nimport net.minecraft.client.renderer.RenderType;\r\nimport net.minecraft.client.renderer.texture.OverlayTexture;\r\nimport net.minecraft.client.renderer.entity.EntityRenderer;\r\nimport net.minecraft.client.renderer.entity.EntityRendererProvider;\r\nimport net.minecraft.resources.ResourceLocation;\r\n\r\npublic class F1CarRenderer extends EntityRenderer<F1CarEntity> {\r\n\r\n    private static final ResourceLocation TEXTURE =\r\n            ResourceLocation.fromNamespaceAndPath(F1Mod.MOD_ID, \"textures/entity/f1_car_entity.png\");\r\n\r\n    private final F1CarModel<F1CarEntity> model;\r\n\r\n    public F1CarRenderer(EntityRendererProvider.Context context) {\r\n        super(context);\r\n        this.model = new F1CarModel<>(context.bakeLayer(F1CarModel.LAYER_LOCATION));\r\n        this.shadowRadius = 1.0f; // Adjust shadow size to match scaled car\r\n    }\r\n\r\n    @Override\r\n    public ResourceLocation getTextureLocation(F1CarEntity entity) {\r\n        return TEXTURE;\r\n    }\r\n\r\n    @Override\r\n    public void render(F1CarEntity entity, float entityYaw, float partialTicks, PoseStack poseStack, MultiBufferSource buffer, int packedLight) {\r\n        // Get VertexConsumer from buffer for solid rendering\r\n        VertexConsumer vertexConsumer = buffer.getBuffer(RenderType.entitySolid(getTextureLocation(entity)));\r\n\r\n        poseStack.pushPose(); // Save current transform state\r\n\r\n        // Scale the model so it's roughly 1 Minecraft block in size\r\n        float scale = 1.0f; // Adjust this value if car still looks too small or large\r\n        poseStack.scale(scale, scale , scale); // 16 = pixels per block\r\n\r\n        // Render the model\r\n        model.renderToBuffer(poseStack, vertexConsumer, packedLight, OverlayTexture.NO_OVERLAY, 0);\r\n\r\n        poseStack.popPose(); // Restore transform\r\n\r\n        // Call super to render shadows and other default entity features\r\n        super.render(entity, entityYaw, partialTicks, poseStack, buffer, packedLight);\r\n    }\r\n}",
+      "content": "package net.grodax.f1mod.entity.client;\r\n\r\nimport com.mojang.blaze3d.vertex.PoseStack;\r\nimport com.mojang.blaze3d.vertex.VertexConsumer;\r\n\r\nimport com.mojang.math.Axis;\r\nimport net.grodax.f1mod.F1Mod;\r\nimport net.grodax.f1mod.entity.custom.F1CarEntity;\r\nimport net.grodax.f1mod.entity.client.model.F1CarModel;\r\n\r\nimport net.minecraft.client.renderer.MultiBufferSource;\r\nimport net.minecraft.client.renderer.RenderType;\r\nimport net.minecraft.client.renderer.texture.OverlayTexture;\r\nimport net.minecraft.client.renderer.entity.EntityRenderer;\r\nimport net.minecraft.client.renderer.entity.EntityRendererProvider;\r\nimport net.minecraft.resources.ResourceLocation;\r\n\r\npublic class F1CarRenderer extends EntityRenderer<F1CarEntity> {\r\n\r\n    private static final ResourceLocation TEXTURE =\r\n            ResourceLocation.fromNamespaceAndPath(F1Mod.MOD_ID, \"textures/entity/f1_car_entity.png\");\r\n\r\n    private final F1CarModel<F1CarEntity> model;\r\n\r\n    public F1CarRenderer(EntityRendererProvider.Context context) {\r\n        super(context);\r\n        this.model = new F1CarModel<>(context.bakeLayer(F1CarModel.LAYER_LOCATION));\r\n        this.shadowRadius = 1.0f; // Adjust shadow size to match scaled car\r\n    }\r\n\r\n    @Override\r\n    public ResourceLocation getTextureLocation(F1CarEntity entity) {\r\n        return TEXTURE;\r\n    }\r\n\r\n    @Override\r\n    public void render(F1CarEntity entity, float entityYaw, float partialTicks, PoseStack poseStack, MultiBufferSource buffer, int packedLight) {\r\n        // Get VertexConsumer from buffer for solid rendering\r\n        VertexConsumer vertexConsumer = buffer.getBuffer(RenderType.entitySolid(getTextureLocation(entity)));\r\n\r\n        poseStack.pushPose(); // Save current transform state\r\n\r\n        poseStack.mulPose(Axis.YP.rotationDegrees(180.0F - entity.getYRot()));\r\n\r\n        poseStack.translate(0.0f, 0.55f, 0.0f);\r\n\r\n        // Scale the model so it's roughly 1 Minecraft block in size\r\n        float scale = 2f; // Adjust this value if car still looks too small or large\r\n        poseStack.scale(scale, scale , scale); // 16 = pixels per block\r\n\r\n        model.setSteeringAngle(entity.getSteeringAngle());\r\n\r\n        model.setupAnim(entity, 0, 0, partialTicks, 0, 0);\r\n\r\n        // Render the model\r\n        model.renderToBuffer(poseStack, vertexConsumer, packedLight, OverlayTexture.NO_OVERLAY, 0xFFFFFF);\r\n\r\n        poseStack.popPose(); // Restore transform\r\n\r\n        // Call super to render shadows and other default entity features\r\n        super.render(entity, entityYaw, partialTicks, poseStack, buffer, packedLight);\r\n    }\r\n}",
       "info": {
-        "size": 2288,
-        "last_modified": "2026-03-25T17:09:12.530774",
+        "size": 2580,
+        "last_modified": "2026-03-27T11:58:01.3318309",
         "mime_type": "text/x-java-source",
         "extension": ".java"
       }
     },
     {
       "path": "main\\java\\net\\grodax\\f1mod\\entity\\client\\model\\F1CarModel.java",
-      "content": "package net.grodax.f1mod.entity.client.model;\n// Made with Blockbench 5.1.1\n// Exported for Minecraft version 1.17 or later with Mojang mappings\n// Paste this class into your mod and generate all required imports\n\nimport com.mojang.blaze3d.vertex.PoseStack;\nimport com.mojang.blaze3d.vertex.VertexConsumer;\nimport net.minecraft.client.model.EntityModel;\nimport net.minecraft.client.model.geom.ModelLayerLocation;\nimport net.minecraft.client.model.geom.ModelPart;\nimport net.minecraft.client.model.geom.PartPose;\nimport net.minecraft.client.model.geom.builders.CubeDeformation;\nimport net.minecraft.client.model.geom.builders.CubeListBuilder;\nimport net.minecraft.client.model.geom.builders.LayerDefinition;\nimport net.minecraft.client.model.geom.builders.MeshDefinition;\nimport net.minecraft.client.model.geom.builders.PartDefinition;\nimport net.minecraft.resources.ResourceLocation;\nimport net.minecraft.world.entity.Entity;\n\n\npublic class F1CarModel<T extends Entity> extends EntityModel<T> {\n\t// This layer location should be baked with EntityRendererProvider.Context in the entity renderer and passed into this model's constructor\n\tpublic static final ModelLayerLocation LAYER_LOCATION = new ModelLayerLocation(ResourceLocation.fromNamespaceAndPath(\"f1mod\", \"f1carmodel\"), \"main\");\n\tprivate final ModelPart bb_main;\n\n\tpublic F1CarModel(ModelPart root) {\n\t\tthis.bb_main = root; // Changed from root.getChild(\"bb_main\") to just root\n\t}\n\n\tpublic static LayerDefinition createBodyLayer() {\n\t\tMeshDefinition meshdefinition = new MeshDefinition();\n\t\tPartDefinition partdefinition = meshdefinition.getRoot();\n\n\t\tPartDefinition bb_main = partdefinition.addOrReplaceChild(\"bb_main\", CubeListBuilder.create().texOffs(214, 288).addBox(-41.0F, -35.0F, 66.0F, 41.0F, 8.0F, 10.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(258, 144).addBox(-19.0F, -27.0F, 31.0F, 19.0F, 10.0F, 37.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(258, 0).addBox(-23.0F, -27.0F, -24.0F, 23.0F, 17.0F, 55.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(210, 306).addBox(-42.0F, -19.0F, 40.0F, 20.0F, 19.0F, 20.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(128, 332).addBox(-27.0F, -13.0F, 46.0F, 23.0F, 7.0F, 8.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(344, 345).addBox(-41.0F, -15.0F, -69.0F, 2.0F, 9.0F, 13.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(316, 288).addBox(-40.0F, -11.0F, -66.0F, 40.0F, 2.0F, 10.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(108, 272).addBox(-40.0F, -8.0F, -69.0F, 40.0F, 2.0F, 13.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(252, 345).addBox(-25.0F, -10.0F, -34.0F, 19.0F, 4.0F, 4.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(258, 238).addBox(-6.0F, -19.0F, -47.0F, 6.0F, 2.0F, 48.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(0, 0).addBox(-6.0F, -17.0F, -56.0F, 6.0F, 13.0F, 123.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(108, 302).addBox(0.0F, -35.0F, 66.0F, 41.0F, 8.0F, 10.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(258, 191).addBox(0.0F, -27.0F, 31.0F, 19.0F, 10.0F, 37.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(258, 72).addBox(0.0F, -27.0F, -24.0F, 23.0F, 17.0F, 55.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(290, 306).addBox(22.0F, -19.0F, 40.0F, 20.0F, 19.0F, 20.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(190, 345).addBox(4.0F, -13.0F, 46.0F, 23.0F, 7.0F, 8.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(128, 347).addBox(39.0F, -15.0F, -69.0F, 2.0F, 9.0F, 13.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(108, 320).addBox(0.0F, -11.0F, -66.0F, 40.0F, 2.0F, 10.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(108, 287).addBox(0.0F, -8.0F, -69.0F, 40.0F, 2.0F, 13.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(298, 345).addBox(6.0F, -10.0F, -34.0F, 19.0F, 4.0F, 4.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(0, 272).addBox(0.0F, -19.0F, -47.0F, 6.0F, 2.0F, 48.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(0, 136).addBox(0.0F, -17.0F, -56.0F, 6.0F, 13.0F, 123.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(0, 322).addBox(24.0F, -16.0F, -40.0F, 16.0F, 16.0F, 16.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(64, 332).addBox(-40.0F, -16.0F, -40.0F, 16.0F, 16.0F, 16.0F, new CubeDeformation(0.0F)), PartPose.offset(0.0F, 24.0F, 0.0F));\n\n\t\treturn LayerDefinition.create(meshdefinition, 512, 512);\n\t}\n\n\t@Override\n\tpublic void setupAnim(Entity entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch) {\n\t\t// Animation logic can be added here if needed\n\t}\n\n\t@Override\n\tpublic void renderToBuffer(PoseStack pPoseStack, VertexConsumer pBuffer, int pPackedLight, int pPackedOverlay, int pColor) {\n\t\tbb_main.render(pPoseStack, pBuffer, pPackedLight, pPackedOverlay, pColor);\n\t}\n}\n",
+      "content": "package net.grodax.f1mod.entity.client.model;\n// Made with Blockbench 5.1.1\n// Exported for Minecraft version 1.17 or later with Mojang mappings\n// Paste this class into your mod and generate all required imports\n\nimport com.mojang.blaze3d.vertex.PoseStack;\nimport com.mojang.blaze3d.vertex.VertexConsumer;\nimport net.grodax.f1mod.entity.custom.F1CarEntity;\nimport net.minecraft.client.model.EntityModel;\nimport net.minecraft.client.model.geom.ModelLayerLocation;\nimport net.minecraft.client.model.geom.ModelPart;\nimport net.minecraft.client.model.geom.PartPose;\nimport net.minecraft.client.model.geom.builders.CubeDeformation;\nimport net.minecraft.client.model.geom.builders.CubeListBuilder;\nimport net.minecraft.client.model.geom.builders.LayerDefinition;\nimport net.minecraft.client.model.geom.builders.MeshDefinition;\nimport net.minecraft.client.model.geom.builders.PartDefinition;\nimport net.minecraft.resources.ResourceLocation;\nimport net.minecraft.world.entity.Entity;\n\n\npublic class F1CarModel<T extends Entity> extends EntityModel<T> {\n\t// This layer location should be baked with EntityRendererProvider.Context in the entity renderer and passed into this model's constructor\n\tpublic static final ModelLayerLocation LAYER_LOCATION = new ModelLayerLocation(ResourceLocation.fromNamespaceAndPath(\"f1mod\", \"f1carmodel\"), \"main\");\n\tprivate final ModelPart f1_car;\n\tprivate final ModelPart nose;\n\tprivate final ModelPart front_suspension;\n\tprivate final ModelPart floor;\n\tprivate final ModelPart front_wheels;\n\tprivate final ModelPart left;\n\tprivate final ModelPart right;\n\tprivate final ModelPart sidepod_front;\n\tprivate final ModelPart sidepod_back;\n\tprivate final ModelPart divider;\n\tprivate final ModelPart rear_suspension;\n\tprivate final ModelPart rear_wheel;\n\tprivate final ModelPart rear_wing;\n\tprivate final ModelPart drs_flap;\n\tprivate final ModelPart front_wing;\n\tprivate final ModelPart first_flap;\n\tprivate final ModelPart second_flap;\n\tprivate final ModelPart third_flap;\n\tprivate final ModelPart fourth_flap;\n\tprivate final ModelPart endplate;\n\n\tprivate float steeringAngle;\n\n\tpublic F1CarModel(ModelPart root) {\n\t\tthis.f1_car = root.getChild(\"f1_car\");\n\t\tthis.nose = this.f1_car.getChild(\"nose\");\n\t\tthis.front_suspension = this.f1_car.getChild(\"front_suspension\");\n\t\tthis.floor = this.f1_car.getChild(\"floor\");\n\t\tthis.front_wheels = this.f1_car.getChild(\"front_wheels\");\n\t\tthis.left = this.front_wheels.getChild(\"left\");\n\t\tthis.right = this.front_wheels.getChild(\"right\");\n\t\tthis.sidepod_front = this.f1_car.getChild(\"sidepod_front\");\n\t\tthis.sidepod_back = this.f1_car.getChild(\"sidepod_back\");\n\t\tthis.divider = this.f1_car.getChild(\"divider\");\n\t\tthis.rear_suspension = this.f1_car.getChild(\"rear_suspension\");\n\t\tthis.rear_wheel = this.f1_car.getChild(\"rear_wheel\");\n\t\tthis.rear_wing = this.f1_car.getChild(\"rear_wing\");\n\t\tthis.drs_flap = this.rear_wing.getChild(\"drs_flap\");\n\t\tthis.front_wing = this.f1_car.getChild(\"front_wing\");\n\t\tthis.first_flap = this.front_wing.getChild(\"first_flap\");\n\t\tthis.second_flap = this.front_wing.getChild(\"second_flap\");\n\t\tthis.third_flap = this.front_wing.getChild(\"third_flap\");\n\t\tthis.fourth_flap = this.front_wing.getChild(\"fourth_flap\");\n\t\tthis.endplate = this.front_wing.getChild(\"endplate\");\n\n\t\tthis.steeringAngle = 0;\n\n\t}\n\n\tpublic static LayerDefinition createBodyLayer() {\n\t\tMeshDefinition meshdefinition = new MeshDefinition();\n\t\tPartDefinition partdefinition = meshdefinition.getRoot();\n\n\t\tPartDefinition f1_car = partdefinition.addOrReplaceChild(\"f1_car\", CubeListBuilder.create(), PartPose.offsetAndRotation(0.0F, -5.0F, 0.0F, 0.0F, 0.0F, -3.1416F));\n\n\t\tPartDefinition nose = f1_car.addOrReplaceChild(\"nose\", CubeListBuilder.create().texOffs(0, 94).mirror().addBox(0.0F, -4.0F, -37.0F, 1.0F, 2.0F, 9.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(42, 22).mirror().addBox(0.0F, -6.0F, -36.0F, 1.0F, 4.0F, 20.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(0, 94).addBox(-1.0F, -4.0F, -37.0F, 1.0F, 2.0F, 9.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(0, 22).mirror().addBox(1.0F, -6.0F, -36.0F, 1.0F, 4.0F, 20.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(0, 22).addBox(-2.0F, -6.0F, -36.0F, 1.0F, 4.0F, 20.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(24, 85).mirror().addBox(2.0F, -5.0F, -36.0F, 1.0F, 3.0F, 9.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(24, 85).addBox(-3.0F, -5.0F, -36.0F, 1.0F, 3.0F, 9.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(0, 46).addBox(-3.0F, -6.0F, -35.0F, 1.0F, 4.0F, 19.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(42, 22).addBox(-1.0F, -6.0F, -36.0F, 1.0F, 4.0F, 20.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(0, 46).mirror().addBox(2.0F, -6.0F, -35.0F, 1.0F, 4.0F, 19.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(40, 46).mirror().addBox(0.0F, -7.0F, -34.0F, 2.0F, 1.0F, 18.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(40, 46).addBox(-2.0F, -7.0F, -34.0F, 2.0F, 1.0F, 18.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(74, 65).mirror().addBox(0.0F, -8.0F, -16.0F, 3.0F, 5.0F, 10.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(74, 65).addBox(-3.0F, -8.0F, -16.0F, 3.0F, 5.0F, 10.0F, new CubeDeformation(0.0F)), PartPose.offset(0.0F, 0.0F, 0.0F));\n\n\t\tPartDefinition front_suspension = f1_car.addOrReplaceChild(\"front_suspension\", CubeListBuilder.create().texOffs(20, 94).mirror().addBox(2.0F, -1.0F, -24.0F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(20, 94).addBox(-3.0F, -1.0F, -24.0F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(64, 92).mirror().addBox(3.0F, -1.0F, -23.0F, 4.0F, 1.0F, 1.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(64, 92).addBox(-7.0F, -1.0F, -23.0F, 4.0F, 1.0F, 1.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(58, 97).mirror().addBox(7.0F, -1.0F, -22.0F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(58, 97).addBox(-8.0F, -1.0F, -22.0F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(28, 83).mirror().addBox(2.0F, -1.0F, -21.0F, 5.0F, 1.0F, 1.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(28, 83).addBox(-7.0F, -1.0F, -21.0F, 5.0F, 1.0F, 1.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(86, 99).mirror().addBox(6.0F, -1.0F, -22.0F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(86, 99).addBox(-7.0F, -1.0F, -22.0F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(86, 101).mirror().addBox(3.0F, -1.0F, -17.0F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(86, 101).addBox(-4.0F, -1.0F, -17.0F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(56, 113).mirror().addBox(4.0F, -1.0F, -18.0F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(56, 113).addBox(-5.0F, -1.0F, -18.0F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(60, 113).mirror().addBox(5.0F, -1.0F, -19.0F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(60, 113).addBox(-6.0F, -1.0F, -19.0F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(64, 113).mirror().addBox(6.0F, -1.0F, -20.0F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(64, 113).addBox(-7.0F, -1.0F, -20.0F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(68, 113).mirror().addBox(7.0F, -1.0F, -21.0F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(68, 113).addBox(-8.0F, -1.0F, -21.0F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0F)), PartPose.offset(0.0F, -3.0F, 0.0F));\n\n\t\tPartDefinition floor = f1_car.addOrReplaceChild(\"floor\", CubeListBuilder.create().texOffs(98, 89).mirror().addBox(-2.0F, -2.0F, -11.0F, 7.0F, 2.0F, 2.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(98, 89).addBox(-5.0F, -2.0F, -11.0F, 7.0F, 2.0F, 2.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(62, 109).mirror().addBox(3.0F, -2.0F, -10.0F, 4.0F, 2.0F, 2.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(62, 109).addBox(-7.0F, -2.0F, -10.0F, 4.0F, 2.0F, 2.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(84, 39).mirror().addBox(-2.0F, -2.0F, -9.0F, 11.0F, 2.0F, 2.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(84, 39).addBox(-9.0F, -2.0F, -9.0F, 11.0F, 2.0F, 2.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(0, 0).mirror().addBox(-2.0F, -2.0F, -4.0F, 13.0F, 2.0F, 20.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(0, 0).addBox(-11.0F, -2.0F, -4.0F, 13.0F, 2.0F, 20.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(84, 21).mirror().addBox(-2.0F, -2.0F, -7.0F, 12.0F, 2.0F, 3.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(84, 21).addBox(-10.0F, -2.0F, -7.0F, 12.0F, 2.0F, 3.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(50, 106).addBox(-10.0F, -2.0F, -7.0F, 3.0F, 2.0F, 1.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(64, 95).mirror().addBox(-2.0F, -2.0F, 20.0F, 11.0F, 2.0F, 2.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(64, 95).addBox(-9.0F, -2.0F, 20.0F, 11.0F, 2.0F, 2.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(66, 15).mirror().addBox(-2.0F, -2.0F, 16.0F, 12.0F, 2.0F, 4.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(66, 15).addBox(-10.0F, -2.0F, 16.0F, 12.0F, 2.0F, 4.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(48, 113).addBox(-11.0F, -2.0F, 15.0F, 3.0F, 2.0F, 1.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(50, 106).mirror().addBox(7.0F, -2.0F, -7.0F, 3.0F, 2.0F, 1.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(48, 113).mirror().addBox(8.0F, -2.0F, 15.0F, 3.0F, 2.0F, 1.0F, new CubeDeformation(0.0F)).mirror(false), PartPose.offset(0.0F, -1.0F, 0.0F));\n\n\t\tPartDefinition front_wheels = f1_car.addOrReplaceChild(\"front_wheels\", CubeListBuilder.create(), PartPose.offset(11.0F, -4.0F, -21.0F));\n\n\t\tPartDefinition left = front_wheels.addOrReplaceChild(\"left\", CubeListBuilder.create().texOffs(0, 69).mirror().addBox(-3.0F, -4.0001F, -4.0F, 6.0F, 8.0F, 8.0F, new CubeDeformation(0.0F)).mirror(false), PartPose.offset(0.0F, 0.0F, 0.0F));\n\n\t\tPartDefinition right = front_wheels.addOrReplaceChild(\"right\", CubeListBuilder.create().texOffs(0, 69).addBox(-3.0F, -4.0001F, -4.0F, 6.0F, 8.0F, 8.0F, new CubeDeformation(0.0F)), PartPose.offset(-22.0F, 0.0F, 0.0F));\n\n\t\tPartDefinition sidepod_front = f1_car.addOrReplaceChild(\"sidepod_front\", CubeListBuilder.create().texOffs(28, 76).mirror().addBox(0.0F, -1.0F, -9.0F, 4.0F, 6.0F, 1.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(28, 76).addBox(-4.0F, -1.0F, -9.0F, 4.0F, 6.0F, 1.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(28, 69).mirror().addBox(0.0F, -1.0F, -8.0F, 5.0F, 6.0F, 1.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(28, 69).addBox(-5.0F, -1.0F, -8.0F, 5.0F, 6.0F, 1.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(86, 103).mirror().addBox(0.0F, -1.0F, -7.0F, 7.0F, 6.0F, 1.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(86, 103).addBox(-7.0F, -1.0F, -7.0F, 7.0F, 6.0F, 1.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(98, 12).mirror().addBox(0.0F, -1.0F, -6.0F, 8.0F, 6.0F, 1.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(98, 12).addBox(-8.0F, -1.0F, -6.0F, 8.0F, 6.0F, 1.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(104, 50).mirror().addBox(3.0F, -1.0F, -5.0F, 6.0F, 6.0F, 1.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(104, 50).addBox(-9.0F, -1.0F, -5.0F, 6.0F, 6.0F, 1.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(66, 0).mirror().addBox(3.0F, -1.0F, -4.0F, 7.0F, 6.0F, 9.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(66, 0).addBox(-10.0F, -1.0F, -4.0F, 7.0F, 6.0F, 9.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(0, 85).mirror().addBox(0.0F, -1.0F, 5.0F, 9.0F, 6.0F, 3.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(0, 85).addBox(-9.0F, -1.0F, 5.0F, 9.0F, 6.0F, 3.0F, new CubeDeformation(0.0F)), PartPose.offset(0.0F, -8.0F, 0.0F));\n\n\t\tPartDefinition sidepod_back = f1_car.addOrReplaceChild(\"sidepod_back\", CubeListBuilder.create().texOffs(90, 95).mirror().addBox(0.0F, -1.0F, 8.0F, 8.0F, 5.0F, 3.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(90, 95).addBox(-8.0F, -1.0F, 8.0F, 8.0F, 5.0F, 3.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(20, 97).mirror().addBox(0.0F, -1.0F, 11.0F, 7.0F, 5.0F, 3.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(20, 97).addBox(-7.0F, -1.0F, 11.0F, 7.0F, 5.0F, 3.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(98, 0).mirror().addBox(0.0F, -1.0F, 14.0F, 6.0F, 5.0F, 3.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(98, 0).addBox(-6.0F, -1.0F, 14.0F, 6.0F, 5.0F, 3.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(0, 105).mirror().addBox(0.0F, -1.0F, 17.0F, 5.0F, 5.0F, 2.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(0, 105).addBox(-5.0F, -1.0F, 17.0F, 5.0F, 5.0F, 2.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(98, 80).mirror().addBox(0.0F, -1.0F, 19.0F, 4.0F, 5.0F, 4.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(98, 80).addBox(-4.0F, -1.0F, 19.0F, 4.0F, 5.0F, 4.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(44, 85).mirror().addBox(0.0F, -1.0F, 23.0F, 3.0F, 5.0F, 7.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(44, 85).addBox(-3.0F, -1.0F, 23.0F, 3.0F, 5.0F, 7.0F, new CubeDeformation(0.0F)), PartPose.offset(0.0F, -7.0F, 0.0F));\n\n\t\tPartDefinition divider = f1_car.addOrReplaceChild(\"divider\", CubeListBuilder.create().texOffs(58, 99).mirror().addBox(0.0F, -15.0F, 5.0F, 3.0F, 6.0F, 4.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(58, 99).addBox(-3.0F, -15.0F, 5.0F, 3.0F, 6.0F, 4.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(72, 99).mirror().addBox(0.0F, -14.0F, 9.0F, 2.0F, 5.0F, 5.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(72, 99).addBox(-2.0F, -14.0F, 9.0F, 2.0F, 5.0F, 5.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(80, 46).mirror().addBox(0.0F, -13.0F, 14.0F, 1.0F, 5.0F, 11.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(80, 46).addBox(-1.0F, -13.0F, 14.0F, 1.0F, 5.0F, 11.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(64, 85).mirror().addBox(3.0F, -11.0F, 6.0F, 1.0F, 3.0F, 4.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(64, 85).addBox(-4.0F, -11.0F, 6.0F, 1.0F, 3.0F, 4.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(102, 103).mirror().addBox(2.0F, -11.0F, 9.0F, 1.0F, 3.0F, 6.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(102, 103).addBox(-3.0F, -11.0F, 9.0F, 1.0F, 3.0F, 6.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(74, 80).mirror().addBox(1.0F, -12.0F, 14.0F, 1.0F, 4.0F, 11.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(74, 80).addBox(-2.0F, -12.0F, 14.0F, 1.0F, 4.0F, 11.0F, new CubeDeformation(0.0F)), PartPose.offset(0.0F, 0.0F, 0.0F));\n\n\t\tPartDefinition rear_suspension = f1_car.addOrReplaceChild(\"rear_suspension\", CubeListBuilder.create().texOffs(84, 43).mirror().addBox(0.0F, -5.0F, 27.0F, 8.0F, 1.0F, 1.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(84, 43).addBox(-8.0F, -5.0F, 27.0F, 8.0F, 1.0F, 1.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(72, 113).mirror().addBox(3.0F, -5.0F, 23.0F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(72, 113).addBox(-4.0F, -5.0F, 23.0F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(76, 113).mirror().addBox(4.0F, -5.0F, 24.0F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(76, 113).addBox(-5.0F, -5.0F, 24.0F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(80, 113).mirror().addBox(5.0F, -5.0F, 25.0F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(80, 113).addBox(-6.0F, -5.0F, 25.0F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(114, 21).mirror().addBox(6.0F, -5.0F, 26.0F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(114, 21).addBox(-7.0F, -5.0F, 26.0F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0F)), PartPose.offset(0.0F, 0.0F, 0.0F));\n\n\t\tPartDefinition rear_wheel = f1_car.addOrReplaceChild(\"rear_wheel\", CubeListBuilder.create().texOffs(40, 65).mirror().addBox(-4.0F, -5.0F, -5.0F, 7.0F, 10.0F, 10.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(40, 65).addBox(-27.0F, -5.0F, -5.0F, 7.0F, 10.0F, 10.0F, new CubeDeformation(0.0F)), PartPose.offset(12.0F, -5.0F, 27.0F));\n\n\t\tPartDefinition rear_wing = f1_car.addOrReplaceChild(\"rear_wing\", CubeListBuilder.create().texOffs(98, 8).mirror().addBox(0.0F, -13.0F, 30.0F, 8.0F, 1.0F, 3.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(98, 8).addBox(-8.0F, -13.0F, 30.0F, 8.0F, 1.0F, 3.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(98, 19).mirror().addBox(0.0F, -15.0F, 35.0F, 8.0F, 1.0F, 1.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(98, 19).addBox(-8.0F, -15.0F, 35.0F, 8.0F, 1.0F, 1.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(100, 62).mirror().addBox(8.0F, -15.0F, 30.0F, 1.0F, 4.0F, 6.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(100, 62).addBox(-9.0F, -15.0F, 30.0F, 1.0F, 4.0F, 6.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(112, 95).mirror().addBox(0.0F, -14.0F, 26.0F, 1.0F, 6.0F, 2.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(112, 95).addBox(-1.0F, -14.0F, 26.0F, 1.0F, 6.0F, 2.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(100, 72).mirror().addBox(0.0F, -15.0F, 27.0F, 1.0F, 1.0F, 7.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(100, 72).addBox(-1.0F, -15.0F, 27.0F, 1.0F, 1.0F, 7.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(104, 26).mirror().addBox(0.0F, -9.0F, 30.0F, 2.0F, 4.0F, 5.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(104, 26).addBox(-2.0F, -9.0F, 30.0F, 2.0F, 4.0F, 5.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(98, 93).mirror().addBox(0.0F, -12.0F, 35.0F, 8.0F, 1.0F, 1.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(98, 93).addBox(-8.0F, -12.0F, 35.0F, 8.0F, 1.0F, 1.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(34, 113).mirror().addBox(0.0F, -11.0F, 35.0F, 1.0F, 6.0F, 1.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(34, 113).addBox(-1.0F, -11.0F, 35.0F, 1.0F, 6.0F, 1.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(94, 110).addBox(-4.0F, -11.0F, 35.0F, 3.0F, 1.0F, 1.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(94, 110).mirror().addBox(1.0F, -11.0F, 35.0F, 3.0F, 1.0F, 1.0F, new CubeDeformation(0.0F)).mirror(false), PartPose.offset(0.0F, 0.0F, 0.0F));\n\n\t\tPartDefinition drs_flap = rear_wing.addOrReplaceChild(\"drs_flap\", CubeListBuilder.create().texOffs(80, 62).mirror().addBox(0.0F, -13.0F, 33.0F, 8.0F, 1.0F, 2.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(80, 62).addBox(-8.0F, -13.0F, 33.0F, 8.0F, 1.0F, 2.0F, new CubeDeformation(0.0F)), PartPose.offset(0.0F, -1.0F, 0.0F));\n\n\t\tPartDefinition front_wing = f1_car.addOrReplaceChild(\"front_wing\", CubeListBuilder.create(), PartPose.offset(0.0F, 0.0F, 0.0F));\n\n\t\tPartDefinition first_flap = front_wing.addOrReplaceChild(\"first_flap\", CubeListBuilder.create().texOffs(74, 109).mirror().addBox(0.0F, -2.0F, -39.0F, 2.0F, 1.0F, 3.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(74, 109).addBox(-2.0F, -2.0F, -39.0F, 2.0F, 1.0F, 3.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(14, 105).mirror().addBox(2.0F, -2.0F, -38.0F, 3.0F, 1.0F, 3.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(14, 105).addBox(-5.0F, -2.0F, -38.0F, 3.0F, 1.0F, 3.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(38, 110).mirror().addBox(5.0F, -2.0F, -37.0F, 2.0F, 1.0F, 3.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(38, 110).addBox(-7.0F, -2.0F, -37.0F, 2.0F, 1.0F, 3.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(110, 39).mirror().addBox(7.0F, -2.0F, -36.0F, 2.0F, 1.0F, 3.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(110, 39).addBox(-9.0F, -2.0F, -36.0F, 2.0F, 1.0F, 3.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(104, 35).mirror().addBox(9.0F, -2.0F, -35.0F, 4.0F, 1.0F, 3.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(104, 35).addBox(-13.0F, -2.0F, -35.0F, 4.0F, 1.0F, 3.0F, new CubeDeformation(0.0F)), PartPose.offset(0.0F, 0.0F, 0.0F));\n\n\t\tPartDefinition second_flap = front_wing.addOrReplaceChild(\"second_flap\", CubeListBuilder.create().texOffs(84, 110).mirror().addBox(3.0F, -3.0F, -36.0F, 2.0F, 1.0F, 3.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(84, 110).addBox(-5.0F, -3.0F, -36.0F, 2.0F, 1.0F, 3.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(104, 112).mirror().addBox(5.0F, -3.0F, -35.0F, 1.0F, 1.0F, 3.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(104, 112).addBox(-6.0F, -3.0F, -35.0F, 1.0F, 1.0F, 3.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(26, 105).mirror().addBox(6.0F, -3.0F, -34.0F, 3.0F, 1.0F, 3.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(26, 105).addBox(-9.0F, -3.0F, -34.0F, 3.0F, 1.0F, 3.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(38, 106).mirror().addBox(9.0F, -3.0F, -33.0F, 3.0F, 1.0F, 3.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(38, 106).addBox(-12.0F, -3.0F, -33.0F, 3.0F, 1.0F, 3.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(112, 112).mirror().addBox(12.0F, -3.0F, -32.0F, 1.0F, 1.0F, 3.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(112, 112).addBox(-13.0F, -3.0F, -32.0F, 1.0F, 1.0F, 3.0F, new CubeDeformation(0.0F)), PartPose.offset(0.0F, 0.0F, 0.0F));\n\n\t\tPartDefinition third_flap = front_wing.addOrReplaceChild(\"third_flap\", CubeListBuilder.create().texOffs(10, 113).mirror().addBox(3.0F, -4.0F, -34.0F, 1.0F, 1.0F, 3.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(10, 113).addBox(-4.0F, -4.0F, -34.0F, 1.0F, 1.0F, 3.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(0, 112).mirror().addBox(4.0F, -4.0F, -33.0F, 2.0F, 1.0F, 3.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(0, 112).addBox(-6.0F, -4.0F, -33.0F, 2.0F, 1.0F, 3.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(14, 109).mirror().addBox(6.0F, -4.0F, -32.0F, 3.0F, 1.0F, 3.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(14, 109).addBox(-9.0F, -4.0F, -32.0F, 3.0F, 1.0F, 3.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(26, 109).mirror().addBox(9.0F, -4.0F, -31.0F, 3.0F, 1.0F, 3.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(26, 109).addBox(-12.0F, -4.0F, -31.0F, 3.0F, 1.0F, 3.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(18, 113).mirror().addBox(12.0F, -4.0F, -30.0F, 1.0F, 1.0F, 3.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(18, 113).addBox(-13.0F, -4.0F, -30.0F, 1.0F, 1.0F, 3.0F, new CubeDeformation(0.0F)), PartPose.offset(0.0F, 0.0F, 0.0F));\n\n\t\tPartDefinition fourth_flap = front_wing.addOrReplaceChild(\"fourth_flap\", CubeListBuilder.create().texOffs(26, 113).mirror().addBox(3.0F, -5.0F, -32.0F, 1.0F, 1.0F, 3.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(26, 113).addBox(-4.0F, -5.0F, -32.0F, 1.0F, 1.0F, 3.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(94, 112).mirror().addBox(4.0F, -5.0F, -31.0F, 2.0F, 1.0F, 3.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(94, 112).addBox(-6.0F, -5.0F, -31.0F, 2.0F, 1.0F, 3.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(50, 109).mirror().addBox(6.0F, -5.0F, -30.0F, 3.0F, 1.0F, 3.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(50, 109).addBox(-9.0F, -5.0F, -30.0F, 3.0F, 1.0F, 3.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(104, 57).mirror().addBox(9.0F, -5.0F, -29.0F, 4.0F, 1.0F, 3.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(104, 57).addBox(-13.0F, -5.0F, -29.0F, 4.0F, 1.0F, 3.0F, new CubeDeformation(0.0F)), PartPose.offset(0.0F, 0.0F, 0.0F));\n\n\t\tPartDefinition endplate = front_wing.addOrReplaceChild(\"endplate\", CubeListBuilder.create().texOffs(84, 26).mirror().addBox(13.0F, -5.0F, -35.0F, 1.0F, 4.0F, 9.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(84, 26).addBox(-14.0F, -5.0F, -35.0F, 1.0F, 4.0F, 9.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(40, 97).mirror().addBox(13.0F, -6.0F, -34.0F, 1.0F, 1.0F, 8.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(40, 97).addBox(-14.0F, -6.0F, -34.0F, 1.0F, 1.0F, 8.0F, new CubeDeformation(0.0F))\n\t\t\t\t.texOffs(104, 43).mirror().addBox(13.0F, -7.0F, -32.0F, 1.0F, 1.0F, 6.0F, new CubeDeformation(0.0F)).mirror(false)\n\t\t\t\t.texOffs(104, 43).addBox(-14.0F, -7.0F, -32.0F, 1.0F, 1.0F, 6.0F, new CubeDeformation(0.0F)), PartPose.offset(0.0F, 0.0F, 0.0F));\n\n\t\treturn LayerDefinition.create(meshdefinition, 128, 128);\n\t}\n\n\t@Override\n\tpublic void setupAnim(T entity, float limbSwing, float limbSwingAmount,\n\t\t\t\t\t\t  float ageInTicks, float netHeadYaw, float headPitch) {\n\n\t\tdouble speed = entity.getDeltaMovement().lengthSqr();\n\n\t\tfloat steeringAngle = ((F1CarEntity)entity).getSteeringAngle();\n\t\tfloat steeringRad = -steeringAngle * ((float)Math.PI / 180F);\n\n\t\t// Always apply steering\n\t\tleft.yRot = steeringRad;\n\t\tright.yRot = steeringRad;\n\n\t\t// Only spin when moving\n\t\tif (speed > 0.001) {\n\t\t\tfloat rotationSpeed = ageInTicks * 0.5f;\n\n\t\t\tfront_wheels.xRot = rotationSpeed;\n\t\t\trear_wheel.xRot = rotationSpeed;\n\t\t}\n\t}\n\n\t@Override\n\tpublic void renderToBuffer(PoseStack pPoseStack, VertexConsumer pBuffer, int pPackedLight, int pPackedOverlay, int pColor) {\n\t\tf1_car.render(pPoseStack, pBuffer, pPackedLight, pPackedOverlay, pColor);\n\t}\n\n\tpublic void setSteeringAngle(float angle) {\n\t\tthis.steeringAngle = angle;\n\t}\n}\n",
       "info": {
-        "size": 4595,
-        "last_modified": "2026-03-25T17:09:12.540774",
+        "size": 24897,
+        "last_modified": "2026-03-27T11:58:01.3423418",
         "mime_type": "text/x-java-source",
         "extension": ".java"
       }
     },
     {
       "path": "main\\java\\net\\grodax\\f1mod\\entity\\custom\\F1CarEntity.java",
-      "content": "package net.grodax.f1mod.entity.custom;\r\n\r\nimport net.grodax.f1mod.block.ModBlocks;\r\nimport net.grodax.f1mod.entity.ModEntities;\r\nimport net.grodax.f1mod.item.ModItems;\r\nimport net.minecraft.core.BlockPos;\r\nimport net.minecraft.nbt.CompoundTag;\r\nimport net.minecraft.network.syncher.SynchedEntityData;\r\nimport net.minecraft.world.InteractionHand;\r\nimport net.minecraft.world.InteractionResult;\r\nimport net.minecraft.world.entity.*;\r\nimport net.minecraft.world.entity.player.Player;\r\nimport net.minecraft.world.entity.vehicle.Boat;\r\nimport net.minecraft.world.item.Item;\r\nimport net.minecraft.world.level.Level;\r\nimport net.minecraft.world.phys.Vec3;\r\n\r\npublic class F1CarEntity extends Boat {\r\n\r\n    // ===============================\r\n    // CONFIG\r\n    // ===============================\r\n    private static final float BASE_ACCEL = 0.04f;\r\n    private static final float MAX_SPEED = 1.2f;\r\n    private static final float DRS_BOOST = 1.8f;\r\n\r\n    private float currentSpeed = 0f;\r\n    private boolean drsActive = false;\r\n\r\n    public F1CarEntity(EntityType<? extends Boat> type, Level level) {\r\n        super(type, level);\r\n        this.setVariant(Boat.Type.OAK); // REQUIRED\r\n    }\r\n\r\n    public F1CarEntity(Level level, double x, double y, double z) {\r\n        this(ModEntities.F1_CAR_ENTITY.get(), level);\r\n        this.setPos(x, y, z);\r\n    }\r\n\r\n    // ===============================\r\n    // DROP ITEM\r\n    // ===============================\r\n    @Override\r\n    public Item getDropItem() {\r\n        return ModItems.F1CAR.get();\r\n    }\r\n\r\n    // ===============================\r\n    // MAIN TICK\r\n    // ===============================\r\n    @Override\r\n    public void tick() {\r\n        super.tick();\r\n\r\n        if (this.isVehicle()) {\r\n            Entity passenger = this.getFirstPassenger();\r\n\r\n            if (passenger instanceof Player player) {\r\n                controlCar(player);\r\n            }\r\n        } else {\r\n            // natural slowdown\r\n            currentSpeed *= 0.95f;\r\n        }\r\n    }\r\n\r\n    // ===============================\r\n    // CONTROL SYSTEM\r\n    // ===============================\r\n    private void controlCar(Player player) {\r\n        float forward = player.zza;\r\n        float strafe = player.xxa;\r\n\r\n        // ACCELERATION\r\n        if (forward > 0) {\r\n            currentSpeed += BASE_ACCEL;\r\n        } else if (forward < 0) {\r\n            currentSpeed -= BASE_ACCEL * 0.5f;\r\n        } else {\r\n            currentSpeed *= 0.98f; // friction\r\n        }\r\n\r\n        // SPEED LIMIT\r\n        float max = drsActive ? MAX_SPEED * DRS_BOOST : MAX_SPEED;\r\n\r\n        // Track boost\r\n        if (isOnTrack()) {\r\n            max *= 1.3f;\r\n        }\r\n\r\n        currentSpeed = clamp(currentSpeed, -0.4f, max);\r\n\r\n        // TURNING (harder at high speed)\r\n        float turnFactor = 1.0f - (Math.abs(currentSpeed) / max);\r\n        float turnSpeed = 3.0f * turnFactor;\r\n\r\n        this.setYRot(this.getYRot() + strafe * turnSpeed);\r\n\r\n        // MOVEMENT\r\n        Vec3 look = this.getLookAngle();\r\n        Vec3 movement = look.scale(currentSpeed);\r\n\r\n        this.setDeltaMovement(movement);\r\n        this.move(MoverType.SELF, this.getDeltaMovement());\r\n    }\r\n\r\n    // ===============================\r\n    // TRACK DETECTION\r\n    // ===============================\r\n    private boolean isOnTrack() {\r\n        BlockPos below = this.blockPosition().below();\r\n        return this.level().getBlockState(below).is(ModBlocks.TRACK_BLOCK.get());\r\n    }\r\n\r\n    // ===============================\r\n    // DRS (toggle later via keybind)\r\n    // ===============================\r\n    public void toggleDRS() {\r\n        this.drsActive = !this.drsActive;\r\n    }\r\n\r\n    // ===============================\r\n    // RIDING\r\n    // ===============================\r\n    @Override\r\n    protected boolean canAddPassenger(Entity passenger) {\r\n        return this.getPassengers().isEmpty();\r\n    }\r\n\r\n    @Override\r\n    protected void positionRider(Entity passenger, MoveFunction moveFunction) {\r\n        passenger.setPos(\r\n                this.getX(),\r\n                this.getY() + 0.4,\r\n                this.getZ()\r\n        );\r\n    }\r\n\r\n    // ===============================\r\n    // INTERACTION\r\n    // ===============================\r\n    @Override\r\n    public InteractionResult interact(Player player, InteractionHand hand) {\r\n        if (!this.level().isClientSide) {\r\n            player.startRiding(this);\r\n        }\r\n        return InteractionResult.sidedSuccess(this.level().isClientSide);\r\n    }\r\n\r\n    // ===============================\r\n    // SAVE DATA (for fuel/gears later)\r\n    // ===============================\r\n    @Override\r\n    protected void readAdditionalSaveData(CompoundTag tag) {\r\n        currentSpeed = tag.getFloat(\"Speed\");\r\n        drsActive = tag.getBoolean(\"DRS\");\r\n    }\r\n\r\n    @Override\r\n    protected void addAdditionalSaveData(CompoundTag tag) {\r\n        tag.putFloat(\"Speed\", currentSpeed);\r\n        tag.putBoolean(\"DRS\", drsActive);\r\n    }\r\n\r\n    // ===============================\r\n    // REQUIRED (1.21)\r\n    // ===============================\r\n    @Override\r\n    protected void defineSynchedData(SynchedEntityData.Builder builder) {\r\n        super.defineSynchedData(builder);\r\n    }\r\n\r\n    // ===============================\r\n    // UTIL\r\n    // ===============================\r\n    private float clamp(float val, float min, float max) {\r\n        return Math.max(min, Math.min(max, val));\r\n    }\r\n}",
+      "content": "package net.grodax.f1mod.entity.custom;\r\n\r\nimport net.grodax.f1mod.block.ModBlocks;\r\nimport net.grodax.f1mod.entity.ModEntities;\r\nimport net.grodax.f1mod.item.ModItems;\r\nimport net.minecraft.client.Minecraft;\r\nimport net.minecraft.core.BlockPos;\r\nimport net.minecraft.nbt.CompoundTag;\r\nimport net.minecraft.network.syncher.SynchedEntityData;\r\nimport net.minecraft.world.InteractionHand;\r\nimport net.minecraft.world.InteractionResult;\r\nimport net.minecraft.world.entity.*;\r\nimport net.minecraft.world.entity.player.Player;\r\nimport net.minecraft.world.entity.vehicle.Boat;\r\nimport net.minecraft.world.item.Item;\r\nimport net.minecraft.world.level.Level;\r\nimport net.minecraft.world.phys.Vec3;\r\n\r\npublic class F1CarEntity extends Boat {\r\n\r\n    // ===============================\r\n    // CONFIG\r\n    // ===============================\r\n    private static final float BASE_ACCEL = 0.08f;\r\n    private static final float MAX_SPEED = 0.6f;\r\n    private static final float DRS_BOOST = 1.5f;\r\n    private static final float TURN_STRENGTH = 3.5f;\r\n    private static final float FRICTION = 0.92f;\r\n    private static final float STRAIGHT_SPEED_FRICTION = 0.98f;\r\n\r\n    private float steeringAngle;\r\n\r\n    private float currentSpeed = 0f;\r\n    private boolean drsActive = false;\r\n    private float turnAngle = 0f;\r\n    private boolean wasMoving = false;\r\n\r\n    public F1CarEntity(EntityType<? extends Boat> type, Level level) {\r\n        super(type, level);\r\n        this.setVariant(Boat.Type.OAK); // REQUIRED\r\n    }\r\n\r\n    public F1CarEntity(Level level, double x, double y, double z) {\r\n        this(ModEntities.F1_CAR_ENTITY.get(), level);\r\n        this.setPos(x, y, z);\r\n    }\r\n\r\n    // ===============================\r\n    // DROP ITEM\r\n    // ===============================\r\n    @Override\r\n    public Item getDropItem() {\r\n        return ModItems.F1CAR.get();\r\n    }\r\n\r\n    // ===============================\r\n    // MAIN TICK\r\n    // ===============================\r\n    @Override\r\n    public void tick() {\r\n        super.tick();\r\n\r\n        if (this.isVehicle()) {\r\n            Entity passenger = this.getFirstPassenger();\r\n\r\n            if (passenger instanceof Player player) {\r\n                controlCar(player);\r\n\r\n                // Update passenger rotation based on car movement\r\n                updatePassengerRotation(player);\r\n            }\r\n        } else {\r\n            // Natural slowdown - more realistic for car\r\n            currentSpeed *= 0.85f;\r\n        }\r\n\r\n        if (this.isVehicle() && this.getControllingPassenger() instanceof Player player) {\r\n            float turn = player.xxa; // A/D keys\r\n\r\n            this.steeringAngle = turn * 30.0F; // max 30 degrees\r\n        }\r\n    }\r\n\r\n    public float getSteeringAngle() {\r\n        return this.steeringAngle;\r\n    }\r\n\r\n    // ===============================\r\n    // CONTROL SYSTEM\r\n    // ===============================\r\n    private void controlCar(Player player) {\r\n        float forward = player.zza;\r\n        float strafe = player.xxa;\r\n\r\n        // ACCELERATION - more responsive\r\n        if (forward > 0) {\r\n            currentSpeed += BASE_ACCEL;\r\n        } else if (forward < 0) {\r\n            currentSpeed -= BASE_ACCEL * 0.75f;\r\n        } else {\r\n            // Apply friction based on current speed and direction\r\n            if (Math.abs(currentSpeed) > 0.01f) {\r\n                float friction = isOnTrack() ? 0.95f : 0.92f;\r\n                currentSpeed *= friction;\r\n            } else {\r\n                currentSpeed = 0f;\r\n            }\r\n        }\r\n\r\n        // SPEED LIMIT\r\n        float max = drsActive ? MAX_SPEED * DRS_BOOST : MAX_SPEED;\r\n\r\n        // Track boost\r\n        if (isOnTrack()) {\r\n            max *= 1.25f;\r\n        }\r\n\r\n        currentSpeed = clamp(currentSpeed, -0.3f, max);\r\n\r\n        // TURNING - fixed direction issue\r\n        boolean isMoving = Math.abs(forward) > 0.1f || Math.abs(strafe) > 0.1f;\r\n\r\n        if (Math.abs(strafe) > 0.1f) {\r\n            // Invert strafe for proper turning direction\r\n            float invertedStrafe = -strafe;\r\n\r\n            // Calculate turn based on speed - faster at lower speeds\r\n            float turnSpeed = TURN_STRENGTH * (1.0f - Math.min(1.0f, Math.abs(currentSpeed) / max));\r\n            turnAngle += invertedStrafe * turnSpeed;\r\n\r\n            // Apply turning to rotation\r\n            this.setYRot(this.getYRot() + turnAngle);\r\n\r\n            // Reduce turn angle over time for smoother steering\r\n            turnAngle *= 0.7f;\r\n        } else {\r\n            // Gradually reduce turn angle when not turning\r\n            turnAngle *= 0.85f;\r\n        }\r\n\r\n        // MOVEMENT - more car-like physics\r\n        Vec3 look = this.getLookAngle();\r\n        Vec3 movement = look.scale(currentSpeed);\r\n\r\n        this.setDeltaMovement(movement);\r\n        this.move(MoverType.SELF, this.getDeltaMovement());\r\n    }\r\n\r\n    // ===============================\r\n    // UPDATE PASSENGER ROTATION\r\n    // ===============================\r\n    private void updatePassengerRotation(Player player) {\r\n//        // If car is moving, make passenger look forward in the direction of travel\r\n//        if (Minecraft.getInstance().options.keyUp.isDown() || Minecraft.getInstance().options.keyLeft.isDown() || Minecraft.getInstance().options.keyRight.isDown() || Minecraft.getInstance().options.keyDown.isDown()) {\r\n//            // Set passenger's body rotation to match car's rotation\r\n//\r\n//            // Keep passenger facing forward relative to car movement\r\n//            player.absRotateTo(this.getYRot(), player.getXRot());\r\n//        } else {\r\n//            // If not moving, let player control their own rotation freely\r\n//            // But still update body rotation to match current car rotation for consistency\r\n//            player.setYBodyRot(this.getYRot());\r\n//        }\r\n    }\r\n\r\n    // ===============================\r\n    // TRACK DETECTION\r\n    // ===============================\r\n    private boolean isOnTrack() {\r\n        BlockPos below = this.blockPosition().below();\r\n        return this.level().getBlockState(below).is(ModBlocks.TRACK_BLOCK.get());\r\n    }\r\n\r\n    // ===============================\r\n    // DRS (toggle later via keybind)\r\n    // ===============================\r\n    public void toggleDRS() {\r\n        this.drsActive = !this.drsActive;\r\n    }\r\n\r\n    // ===============================\r\n    // RIDING\r\n    // ===============================\r\n    @Override\r\n    protected boolean canAddPassenger(Entity passenger) {\r\n        return this.getPassengers().isEmpty();\r\n    }\r\n\r\n    @Override\r\n    protected void positionRider(Entity passenger, MoveFunction moveFunction) {\r\n        passenger.setPos(\r\n                this.getX(),\r\n                this.getY(),\r\n                this.getZ()\r\n        );\r\n    }\r\n\r\n    // ===============================\r\n    // INTERACTION\r\n    // ===============================\r\n    @Override\r\n    public InteractionResult interact(Player player, InteractionHand hand) {\r\n        if (!this.level().isClientSide) {\r\n            player.startRiding(this);\r\n        }\r\n        return InteractionResult.sidedSuccess(this.level().isClientSide);\r\n    }\r\n\r\n    // ===============================\r\n    // SAVE DATA (for fuel/gears later)\r\n    // ===============================\r\n    @Override\r\n    protected void readAdditionalSaveData(CompoundTag tag) {\r\n        currentSpeed = tag.getFloat(\"Speed\");\r\n        drsActive = tag.getBoolean(\"DRS\");\r\n        turnAngle = tag.getFloat(\"TurnAngle\");\r\n        wasMoving = tag.getBoolean(\"WasMoving\");\r\n    }\r\n\r\n    @Override\r\n    protected void addAdditionalSaveData(CompoundTag tag) {\r\n        tag.putFloat(\"Speed\", currentSpeed);\r\n        tag.putBoolean(\"DRS\", drsActive);\r\n        tag.putFloat(\"TurnAngle\", turnAngle);\r\n        tag.putBoolean(\"WasMoving\", wasMoving);\r\n    }\r\n\r\n    // ===============================\r\n    // REQUIRED (1.21)\r\n    // ===============================\r\n    @Override\r\n    protected void defineSynchedData(SynchedEntityData.Builder builder) {\r\n        super.defineSynchedData(builder);\r\n    }\r\n\r\n    // ===============================\r\n    // UTIL\r\n    // ===============================\r\n    private float clamp(float val, float min, float max) {\r\n        return Math.max(min, Math.min(max, val));\r\n    }\r\n}\r\n",
       "info": {
-        "size": 5442,
-        "last_modified": "2026-03-25T17:09:12.5667738",
+        "size": 8268,
+        "last_modified": "2026-03-27T11:58:01.3683834",
         "mime_type": "text/x-java-source",
         "extension": ".java"
       }
     },
     {
       "path": "main\\java\\net\\grodax\\f1mod\\entity\\ModEntities.java",
-      "content": "package net.grodax.f1mod.entity;\r\n\r\nimport net.grodax.f1mod.F1Mod;\r\nimport net.grodax.f1mod.entity.custom.F1CarEntity;\r\nimport net.minecraft.world.entity.EntityType;\r\nimport net.minecraft.world.entity.MobCategory;\r\nimport net.minecraftforge.eventbus.api.IEventBus;\r\nimport net.minecraftforge.registries.DeferredRegister;\r\nimport net.minecraftforge.registries.ForgeRegistries;\r\nimport net.minecraftforge.registries.RegistryObject;\r\n\r\npublic class ModEntities {\r\n    public static final DeferredRegister<EntityType<?>> ENTITIES =\r\n            DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, F1Mod.MOD_ID);\r\n\r\n    public static final RegistryObject<EntityType<F1CarEntity>> F1_CAR_ENTITY =\r\n            ENTITIES.register(\"f1_car_entity\", () -> EntityType.Builder.<F1CarEntity>of(F1CarEntity::new, MobCategory.MISC)\r\n                    .sized(5F, 2F) // Width and height\r\n                    .clientTrackingRange(10)\r\n                    .build(\"f1_car_entity\"));\r\n\r\n    public static void register(IEventBus eventBus) {\r\n        ENTITIES.register(eventBus);\r\n    }\r\n}\r\n",
+      "content": "package net.grodax.f1mod.entity;\r\n\r\nimport net.grodax.f1mod.F1Mod;\r\nimport net.grodax.f1mod.entity.custom.F1CarEntity;\r\nimport net.minecraft.world.entity.EntityType;\r\nimport net.minecraft.world.entity.MobCategory;\r\nimport net.minecraftforge.eventbus.api.IEventBus;\r\nimport net.minecraftforge.registries.DeferredRegister;\r\nimport net.minecraftforge.registries.ForgeRegistries;\r\nimport net.minecraftforge.registries.RegistryObject;\r\n\r\npublic class ModEntities {\r\n    public static final DeferredRegister<EntityType<?>> ENTITIES =\r\n            DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, F1Mod.MOD_ID);\r\n\r\n    public static final RegistryObject<EntityType<F1CarEntity>> F1_CAR_ENTITY =\r\n            ENTITIES.register(\"f1_car_entity\", () -> EntityType.Builder.<F1CarEntity>of(F1CarEntity::new, MobCategory.MISC)\r\n                    .sized(4,2) // Width and height\r\n                    .clientTrackingRange(10)\r\n                    .build(\"f1_car_entity\"));\r\n\r\n    public static void register(IEventBus eventBus) {\r\n        ENTITIES.register(eventBus);\r\n    }\r\n}\r\n",
       "info": {
-        "size": 1073,
-        "last_modified": "2026-03-25T17:09:12.5837738",
+        "size": 1070,
+        "last_modified": "2026-03-27T11:58:01.3865043",
         "mime_type": "text/x-java-source",
         "extension": ".java"
       }
@@ -769,7 +769,7 @@
       "content": "package net.grodax.f1mod;\n\nimport com.mojang.logging.LogUtils;\nimport net.grodax.f1mod.entity.ModEntities;\nimport net.grodax.f1mod.block.ModBlocks;\nimport net.grodax.f1mod.item.ModCreativeModeTabs;\nimport net.grodax.f1mod.item.ModItems;\nimport net.minecraft.world.item.CreativeModeTab;\nimport net.minecraft.world.item.CreativeModeTabs;\nimport net.minecraftforge.api.distmarker.Dist;\nimport net.minecraftforge.common.MinecraftForge;\nimport net.minecraftforge.event.BuildCreativeModeTabContentsEvent;\nimport net.minecraftforge.event.server.ServerStartingEvent;\nimport net.minecraftforge.eventbus.api.IEventBus;\nimport net.minecraftforge.eventbus.api.SubscribeEvent;\nimport net.minecraftforge.fml.common.Mod;\nimport net.minecraftforge.fml.config.ModConfig;\nimport net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;\nimport net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;\nimport net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;\nimport org.slf4j.Logger;\n\n// The value here should match an entry in the META-INF/mods.toml file\n@Mod(F1Mod.MOD_ID)\npublic class F1Mod\n{\n    // Define mod id in a common place for everything to reference\n    public static final String MOD_ID = \"f1mod\";\n    // Directly reference a slf4j logger\n    public static final Logger LOGGER = LogUtils.getLogger();\n\n\n    public F1Mod(FMLJavaModLoadingContext context)\n    {\n        IEventBus modEventBus = context.getModEventBus();\n\n        // Register the commonSetup method for modloading\n        modEventBus.addListener(this::commonSetup);\n\n        ModCreativeModeTabs.register(modEventBus);\n\n        ModItems.register(modEventBus);\n        ModBlocks.register(modEventBus);\n        ModEntities.register(modEventBus);\n\n        // Register ourselves for server and other game events we are interested in\n        MinecraftForge.EVENT_BUS.register(this);\n\n        // Register the item to a creative tab\n        modEventBus.addListener(this::addCreative);\n\n        // Register our mod's ForgeConfigSpec so that Forge can create and load the config file for us\n        context.registerConfig(ModConfig.Type.COMMON, Config.SPEC);\n    }\n\n    private void commonSetup(final FMLCommonSetupEvent event)\n    {\n\n    }\n\n    // Add the example block item to the building blocks tab\n    private void addCreative(BuildCreativeModeTabContentsEvent event)\n    {\n        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {\n            event.accept(ModItems.F1CAR);\n        }\n\n        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {\n            event.accept(ModBlocks.FACTORY_BLOCK);\n        }\n    }\n\n    // You can use SubscribeEvent and let the Event Bus discover methods to call\n    @SubscribeEvent\n    public void onServerStarting(ServerStartingEvent event)\n    {\n\n    }\n\n    // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent\n    @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)\n    public static class ClientModEvents\n    {\n        @SubscribeEvent\n        public static void onClientSetup(FMLClientSetupEvent event)\n        {\n\n        }\n    }\n}\n",
       "info": {
         "size": 3169,
-        "last_modified": "2026-03-25T17:09:12.6017737",
+        "last_modified": "2026-03-27T11:58:01.4035133",
         "mime_type": "text/x-java-source",
         "extension": ".java"
       }
@@ -779,7 +779,7 @@
       "content": "package net.grodax.f1mod.item.custom;\r\n\r\nimport net.grodax.f1mod.block.ModBlocks;\r\nimport net.minecraft.server.level.ServerLevel;\r\nimport net.minecraft.server.level.ServerPlayer;\r\nimport net.minecraft.sounds.SoundEvents;\r\nimport net.minecraft.sounds.SoundSource;\r\nimport net.minecraft.world.InteractionResult;\r\nimport net.minecraft.world.entity.EquipmentSlot;\r\nimport net.minecraft.world.item.Item;\r\nimport net.minecraft.world.item.context.UseOnContext;\r\nimport net.minecraft.world.level.Level;\r\nimport net.minecraft.world.level.block.Block;\r\nimport net.minecraft.world.level.block.Blocks;\r\n\r\npublic class ChiselItem extends Item {\r\n    public ChiselItem(Properties pProperties) {\r\n        super(pProperties);\r\n    }\r\n\r\n    @Override\r\n    public InteractionResult useOn(UseOnContext pContext) {\r\n        Level level = pContext.getLevel();\r\n        Block clickedBlock = level.getBlockState(pContext.getClickedPos()).getBlock();\r\n\r\n        if (!level.isClientSide() && clickedBlock == Blocks.BLACK_CONCRETE) {\r\n            level.setBlockAndUpdate(pContext.getClickedPos(), ModBlocks.TRACK_BLOCK.get().defaultBlockState());\r\n            pContext.getItemInHand().hurtAndBreak(1, ((ServerLevel) level), ((ServerPlayer) pContext.getPlayer()),\r\n                                            item -> pContext.getPlayer().onEquippedItemBroken(item, EquipmentSlot.MAINHAND));\r\n            level.playSound(null, pContext.getClickedPos(), SoundEvents.ANVIL_PLACE, SoundSource.BLOCKS);\r\n        }\r\n\r\n        return InteractionResult.SUCCESS;\r\n    }\r\n}\r\n",
       "info": {
         "size": 1538,
-        "last_modified": "2026-03-25T17:09:12.6107747",
+        "last_modified": "2026-03-27T11:58:01.4140255",
         "mime_type": "text/x-java-source",
         "extension": ".java"
       }
@@ -789,7 +789,7 @@
       "content": "package net.grodax.f1mod.item.custom;\r\n\r\nimport net.grodax.f1mod.entity.ModEntities;\r\nimport net.grodax.f1mod.entity.custom.F1CarEntity;\r\nimport net.minecraft.core.BlockPos;\r\nimport net.minecraft.world.InteractionResult;\r\nimport net.minecraft.world.entity.EntityType;\r\nimport net.minecraft.world.entity.player.Player;\r\nimport net.minecraft.world.item.Item;\r\nimport net.minecraft.world.item.context.UseOnContext;\r\nimport net.minecraft.world.level.Level;\r\n\r\npublic class F1CarItem extends Item {\r\n    public F1CarItem(Properties pProperties) {\r\n        super(pProperties);\r\n    }\r\n\r\n    @Override\r\n    public InteractionResult useOn(UseOnContext context) {\r\n        Level level = context.getLevel();\r\n\r\n        if (!level.isClientSide) {\r\n            BlockPos pos = context.getClickedPos();\r\n\r\n            F1CarEntity car = new F1CarEntity(\r\n                    level,\r\n                    pos.getX() + 0.5,\r\n                    pos.getY() + 1,\r\n                    pos.getZ() + 0.5\r\n            );\r\n\r\n            car.setYRot(context.getPlayer().getYRot()); // IMPORTANT\r\n\r\n            level.addFreshEntity(car);\r\n        }\r\n\r\n        return InteractionResult.SUCCESS;\r\n    }\r\n}\r\n",
       "info": {
         "size": 1178,
-        "last_modified": "2026-03-25T17:09:12.6275512",
+        "last_modified": "2026-03-27T11:58:01.424538",
         "mime_type": "text/x-java-source",
         "extension": ".java"
       }
@@ -799,7 +799,7 @@
       "content": "package net.grodax.f1mod.item;\r\n\r\nimport net.grodax.f1mod.F1Mod;\r\nimport net.grodax.f1mod.block.ModBlocks;\r\nimport net.minecraft.core.registries.Registries;\r\nimport net.minecraft.network.chat.Component;\r\nimport net.minecraft.world.item.CreativeModeTab;\r\nimport net.minecraft.world.item.ItemStack;\r\nimport net.minecraftforge.eventbus.api.IEventBus;\r\nimport net.minecraftforge.registries.DeferredRegister;\r\nimport net.minecraftforge.registries.RegistryObject;\r\n\r\npublic class ModCreativeModeTabs {\r\n    public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, F1Mod.MOD_ID);\r\n\r\n    public static final RegistryObject<CreativeModeTab> F1_TAB = CREATIVE_MODE_TABS.register(\"f1_tab\", () -> CreativeModeTab.builder()\r\n            .icon(() -> new ItemStack(ModItems.F1CAR.get()))\r\n            .title(Component.translatable(\"creativetab.f1mod.f1_tab\"))\r\n            .displayItems((pParameters, pOutput) -> {\r\n                pOutput.accept(ModItems.F1CAR.get());\r\n                pOutput.accept(ModBlocks.FACTORY_BLOCK.get());\r\n                pOutput.accept(ModItems.CHISEL.get());\r\n                pOutput.accept(ModBlocks.TRACK_BLOCK.get());\r\n            })\r\n            .build());\r\n\r\n    public static void register(IEventBus eventBus) {\r\n        CREATIVE_MODE_TABS.register(eventBus);\r\n    }\r\n}\r\n",
       "info": {
         "size": 1365,
-        "last_modified": "2026-03-25T17:09:12.6455519",
+        "last_modified": "2026-03-27T11:58:01.442068",
         "mime_type": "text/x-java-source",
         "extension": ".java"
       }
@@ -809,7 +809,7 @@
       "content": "package net.grodax.f1mod.item;\r\n\r\nimport net.grodax.f1mod.F1Mod;\r\nimport net.grodax.f1mod.item.custom.ChiselItem;\r\nimport net.grodax.f1mod.item.custom.F1CarItem;\r\nimport net.minecraft.world.item.Item;\r\nimport net.minecraftforge.eventbus.api.IEventBus;\r\nimport net.minecraftforge.registries.DeferredRegister;\r\nimport net.minecraftforge.registries.ForgeRegistries;\r\nimport net.minecraftforge.registries.RegistryObject;\r\n\r\npublic class ModItems {\r\n    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, F1Mod.MOD_ID);\r\n\r\n    public static final RegistryObject<Item> F1CAR = ITEMS.register(\"f1_car\", () -> new F1CarItem(new Item.Properties()));\r\n\r\n    public static final RegistryObject<Item> CHISEL = ITEMS.register(\"chisel\", () -> new ChiselItem(new Item.Properties().durability(32)));\r\n\r\n    public static void register(IEventBus eventBus) {\r\n        ITEMS.register(eventBus);\r\n    }\r\n}\r\n",
       "info": {
         "size": 934,
-        "last_modified": "2026-03-25T17:09:12.6551155",
+        "last_modified": "2026-03-27T11:58:01.4526173",
         "mime_type": "text/x-java-source",
         "extension": ".java"
       }
@@ -819,7 +819,7 @@
       "content": "{\r\n  \"variants\": {\r\n    \"\": {\r\n    \"model\": \"f1mod:block/factory_block\"\r\n    }\r\n  }\r\n}",
       "info": {
         "size": 86,
-        "last_modified": "2026-03-25T17:09:12.7051151",
+        "last_modified": "2026-03-27T11:58:01.5021377",
         "mime_type": "text/plain",
         "extension": ".json"
       }
@@ -829,7 +829,7 @@
       "content": "{\r\n  \"variants\": {\r\n    \"\": {\r\n    \"model\": \"f1mod:block/track_block\"\r\n    }\r\n  }\r\n}",
       "info": {
         "size": 84,
-        "last_modified": "2026-03-25T17:09:12.7141153",
+        "last_modified": "2026-03-27T11:58:01.5126397",
         "mime_type": "text/plain",
         "extension": ".json"
       }
@@ -839,7 +839,7 @@
       "content": "{\r\n  \"item.f1mod.f1_car\": \"F1 Car\",\r\n\r\n  \"block.f1mod.factory_block\": \"Factory\",\r\n\r\n  \"creativetab.f1mod.f1_tab\": \"F1\",\r\n\r\n  \"item.f1mod.chisel\": \"Chisel\",\r\n\r\n  \"block.f1mod.track_block\": \"Track Block\"\r\n}",
       "info": {
         "size": 204,
-        "last_modified": "2026-03-25T17:09:12.7321154",
+        "last_modified": "2026-03-27T11:58:01.5306486",
         "mime_type": "text/plain",
         "extension": ".json"
       }
@@ -849,7 +849,7 @@
       "content": "{\r\n  \"parent\": \"minecraft:block/cube_all\",\r\n  \"textures\": {\r\n    \"all\": \"f1mod:block/factory_block\"\r\n  }\r\n}",
       "info": {
         "size": 107,
-        "last_modified": "2026-03-25T17:09:12.7501153",
+        "last_modified": "2026-03-27T11:58:01.5501621",
         "mime_type": "text/plain",
         "extension": ".json"
       }
@@ -859,7 +859,7 @@
       "content": "{\r\n  \"parent\": \"minecraft:block/cube_all\",\r\n  \"textures\": {\r\n    \"all\": \"f1mod:block/track_block\"\r\n  }\r\n}",
       "info": {
         "size": 105,
-        "last_modified": "2026-03-25T17:09:12.7591155",
+        "last_modified": "2026-03-27T11:58:01.5616628",
         "mime_type": "text/plain",
         "extension": ".json"
       }
@@ -869,7 +869,7 @@
       "content": "{\r\n  \"parent\": \"minecraft:item/generated\",\r\n  \"textures\": {\r\n    \"layer0\": \"f1mod:item/chisel\"\r\n  }\r\n}",
       "info": {
         "size": 102,
-        "last_modified": "2026-03-25T17:09:12.7761154",
+        "last_modified": "2026-03-27T11:58:01.57967",
         "mime_type": "text/plain",
         "extension": ".json"
       }
@@ -879,7 +879,7 @@
       "content": "{\r\n  \"parent\": \"minecraft:item/generated\",\r\n  \"textures\": {\r\n    \"layer0\": \"f1mod:item/f1_car\"\r\n  }\r\n}",
       "info": {
         "size": 102,
-        "last_modified": "2026-03-25T17:09:12.7861155",
+        "last_modified": "2026-03-27T11:58:01.5901767",
         "mime_type": "text/plain",
         "extension": ".json"
       }
@@ -889,7 +889,7 @@
       "content": "{\r\n  \"parent\": \"f1mod:block/factory_block\"\r\n}",
       "info": {
         "size": 45,
-        "last_modified": "2026-03-25T17:09:12.7951157",
+        "last_modified": "2026-03-27T11:58:01.5996769",
         "mime_type": "text/plain",
         "extension": ".json"
       }
@@ -899,7 +899,7 @@
       "content": "{\r\n  \"parent\": \"f1mod:block/track_block\"\r\n}",
       "info": {
         "size": 43,
-        "last_modified": "2026-03-25T17:09:12.8051151",
+        "last_modified": "2026-03-27T11:58:01.6091834",
         "mime_type": "text/plain",
         "extension": ".json"
       }
@@ -909,7 +909,7 @@
       "content": "PNG\r\n\u001a\n\u0000\u0000\u0000\rIHDR\u0000\u0000\u0000\u0010\u0000\u0000\u0000\u0010\b\u0006\u0000\u0000\u0000\u001fóÿa\u0000\u0000\u0000\u0001sRGB\u0000®Î\u001cé\u0000\u0000\u0000\u0004gAMA\u0000\u0000±\u000büa\u0005\u0000\u0000\u0000\tpHYs\u0000\u0000\u000eÃ\u0000\u0000\u000eÃ\u0001Ço¨d\u0000\u0000\u0000`IDAT8Oc`Xôâ?\f\u001f>|\u0018ÎÆÆÇ*,.I\u0018N\t,b0>V\u0003êëëá\u0018Ml8\u0019ðVFå?%r\u0003Nìþ\u001fÑ%qad=p\u0017 \u000b\u0012á.@7TL¹\u000b°\t\u0012ÂÈz¨ç\u0005r1\u0000JÛbúR\u0000\u0000\u0000\u0000IEND®B`",
       "info": {
         "size": 203,
-        "last_modified": "2026-03-25T17:09:12.8301158",
+        "last_modified": "2026-03-27T11:58:01.6356913",
         "mime_type": "image/png",
         "extension": ".png"
       }
@@ -919,17 +919,17 @@
       "content": "PNG\r\n\u001a\n\u0000\u0000\u0000\rIHDR\u0000\u0000\u0000\u0010\u0000\u0000\u0000\u0010\b\u0006\u0000\u0000\u0000\u001fóÿa\u0000\u0000\u0000\u0001sRGB\u0000®Î\u001cé\u0000\u0000\u0000\u0004gAMA\u0000\u0000±\u000büa\u0005\u0000\u0000\u0000\tpHYs\u0000\u0000\u000eÃ\u0000\u0000\u000eÃ\u0001Ço¨d\u0000\u0000\u0000hIDAT8O¥[\u000eÀ \b\u0004¹9wî\u0005lú¥ìÐ~L¢£N±]xï\u0000Q\u000e¨ê\u0013¸'iíI\u0003E@4 ºø78 7{K;.\u0007\"X\u0000â\\3[£ruÈ:<Ð\u0004ÄäÓ\u001b¬¾Ñï%\nXv\u0001Î=´O×ÙC\u0000\u0000\u0000\u0000IEND®B`",
       "info": {
         "size": 211,
-        "last_modified": "2026-03-25T17:09:12.8401155",
+        "last_modified": "2026-03-27T11:58:01.6516983",
         "mime_type": "image/png",
         "extension": ".png"
       }
     },
     {
-      "path": "main\\resources\\assets\\f1mod\\textures\\entity\\f1_car.png",
-      "content": "PNG\r\n\u001a\n\u0000\u0000\u0000\rIHDR\u0000\u0000\u0002\u0000\u0000\u0000\u0002\u0000\b\u0006\u0000\u0000\u0000ôxÔú\u0000\u0000\u0010\u0000IDATx\u0001ìÝ\u000b¬l×Y\u0018à\rÁ\u000f´>\u0017_rÅ\rv\u0005rD \ràP\u001en\u0013L\u0014h$Lü ¸\r\u0006\u0007U\u0014\u0000Ro\tj\r²Z¤\"Ñ&\u0014HB$ûº AÓ(Ø}ä!(\u000f\t\t&i\u001dîMihÁ´L×9sï¹çÎ3½göÞë\u001bÏ?{Ï~¬½þïdþ9÷<FáVÀUw<0\u0017ïyøñ¼¨\u0006F¢\u0016÷_´m¼Âí9ÿð}ã¶bÐE\\'\u00044\u0000(I\u0010 @\u0000m\nDh\u0000¶ëíj\u0004\b\u0010 @ \u0013\u0002\u001aNÁ$\b\u0010è¢ÀÕw>\u0018¢s6'\u0002Ë\bc4\u0000EA\u0010 PµÀÓgïYT\r!ùª\u00044\u0000U[²\u0004\b\u0010 @`* \u0001:x$@\u0000\u0001\u0002U\th\u0000ª*·d\t\u0010 @ vYþ\u001a%\u0001\u0002\u0004\b\u0010¨H@\u0003PQ±¥J\u0000\u0001\u0002µ\u000b\\Ì_\u0003pÑÂ\u001a\u0001\u0002\u0004\b\u0010¨F@\u0003PM©%J\u0000\u0001\u0002µ\u000b\u001cÌ_\u0003pPÃ:\u0001\u0002\u0004\b\u0010¨D@\u0003PI¡¥I\u0000\u0001\u0002µ\u000b\\¿\u0006àR\u000fÏ\b\u0010 @@\u0015\u0002\u001a*Ê,I\u0002\u0004\b\u0010¨]àpþ\u001aÃ\"\u0013 @\u0000\n\u00044\u0000\u0015\u0014Y\u0004\b\u0010 P»Àåùk\u0000.7±\u0000\u0001\u0002\u0004\b\f^@\u00030ø\u0012K\u0000\u0001\u0002\u0004j\u0017¿\u0006`m\u0004\b\u0010 @`à\u0002\u001a\u0017Xz\u0004\b\u0010 P»Àüü5\u0000ó]l%@\u0000\u0001\u0002\u0016Ð\u0000\fº¼#@\u0000Ú\u0005Ê_\u0003pí\u0004\b\u0010 @`À\u0002\u001a\u0001\u0017Wj\u0004\b\u0010 P»ÀÑùk\u0000¶±\u0000\u0001\u0002\u0004\b\fV@\u00030ØÒJ\u0000\u0001\u0002\u0004j\u0017X¿\u0006`}\u0004\b\u0010 @` \u0002\u001a\u0016VZ\u0004\b\u0010 P»Àâü5\u0000}ì%@\u0000\u0001\u0002\u0014Ð\u0000\f²¬\"@\u0000Ú\u0005Ë_\u0003pý\u0004\b\u0010 @`\u0002\u001a\u0001\u0016UJ\u0004\b\u0010 P»Àñùk\u00007r\u0004\u0001\u0002\u0004\b\u0010\u0018\u0006`p%\u0010\u0001\u0002\u0004\bÔ.°Lþ\u001ae\u001cC\u0000\u0001\u0002\u0004\u0006& \u0001\u0018XA¥C\u0000\u0001\u0002µ\u000b,¿\u0006`9'G\u0011 @\u0000A\th\u0000\u0006UNÉ\u0010 @@í\u0002Ëæ¯\u0001XVÊq\u0004\b\u0010 @`@\u0002\u001a\u0001\u0015S*\u0004\b\u0010 P»Àòùk\u0000·r$\u0001\u0002\u0003\u0015¸úÎ\u0007ãpT>{W,r ÐW\u0001\r@_+gÞ\u0004\b\u0010 @àÀ*O5\u0000«h9\u0000\u0001\u0002\u0004\b\fD@\u00030BJ\u0000f\u0005\u000eÿÀáçÍ^Íh\u0004\u0010Xm\f\rÀj^&@\u0000\u0001\u0002\u0010Ð\u0000\f¢ @\u0000Ú\u0005VÍ_\u0003°ªã\t\u0010 @À\u0000\u00044\u0000\u0003(¢\u0014\b\u0010 @ vÕó×\u0000¬næ\f\u0002\u0004\b\u0010 Ð{\u0001\r@ïK(\u0001\u0002\u0004\b\u0010¨]`ü5\u0000ë¨9\u0000\u0001\u0002\u0004\bô\\@\u0003Ðó\u0002>\u0001\u0002\u0004\bÔ.°^þ\u001aõÜE\u0000\u0001\u0002\u0004z- \u0001èuùL@3\u0002WÝñÀxÛñìo9;>ñm??~þwþâø\u0005ßý®ñ}ß{Æ·þ_\u0019¿â¾ÿ8þæþ_ÆïÇ>8¾÷_ÿêø{ú×ÇgÞñ_Ç?rö·ÇoþÅß\u001d¿õ=¿?~û#8~è\u0003\u001f\u0019ÿ\u000f=1~ä·Î\u001fýo2þí?úÓñ\u001füñ?ö§ÇÿûÉÿ7þ¿ñ©q¹5#4|_´\u0015OÞÿxÑæëa¾¦­ë\n¬{\u0006`]9ç\u0011 °¡À8\"ßSH)EKoySÞ?²,\u0011±Ä8òm\u001c)åçã²¼\u001eû·ñäüp`Ûþ®\u0016×>\u0015C¨\fÛ1\u0001\r@Ç\nb:\u0004j\u0011H)Åhò\u001bu¼,1[.G£Ñt{äç©ì/bTÎÍÏ¯¸bta=¥\u0014)íÇ(/#\u001bá\u000b¬áhýSI\u0000õ\u0005Òì\r:~bnI)/ÓÅqÓä¸qäÍQÖËò[OÇ7Ýò¼¸íKNÄ×Ü|}¼øÆçÆÍ§=i\u0006RJ÷\u0017u\u000f\u0004\b\\. \u0001¸ÜÄ\u0016\u0002\u0004¶ PÞ §\"¥\u001cùy×#RD¤\u001fó=òmT>Ñçç)¥Éö\u0007Þ÷ø¥_{\"Þû[çã\u0003¿÷'ñ\u001bÿiüþÇþ<ïiD\n7\u00025\bl£\u0006`\u0013=ç\u0012 °¶@~/ÏoÓ)&Ëòph¤²)åme\u0019QÖ\"Ê\"åf .Üö·\u001då\u001b\nòöRäû$òSw\u0002\u0004\u0010Ð\u0000\u001c\u0001c3\u0001\u0002í\tLÞ cöFùRmù!¥\u0014Oü\u0011RÞfË4}\u001e\u0007oãïHÓ\u0002|Z¤ü_¸\u0011\u0018´ÀfÉi\u00006ós6\u0001\u0002k\n7érjÊ\u000fe=¥tÉ[vJ)ï\u0019GJ)GDÊüSJQnãÉ§ýqùÖHÿbÿ1òm{Ê«î\u0004\b\u001c) \u00018Æ\u000e\u0002\u0004Ú\u0012HùíºR^Ky­,§È«Q6å§ÓOôùÉd[~È÷H)å\u0018E\u001a(ë§üïeÒôy´{»úÎ\u0007Û½Ñ\t\u001c#°éîÑ¦\u00038\u0000\u0001\u0002«\nä÷èü&\u001dbÿ¶ÿ\u0000åYÙR|/O§?Ô§éZÞ&1yZ\u000eÊçsLO+û'Ï<\u0010 °@@\u0003°\u0000Ç.\u0002\u0004Ú\u0011(ïÛùm:¿G¼7¤b#¥ò<\"EDJ)RD¤&1\u001a¥ò$fÿ\u001c&OSíyuºÌ+e{¸\u0011\u0018´ÀæÉi\u0000674\u0002\u0001\u0002«\näOê1y£Ne\u0011å\r;¥´?JÞ?Ñ§¦Û£,§Ûb²=\u001f¶¿LyurÏÏ'Ë\u0018G>-RþoúÜ#\u0001\u0002G\th\u0000±\u0000Ö\u0004RÊoÑ)&oÓy5RJ\"\"¥4Ñhùyçey1J\u00130*ÇEä½Ó\u000b·||Þw_ØbÀ\u0010\u0005ÈiÔÄ Æ @À*\u0002\u0017ß ÇÓÓò'ø²m\u0012Ó-ûã(ÛòîHåÓý~& ÆÈ;ÊþIä3Ê2/ò}Ã\u0000E\u0002\u001aE:ö\u0011 Ð@y£|VÏ+)¥ý»/[\"RÊË\u0011ÓõHûû#¯¥\u001cyräµÑ(åÇézYI\u0011OÏQÖÂÀ@\u0005IK\u0003Ð£Q\b\u0010XA Eþ/E¤\"ÅôvaWò=RJ9¦ûÊc~\u0017ã¼mºwçç³{ÞWSJ\u0011{~\b7\u0002\u0004\u0016\th\u0000\u0016éØG@+\u0002÷éü\u001eï1]/k×S¤H)?Nî)¯ç1¹M¾7 ¯Mvç4YOùYDäµÈ»b[·§\u001eÿh\f-¶eç:ë\t4u\u0006 )Iã\u0010è±À3\u000fÝ¶\u0019xç\u001dé·Ý\u001e{ë+Óoþø7¤GôëÓ#?ò²ô®7ÞÎþÀW§ý¤·¼îËÓ^ó¢ôÃßúÂtæU/HßûÊ/L¯½íÆtÏ­§Óí/9^þ¢\u001bÒ×¾`/}ÙMÏM7º.Þ»6í]wUú«?#]yÅ(ÍnO½+UKxê¯¶âÚ3gÒ.£Í×ÃªÎoG@\u0003Ð«Q\t\u0010 @@\u000b\u0002Í\r©\u0001hÎÒH\u0004\b\u0010 @ 7\u0002\u001aÞÊD\t\u0010XG üÎþE±ÎÎ!°+&¯«\u0001hRÓX\u0004\bôZàà÷\nô:\u0011'°\u0006`\t$\u0010 @\u0000Ý\u000b4;\u0003\r@³F#@\u0000\u0001\u0002½\u0010Ð\u0000ô¢L&I\u0000\u0001\u0002µ\u000b4¿\u0006 iQã\u0011 @\u0000\u001e\bh\u0000zP$S$@\u0000Ú\u0005Ï_\u0003Ð¼©\u0011\t\u0010 @@ç\u00054\u0000/\t\u0012 @@í\u0002mä¯\u0001hCÕ\u0004\b\u0010 @ ã\u0002\u001a\u0017Èô\b\u0010 @ vvò×\u0000´ãjT\u0002\u0004\b\u0010 Ði\u0001\r@§Ëcr\u0004\b\u0010 P»@[ùk\u0000Ú5.\u0001\u0002\u0004\b\u0010è°\u0006 ÃÅ15\u0002\u0004\b\u0010¨] ½ü5\u0000íÙ\u001a\u0000\u0001\u0002\u0004\btV@\u0003ÐÙÒ\u0018\u0001\u0002\u0004\bÔ.Ðfþ\u001a6uM\u0000\u0001\u0002\u0004:* \u0001èhaL\u0000\u0001\u0002\u0004j\u0017h7\r@»¾F'@\u0000\u0001\u0002\u0014Ð\u0000t²,&E\u0000\u0001\u0002µ\u000b´¿\u0006 maã\u0013 @\u0000\u000e\nh\u0000:X\u0014S\"@\u0000Ú\u0005ÚÏ_\u0003Ð¾±+\u0010 @\u0000Î\th\u0000:W\u0012\u0013\"@\u0000Ú\u0005¶¿\u0006`\u001bÊ®A\u0000\u0001\u0002\u0004:& \u0001èXAL\u0000\u0001\u0002\u0004j\u0017ØNþ\u001aí8»\n\u0001\u0002\u0004\b\u0010è\u0006 Så0\u0019\u0002\u0004\b\u0010¨]`[ùk\u0000¶%í:\u0004\b\u0010 @ C\u0002\u001a\u000e\u0015ÃT\b\u0010 @ víå¯\u0001Øµ+\u0011 @\u0000Î\bh\u0000:S\n\u0013!@\u0000Ú\u0005¶¿\u0006`Ú®E\u0000\u0001\u0002\u0004:\" \u0001èH!L\u0000\u0001\u0002\u0004j\u0017Ønþ\u001aíz»\u001a\u0001\u0002\u0004\b\u0010è\u0006 \u0013e0\t\u0002\u0004\b\u0010¨]`Ûùk\u0000¶-îz\u0004\b\u0010 @ \u0003\u0002\u001a\u000e\u0014Á\u0014\b\u0010 @ víç¯\u0001Ø¾y§®øôÙ»:5\u001f!Ð´@y/r½«ï|0\u000eGÙ.\b\fY@\u00030äêÊ\u0000\u0001\u0002\u0004z!°Ij\u0000v¡î\u0004\b\u0010 @`Ç\u0002\u001a\u001d\u0017Àå\t\u0010h_àð÷\u000f?o\u0006®@`Ànöi\u0000vãîª\u0004\b\u0010 @`§\u0002\u001aò»8\u0001\u0002\u0004\bÔ.°«ü5\u0000»w]\u0002\u0004\b\u0010 °C\u0001\rÀ\u000eñ]\u0000\u0001\u0002\u0004j\u0017Ø]þ\u001aÝÙïüÊåg£w>\t\u0013 @\u0000\böî{l,ê08ü\n+ß\t]¶}Õ¯>\u001aóâÉûï\u001fa\u0019\\uÇ\u0003ãyQ^\u0007\u0000í\u000bìò¾\u0002°Ký\u000e]ûÓ§B\fÛ C/7S!@ \u0003\u0002\u001a\u000e\u0014Á\u0014\b\u0010 @ FÝæ¬\u0001Ø­¿«\u0013 @\u0000\bh\u0000vÂî¢\u0004º%ðÒso\u001a\u000f5Úþ_?ñUñÇÿò+ã\u000fÿÅWÄïüðß_ûÁ/ÿüý/wÿ£/wïMño~üäß=\u0015?öÍ'ãþ¿³\u0017?xÛ_×íuñº[>;þþ^\u001dwÜüñ\r7^\u0011ëyã¸eï/ã¯ûd|ÁUOÅ\r£ÿ\u0013ÏÿÎ_\u001cø¶\u001f?û[ÎÎý¾yßËÑmmÖ¤Ocïz®\u001a]WÀõ\ttDà½ëóÐ°b\u001b´)«#Æ9¢DDÙV¢lK©\u001c·ç{LnéýùÄÉÖÙCÊ+)¥É1Óá.÷¸\u0013hN@\u0003Ðe/Gý$@/'oÒ\u0004: ßª#òcº\u0018ùiòó+®\u0018åeäHù\r½Däe®FeYÏ\u0011\u0011)åeÊËÉúh&Ëp\u001b ÀîS\u001aí]{e:\fvÿr3\u0003\u0002C\u0014~BO)MÞèo>õìxñÏ¯¹ùú¸íKNÄ7Ýò¼¸çÖÓù<\"¿G>,Ê§þ²W&÷²-¥éRÞ6òWòr¶V\t\u0002Í\t¾øs\u0015¢\u000eæ^6F\"@`&R¼IçEøýýyüÆã\u001a\u001fø½?÷þÖùø¥_{\"\u001exßGò¾|\\> ¥\u0014å}[éö¼Ü¼wDäå4Âmp\u0002]HhôÂÜ\u0000gE\r\u0006]xÁ\u0003¡\tä÷óý7êévùt\u001f1[-óüåü\u000bóÊä¼(Ë8tK)M¶çÇÉòÐnO\t4\"à+\u0000¹\u0001ªå+ ¼b\fBÀ%\u0002³7é·&oÜiú¦òéwñ(OSJÒ,bº\u001e1ù@Jiú<Eä{¤rõé2Ü\u0006$ÐT4\u0000\u001an¼\u0012Í@O\u0005òûôôCÿþ}~»sIåqWòöq²RÞ:Ê\"RÊ\u000fy{Je\u0019[YK)å}\u0011)f·É ³'\u0004\u001a\u0013\u0018øì+CÔa°èUóÔã\u001f\r1lEõ\u001fò¾mü¤KJ)R*%S\\XOåÍ~4ÊÏK¤¼<°/Åä\u0006#ßRü¼È+ù\u0017i\u001aÂm8\u0002]ÉdÜª\u00118êE÷þ¯¸%æÅµgÎ$1,g\u001eº;Í£^\u001b¶/'òûs*o\u00192f\u0000\u0000\u0010\u0000IDATÒû\u001fÖÇåw\u0002(;ò\u0010)å½9òj9jÿ+\u0006åYDÙRÞ\u001f³[\u001e¤¦\u0012ù!ïÎkî\u0004\u0015\u00185;Ñ\b\u0010 P@y.1\u001a¥H9ýÉ2oÈ÷H)EùJ@^Ûó¶|\\J³eäÝiò\u0015ò¶\u000b\u0011E~\u001anC\u0011èN\u001e\u001aîÔÂL\b\u0010è©ÀÅ7éüé½äpè\u0013üô7\u0002æ\u001de{Æ1;'¥¿\"çE>\"RJ9\"RD¤\u001fó=ÆáF q\u0001\r@ã¤\u0006$@ 6éûty§.1Í¾¬ÍbT\u000e(oüy×l[Ù\"ÿ\"e`úÅ)¥¼%\"¥¼Ly\u0019×Kä'á6\u0004.å0}ÕuiFæB\u0000Þ\tL?¢ç÷í(oÕeYÉoú1þôô\u0013~þ\u0018ö£l.Çä\u001d\u00172-m%\"\u001fRÙrqÜ\u000b\u0007Z!Ð\u0006 !HÃ\u0010 P¯@J)ò=R!È\u000f)¯¥¼>ù7ÿ²ä{YrÜÅí)R>®lK)í¯§ü\u0015\u0014åRÊÛr¤òLô_ [\u0019h\u0000ºU\u000f³!@ \u0002)¿MOî7ìÀô{YËÊ®H)å§ãHù¿¼2¹M)M·äÅd[ùô_VR~H)E¾G~ÌÏÜ\t4+ \u0001hÖÓh\u0004z+ðèùÇÐb[Å½IOù!¥ü]\"O ¥²\u001eùM<ò'ûéÿåæM1H\u001d)¥²\u0016)ååìÊÛò2Û\u0000\u0004ºÂôÕØµY\u000f\u0001\u0002[\u0015xøÄ\u001bR×âß}2\u0002ùk?\u0014MÅÁß£öoW^1Jsõg¤½ë®J§÷®M7º.}ÙMÏM_û½ôò\u0017ÝnÉ©tÏ­§Óko»1}ï+¿0yÕ\u000bÒ\u000fë\u000bÓ^ó¢ô×}yúÙïyI:û\u0003_ÞõÆ[Ó#?ò²ôè~}úÍ\u001fÿôØ[_xÛíé\u0013ï¼cîïo88>­Ý\u000bh\u0000v_\u00033 @`\u000b\u0002'÷NÄ¦±iºÄ`\u0005º\u0006 {51#\u0002\u0004\u001a\u0010xúì]1\u00063\u0004Á\th\u0000\u0006WR\t\u0011 @@×\u0004º8\u001f\r@\u0017«bN\u0004\b\u0010 @ e\u0001\r@ËÀ'@\u0000Ú\u0005º¿\u0006 u1+\u0002\u0004\b\u0010 Ðª\u0006 U^\u0013 @@í\u0002]Í_\u0003ÐÕÊ\u0017\u0001\u0002\u0004\b\u0010hQ@\u0003Ð\"®¡\t\u0010 @ vîæ¯\u0001ènmÌ\u0000\u0001\u0002\u0004\b´& \u0001hÖÀ\u0004\bìRàê;\u001fÜåå]ÀD Ë\u000f\u001a.WÇÜ\b\u0010 @@K\u0002\u001a`\rK\u0000\u0001\u0002µ\u000bt;\r@·ëcv\u0004\b\u0010 @ \u0015\u0001\r@+¬\u0006%@\u0000Ú\u0005º¿\u0006 ë\u00152?\u0002\u0004\b\u0010 Ð\u0006 \u0005TC\u0012 @@í\u0002ÝÏ_\u0003Ðý\u001a!\u0001\u0002\u0004\b\u0010h\\@\u0003Ð8©\u0001\t\u0010 @ v>ä¯\u0001èCÌ\u0000\u0001\u0002\u0004\b4, \u0001h\u0018Ôp\u0004\b\u0010 P»@?ò×\u0000ô£NfI\u0000\u0001\u0002\u0004\u001a\u0015Ð\u00004Êi0\u0002\u0004\b\u0010¨] /ùk\u0000úR)ó$@\u0000\u0001\u0002\r\nh\u0000\u001aÄ4\u0014\u0001\u0002\u0004\bÔ.Ðü5\u0000ý©\u0012 @\u0000Æ\u00044\u0000Q\u001a\u0000\u0001\u0002\u0004j\u0017èSþ\u001a>UË\\\t\u0010 @@C\u0002\u001a \rC\u0000\u0001\u0002µ\u000bô+\r@¿êe¶\u0004\b\u0010 @ \u0011\u0001\r@#\u0006!@\u0000Ú\u0005ú¿\u0006 o\u00153_\u0002\u0004\b\u0010 Ð\u0006 \u0001DC\u0010 @@í\u0002ýË_\u0003Ð¿1\u0001\u0002\u0004\b\u0010ØX@\u0003°1¡\u0001\b\u0010 @ v>æ¯\u0001ècÕÌ\u0000\u00058.6/ê\u0004\u0002\u001d\u0016Ð\u0000t¸8¦F`[\u0002WÝñÀ¸kqû½ß\u0018Æ=\u000f?\u0015%Þ~Ós¢©xòþûÇMDÞÛz¸ÎQ\u0002ýÜ®\u0001ègÝÌ@\u0015\u0002âØ4fP×>\u0015]Ù,\tìR@\u0003°K}×&@\u0000Þ\u000bô5\u0001\r@_+gÞ\u0004\b\u0010 @`\u0003\u0001\rÀ\u0006xN%@\u0000Ú\u0005ú¿\u0006 ¿µ3s\u0002\u0004\b\u0010 °¶\u0006`m:'\u0012 @@í\u0002}Î_\u0003Ðçê;\u0001\u0002\u0004\b\u0010XS@\u0003°&Ó\b\u0010 @ v~ç¯\u0001èwýÌÀ \u0005þèÜS±iÌzü£ÑÍÉÀ.\u00054\u0000»Ôwm\u0002\u001d\u0011xæ¡»S×â\u0017~ò]ÑT¼ú±ODSqí3©hÒ»#/£ê¦Ñ÷5\u0000}¯ ù\u0013 °ÀÉ½\u0013±i,u!\u0007\u0011è\u0006 '2M\u0002µ\t<}ö®Em¹Ë·\u000f\u0002ý£\u0006 ÿ5\u0001\u0001\u0002\u0004\b\u0010XY@\u0003°2\u0013\b\u0010 @ v!ä¯\u0001\u0018B\u0015å@\u0000\u0001\u0002\u0004V\u0014Ð\u0000¬\bæp\u0002\u0004\b\u0010¨]`\u0018ùk\u0000QGY\u0010 @\u0000\u00044\u0000+q9\u0000\u0001\u0002\u0004j\u0017\u0018Jþ\u001a¡TR\u001e\u0004\b\u0010 @`\u0005\u0001\rÀ\nX\u000e%@\u0000Ú\u0005¿\u0006`8µ\tA\n\\}çÌKR\u0004v- \u0001Øu\u0005\\\u0000\u0001\u0002\u0004z#0¤j\u0000TM¹\u0010 @\u0000%\u00054\u0000KB9\u0000\u0001\u0002\u0004j\u0017\u0018Vþ\u001aaÕS6\u0004\b\u0010 @`)\u0001\rÀRL\u000e\"@\u0000Ú\u0005¿\u0006`h\u0015\u000f\u0001\u0002\u0004\b\u0010XB@\u0003°\u0004C\b\u0010 @ váå¯\u0001\u0018^MeD\u0000\u0001\u0002\u0004\u0015Ð\u0000\u001cKä\u0000\u0002\u0004\b\u0010¨]`ùk\u0000XU9\u0011 @\u0000c\u00044\u0000Ç\u0000ÙM\u0000\u0001\u0002µ\u000b\f3\rÀ0ë*+\u0002\u0004\b\u0010 °P@\u0003°ÇN\u0002\u0004\b\u0010¨]`¨ùk\u0000ZYy\u0011 @\u0000\u0005\u0002\u001a\u00058v\u0011 @@í\u0002ÃÍ_\u00030ÜÚÊ\u0000\u0001\u0002\u0004\b\u001c) \u00018Æ\u000e\u0002\u0004\b\u0010¨]`Èùk\u0000\\]¹\u0011 @\u0000#\u00044\u0000GÀØL\u0000\u0001\u0002µ\u000b\f;\rÀ°ë+;\u0002\u0004\b\u0010 0W@\u00030ÅF\u0002\u0004\b\u0010¨]`èùk\u0000^aù\u0011 @\u00009\u0002\u001a9(6\u0011 @@í\u0002ÃÏ_\u00030ü\u001aË\u0000\u0001\u0002\u0004\b\\& \u0001¸Ä\u0006\u0002\u0004(ðÄùs±i\fÑENó\u0005jØª\u0001¨¡Êr$pÀKÏ½iÜµ¸çá§¢Äí÷~cl\u001aï~òÅÑT\\uÇ\u0003ã®Å1åµÀ\\\u0001\rÀ\\\u0016\u001b\tÔ'pËÞõÑéþkbÓeI`y:Ô\u0000ÔQgY\u0012 @\u0000K\u00044\u0000pxB\u0000\u0001\u0002µ\u000bÔ¿\u0006 JË\u0000\u0001\u0002\u0004\b\u001c\u0010Ð\u0000\u001cÀ°J\u0000\u0001\u0002µ\u000bÔ¿\u0006 ZË\u0000\u0001\u0002\u0004\b\\\u0010Ð\u0000\\ °B\u0000\u0001\u0002µ\u000bÔ¿\u0006 ¦jË\u0000\u0001\u0002\u0004\bì\u000bh\u0000ö!,\bÔ.ðèùGWbV?:÷Tl\u001a³±,\t\u001c/P×\u0011\u001aºê-[\u0002s\u0005\u001e>ñÔµxçË®MËÆ/üä»b^|òÿ4J¼âÚ\u000fÅÁxæ¡»ÓbnQm$p\u0006à\u0018 »\t\u0010è·ÀÉ½\u0013q0úÙ·)PÛØ\u001aÚ*._\u0002\u0004\b\u0010 \u00054\u0000\u0019Á\u0000\u0001\u0002\u0004j\u0017¨/\r@}51\u0001\u0002\u0004\b\u0010\b\r\u0017\u0001\u0001\u0002\u0004\bT/P#\u0006 ÆªË\u0000\u0001\u0002\u0004ª\u0017Ð\u0000Tÿ\u0012\u0000@\u0000Ú\u0005êÌ_\u0003PgÝeM\u0000\u0001\u0002\u000bh\u0000*\u0001H\u0000\u0001\u0002µ\u000bÔ¿\u0006 ÖÊË\u0000\u0001\u0002\u0004ª\u0016Ð\u0000T]~É\u0013 @ vzó×\u0000TTû§ÏÞUQ¶R%@\u0000E\u0002\u001aE:ö\u0011 @À \u0005jNN\u0003PsõåN\u0000\u0001\u0002Õ\nh\u0000ª-½Ä\t\u0010 P»@Ýùk\u0000ê®¿ì\t\u0010 @ R\u0001\r@¥6\u0001\u0002\u0004j\u0017¨=\r@í¯\u0000ù\u0013 @@\u0002\u001a*Ë.i\u0002\u0004\bÔ. \r@e¯\u0001¿\u000b ²K\u0000\u0001\u0002G\b^zîMcQAy\r\\}çeqI¼ú\u0003Ïy±wßcc1,«îx`</.yAxB \u0002\u0001)FL¾\u0002pËÞõ!màÅN\u0000\u0001\u0002\u0004\u000e\nL\u001a\u001b¬\u0013 @\u0000a\u000bÈ®\bh\u0000 @\u0000\u0001\u0002\th\u0000*+¸t\tÔ\"à\u001b^k©ôêy:c* \u0001:x$@\u0000\u0001\u0002U\th\u0000**÷¼\u0000¨(}©\u0012 @ \" Ì\u00044\u00003{×^\u0019¢\u000e_æR'@à\u0006à\u0010HO¿øs\u0015¢\u000e\u001a_ßr&pPÀúE\u0001\rÀEj×^\u001b\u0000ñ¬¨Á Ú\u0017¹Ä\t\u0010¸L@\u0003p\u0019I}\u001b|úV5_\u0001©ïÕ-c\u0002\u0007\u0005¬\u001f\u0014Ð\u0000\u001cÔ¨t]\u0003 \u0001¨ô¥/m\u0002U\u000bL\u001aGÏ<Ä°\r\u0016½ÊO|ö!ê0Xô:°ÀÐ\u0005äw©Àèá\u0013oH}\u000f~÷É\u0017×ýã?yÑç\\×û«þýuQâÍ·=\u0015óâ­?ý¶Øe¼ê5ß\u001f]4 Û3\u000fÝæÅ¥ÿ·à\u0019\u0001\u00025\bL¾\u00020ÔDOî1Ô<×Á:ui}\b¶r @ \bÃ\u0002n\u0000\u000e'ë9\u0001\u0002\u0004\b\u0010 0\u0015Ð\u0000L\u001d<\u0012 @À\u0005¤v¹\u0006àr\u0013[\b\u0010 @Àà\u00054\u0000/±\u0004\t\u0010 P»üç\th\u0000æ©ØF\u0000\u0001\u0002\u0004\u0006. \u0001\u0018x¥G\u0000Ú\u0005ä?_@\u00030ßÅV\u0002\u0004\b\u0010 0h\u0001\rÀ Ë+9\u0002\u0004\bÔ. ÿ£\u00044\u0000GÉØN\u0000\u0001\u0002\u0004\u0006, \u0001\u0018pq¥F\u0000Ú\u0005ä´\u0006àh\u001b{¶(ðÄùsÑÅØ\"K\u0011 @`«\u0002\u001a­ro~±½û\u001e\u001b¯\u001a_µÝ\u0011Þ~ÓsbÕxÙW~Ql+ÞòS?3^5Ú\u00153ú*\u0002\u001bËUÎulß\u0005Ì\u0006`}\u0004*\u0011Xµ©ìÚñGé¨ÆòÉûï\u001f÷!>ùá×çÅQùÚN`\u0015\u0001\rÀ*Z\u001d8öü\u000fÝV\u000eL{á\u0014^ýØ'bÕxï\u00077¶\u0015ßõÚïH«ÆÂí$@`+\u0002.²X@\u0003°ØÇÞ-\tÜ;\u0011]¶Ó\u001fwävî7ÆQñg¿ýëÑõxæ¡»ÓáHùví3ixÇ_Û.Ä¿}äæ\u0017ßüíß7îr´ý¿\u001bã7# \u0001hÆÑ(\u0004\b\u0010Øª@\u0017\u001bæ2§­\",¼Ç\th\u0000\u0013²À\u0016\u0004®¾óÁèjl!} @`\u0007\u0002\u001a\u001d »$\u0001\u0002\u0004\b´+`ôã\u00054\u0000Ç\u001b9\u0000\u0001\u0002\u0004\b\fN@\u00030¸J\u0000\u0001\u0002µ\u000bÈ\u0019\u0001\rÀ2J!@\u0000\u0001\u0002\u0003\u0013Ð\u0000\f¬ Ò!@@í\u0002ò_N@\u0003°£\b´\"0ûÎÿ§ÏÞ\u0015]V6(\u0001\u0002\u0010è}\u0003PþO³\u0013&A\u0000-\n\u001cþ\u001b\u0007]y¾E#.eó²\u0002½o\u0000MÔq\u0004¶)pÕ\u001d\u000fÙf_\tèÒ²Ì­4ØÿóKÿ0rü®b\u0019ërÌ²Ã`Wy,{Ý·/ù\u0007´¶õ\u0007³\u000e_gÙ?µl¾kG@\u0003Ð«QW\u0014èÊ§ÃóX1Á\u001e~ÍéS±(\u0006¸Äz'`ÂË\u000bh\u0000·êÄ/=÷¦ñªÑ/ÄûOß\u001b«ÆáO\u001cm>_öÓÌÁã\u0016¤k×\u000e\u0005ýCZ«þñ§m\u001f¿ìß7Øö¼V½Þ\u000e_\n.\u00054\u0000\u0019Á\u0000\u0001\u0002\u0004  U\u00044\u0000«huàØO¼!-\u0013ïÝ{}Ìâuÿà5ÑÅxý/_\u0013%ÖùKså¼mÄªhfÇwà¥b\n\u0004\b\u0010X( \u0001XÈc'\u0001\u0002\u0004\bôEÀ<W\u0013Ð\u0000¬æÕ£»ôÝäçÒ\u001bD\u0013%@À\u00054\u0000\u0003.®Ô\b4%ðÔã\u001fEÑÔuC`}\u0001g®* \u0001XUÌñ\u0004\u0010xæ¡»Ó&ñW>ðØu<ùyQâ¯ÿÄ¿Ã1ï»Ð7É·és²»áã.Ä\u0012/!\u0010h]@\u0003Ð:±\u000b\u0010 @@Û\u0002Æ_]@\u0003°º3\b\u0010 @@ï\u00054\u0000½/¡\u0004\b\u0010 P»ü×\u0011Ð\u0000¬£ÖsÊïqïbÌ~* '¦I\u0000A\nh\u0000\u0006YVI\u0011 @ \u001e\u0001®' \u0001XÏmgg-ûw\u0000Ê'ÿ2ÉÙ§í.-Ë¼ú\u0012å/È-\u0013}ÉÇ<\t\u0010 0\u0013Ð\u0000Ì$z´¼eïúX\u0014=JÅT\t\u0010 °¡Ó×\u0015Ð\u0000¬+ç<\u0002\u0004\b\u0010 Ðc\u0001\r@gê\u0002â¦\u0000\u0000\u000fIDAT\u0004\b\u0010¨]@þë\u000bh\u0000Ö·s&\u0001\u0002\u0004\b\u0010è­\u0006 ·¥3q\u0002\u0004\bÔ. ÿM\u00044\u0000è9\u0000\u0001\u0002\u0004\bôT`Ð\rÀ\u0013çÏÅÁèi.ö£ç?\u001eâ²\u0013l @À\u0000\u0005¤´ÀhÙ+ïêqG¥ÿþÓ÷Æ¼Ø»ï±q\u001fâ\u001f~ýx^<|â\rixëO¿-J¼ù¶§¢ñk?\u0014]Uÿ:ÝQ¯CÛ\t\u0010 ÐUA\u0005 «èæ5\u00158¹w\"º\u0018ÓÙy$@ Û\u0002f·©ÀhOùÝ\u0017½9v\u0019)ßæ}Z;ÿC7¥>Çg}ÁÓ¼Ø´àÎ'@\u0000\u0001\u0002EÀW\u0000 @\u0000^\tìæ\u0002\u001aÍ\r@\u0000\u0001\u0002\u0004z' \u0001è]ÉL\u0000\u0001\u0002µ\u000bÈ¿\t\u0001\r@\u0013Æ¨^à\u001bN®6k\u001bcÕæ×õ|Í¯\u0002\u001anÖÅ¬z(ðg>'\u001e¦^Å¨m\u0019£\n¬4|3\u0002\u001af\u001cB`\"ðò«þ,ÖWæs'xè¬@©Ñºõ-çu61\u0013«R@\u0003PeÙ»ôÁßÒØ¥õ]é¤]]Øu\u0016P£¥©Z<ÐÐM\th\u0000ÜÒ8ËþFÆ-MgíËÌû-ó¶½ì+¿(v\u0011où©\u0019/\u0013k\u0003Ì9ñ9Ûlê\u001au«\u001ef³\u0006`3?g\u0013hLÀ§ËÆ([\u001bHZ£]z`\u00076' \u0001ØÐ²ï`^4æáßºxÔoiü®×~Gj\"÷E\u001bñ3·f¼ýoþ÷cãôóOÇ:ÑDîË±áËçÓÇ<ó¤\u0002jÔÅªÓº\u0002\u001auå*:ï\u001b?/p»LÀËe$Û F».ë7) \u0001hRÓX\u0004\u0010øÖ{î1ï0_^§Ò­mGÕè`mËz·fm6\u0004æ\u000bh\u0000æ»ØJ`ë\u0002>]n|å\u000bªÑÊd`°f\u00054\u0000Íz\u001aÀÚ\u0002ZûL'nK@¶%í:Û\u0010Ð\u0000lCÙ5ª\u0017xçÏý\\\u001cêA\u0006\u0006p°¶e}`éu$\u001dÓhZ`´è;ÎÙ×ôV\u001do9.:fÕë9\u0000\u0001\u0002\u0004\b\fA \u0013_\u0001(¿\u001f{\u0018B\u0001úÃ£ð?¢éèCÞæH@w\u0004Ì¤yN4\u0000%­ò{²WrØ\\à¸ß,xåù\u000fG[ñU¿úh,M²{ÏÃ\u0017Å&c·uî_¶5°q\u001b\u0013P£(?3\u001fýYK_°vqïL\u0003°ä]s*pËÞõ1/¦{Û}¼æô©\u0017í^µ£ºÓ2«\u0003\u0002jt\u0000c¹ÕòÇÅ\u0012#9¤\r\u0001\r@\u001bªÆ$°Àglp®SÛ\u0011Pv\\º[\u0001\rÀný]}`\u0002ë|/ËÁs\nÇ_\u0007Ñ)YM\u000eÖjõN%Õ£Éj;\u0002n\u0000^úu_\u0017%ÚIÝ¨\u0004\u0015Xå{X\u0016\u001dÛì¬ÖÀ¢­²¯©ù\u0018À¦\u0002n\u00006MÎù\u0004Ö\u0015x×ï|d¼Jü_þ`,\u001bo{Ç;¢­øØÇH«Ä\u001bÿÙ}ÑT¼äë¿%ãrhjÎe¦æ\\Æ9nÞËìÿÔëþS(ãXæu_çý8Ï,Û\u0012Ð\u0000´%Û£q\u001f=ÿñ\u0017ÛHá©Ç?\u001aób\u001b×>î\u001aMÿ\u0001¤2Þq×ìûþ{'bÓØÁ¦s.çïbÞ®I`\u0013N7\u0000\u000fÿÊ¯DM\u0012tîb£þðlûË_ú·Óáxõ\u0007\u0017%~êçÞ\u001d%\u000eï_öùµgÎ¤E±ì8ë\u001c·XÅ^\u0002\u0004º\"`\u001eí\ttº\u0001h/í#/ú-Ëì»8ÒnÖã¢cv3kW\u001dªÀ\u0013çÏÅ¦±\u000bMç\\ÎßÅ¼]À&\u0002Õ7\u0000\u0005oïæ-çs\u0005>\t\u001cþÅOMÎýí7='\u000eÆkïyE¬\u001bS_çÝ¤ocÉºM\u0001\rÀ¾î*ßÅ[Ý?Í@ï\u0004f¿ô©Ï~©S\u001bc÷uÞmXôdÌ¿Èóüä\u0012á÷+e¤]Ü5\u0000»PwM\u0002\u0004\b\f_`S\\6ò¡ßmiW 3\r@ùú*Ñ.Ñ\tDã\u0000©üA¥.¸Î~â£¹Ì~¢£±û:ï6,I \tN4\u0000åKêëD\u0013\u0000Æ¨Sàð¿)\u001f~ÞÖ\u001f@*ã.ú\u0003Heß&\u00159üoçÏ~ºc¶ü®×~Gj*\u000eÿDÇ:?qÔ9³ùÎMÍ¹Óæ¼7©¥s\t´-0ZæL\fùEÀå·\u0010Xt}ý\u0015ýòáå62ý[ùáå6®í\u001a\u0004\b\u0010(\u0002ø\n@ @\u0000\u0001\u00023\u0001Ëö\u00054\u0000í\u001b»\u0002\u0001\u0002\u0004\b\u0010è\u0006`AIÊo!,±à\u0010»\b\u0010 @ q\u0001\u0003nC@\u0003°\re× @ J«îx`¼jÌ ÞúÞ(±wßcãeã\u001f~ý¸Äl\fK\u0002\u00044\u0000tì\u001b´ÀìÇÊ\u000e/·ôìÇå\u000e/·qm× Ðu\u0001óÛ\u0006`;Î½Ê²,\u000e\u001e7KæÝO¾8J¬ò\t§|:)1\u001bcWËÙ\u001dµ<êÇÑØ~øÇÎ\u000e?oâ\u001aG±+o×%@ {\u0002\u001aîÕÄ\b\u0010 P±Ô·% \u0001Ø^å·\u0010c÷O³ @\u0000\u0001\u0002½\u0014Ð\u0000ä²­ó[\bË9ùTw\u0002\u0004\b\u0010hPÀPÛ\u0013¨¾\u0001\u0018òo9\\&·í½Ô\\\u0000\u0001\u0002\u0004º$P}\u0003Ð¥b\u000b\u0001\u0002\u0004ê\u0016ý6\u00054\u0000ÛÔv-\u0002\u0004\b\u0010 Ð\u0011\u0001\r@G\na\u001a\u0004\b\fOàîN«Æù\u001fº)­\u001bõ\u0005oN%ú*iÞÛ\u0015Ð\u0000l×ÛÕ\b\u0010 @@'\u00044\u0000(Ãî&±î'rÞªlÊñåÓIÝeìÊ\u0004\btSÀ¬¶- \u0001Ø¶¸ë\u0011 @\u0000\u000e\bh\u0000:P\u0004S @@í\u0002òß¾\u0006`ûæ®H\u0000\u0001\u0002\u0004v. \u0001Øy\tL\u0000\u0001\u0002µ\u000bÈ\u0017\u0002\u001a]¨»&\u0001\u0002\u0004\b\u0010Ø±\u0006`Ç\u0005py\u0002\u0004\bÔ. ÿÝ\bh\u0000vãîª\u0004\b\u0010 @`§\u0002\u001aò»8\u0001\u0002\u0004j\u0017ÿ®\u00044\u0000»w]\u0002\u0004\b\u0010 °C\u0001\rÀ\u000eñ]\u0000\u0001\u0002µ\u000bÈw\u0002\u001aÝÙ»2\u0001\u0002\u0004\b\u0010Ø\u0006`gô.L\u0000Ú\u0005ä¿K\u0001\rÀ.õ]\u0000\u0001\u0002\u0004\bìH@\u0003°#x%@@í\u0002òß­\u0006`·þ®N\u0000\u0001\u0002\u0004v\" \u0001Ø\t»\u0012 @ v\u0001ùïZ@\u0003°ë\n¸>\u0001\u0002\u0004\b\u0010Ø\u0006`\u0007è.I\u0000Ú\u0005ä¿{\u0001\rÀîk`\u0006\u0004\b\u0010 @`ë\u0002\u001a­» \u0001\u0002\u0004j\u0017\u0017\u00044\u0000]¨9\u0010 @\u0000-\u000bh\u0000¶\fîr\u0004\b\u0010¨]@þÝ\u0010Ð\u0000t£\u000efA\u0000\u0001\u0002\u0004¶* \u0001Ø*·\u0011 @ v\u0001ùwE@\u0003ÐJ\u0007\u0001\u0002\u0004\b\u0010Ø¢\u0006`Ø.E\u0000Ú\u0005äß\u001d\u0001\r@wja&\u0004\b\u0010 @`k\u0002\u001a­Q»\u0010\u0001\u0002\u0004j\u0017\u00044\u0000]ª¹\u0010 @\u0000-\th\u0000¶\u0004í2\u0004\b\u0010¨]@þÝ\u0012Ð\u0000t«\u001efC\u0000\u0001\u0002\u0004¶\" \u0001Ø\n³\u0010 @ v\u0001ùwM@\u0003Ðµ\u000f\u0001\u0002\u0004\b\u0010Ø\u0006`\u000bÈ.A\u0000Ú\u0005äß=\u0001\r@÷jbF\u0004\b\u0010 @ u\u0001\r@ëÄ.@\u0000Ú\u0005äßE\u0001\r@\u0017«bN\u0004\b\u0010 @ e\u0001\r@ËÀ'@@í\u0002òï¦\u0006 u1+\u0002\u0004\b\u0010 Ðª\u0006 U^\u0013 @ v\u0001ùwU@\u0003ÐÕÊ\u0017\u0001\u0002\u0004\b\u0010hQ@\u0003Ð\"®¡\t\u0010 P»ü»+ \u0001ènmÌ\u0000\u0001\u0002\u0004\b´& \u0001hÖÀ\u0004\b\u0010¨]@þ]\u0016Ð\u0000t¹:æF\u0000\u0001\u0002\u0004Z\u0012Ð\u0000´\u0004kX\u0002\u0004\bÔ. ÿn\u000bh\u0000º]\u001f³#@\u0000\u0001\u0002­\bh\u0000Za5(\u0001\u0002\u0004j\u0017×\u00054\u0000]¯ù\u0011 @\u0000\u0016\u00044\u0000- \u001a\u0000\u0001\u0002µ\u000bÈ¿û\u0002\u001aî×È\f\t\u0010 Ð\u000bqÄU½¨IN\u00044\u0000\u0013\u0006\u000f\u0004\b\u0010 °©@xf:Ç>\bh\u0000úP%s$@\u0000\u0001\u0002\r\u000bh\u0000\u001a\u00065\u001c\u0001\u0002\u0004j\u0017?\u00044\u0000ý¨Y\u0012 @\u0000F\u00054\u0000r\u001a\u0000\u0001\u0002µ\u000bÈ¿/\u0002\u001a¾TÊ<\t\u0010 @@\u0002\u001a\u00061\rE\u0000Ú\u0005äß\u001f\u0001\r@je¦\u0004\b\u0010 @ 1\u0001\r@c\u0006\"@@í\u0002òï\u0006 OÕ2W\u0002\u0004\b\u0010 Ð\u0006 !HÃ\u0010 @ v\u0001ù÷K@\u0003Ð¯z-\u0001\u0002\u0004\b\u0010hD@\u0003Ð\b£A\b\u0010 P»üû& \u0001è[ÅÌ\u0000\u0001\u0002\u0004\b4  \u0001h\u0000Ñ\u0010\u0004\b\u0010¨]@þý\u0013Ð\u0000ô¯ffL\u0000\u0001\u0002\u00046\u0016Ð\u0000lLh\u0000\u0002\u0004\bÔ. ÿ>\nh\u0000úX5s&@\u0000\u0001\u0002\u001b\nh\u00006\u0004t:\u0001\u0002\u0004j\u0017?\u00054\u0000ý¬Y\u0013 @\u0000\u00044\u0000\u001bñ9\u0000\u0001\u0002µ\u000bÈ¿¯\u0002\u001a¾VÎ¼\t\u0010 @À\u0006\u0002\u001a\rðJ\u0000Ú\u0005äß_\u0001\r@kgæ\u0004\b\u0010 @`m\u0001\rÀÚtN$@@í\u0002òï³\u0006 ÏÕ3w\u0002\u0004\b\u0010 °¦\u0006`M8§\u0011 @ v\u0001ù÷[@\u0003Ðïú=\u0001\u0002\u0004\b\u0010XK@\u0003°\u0016\b\u0010 P»üû. \u0001è{\u0005Í\u0000\u0001\u0002\u0004\b¬! \u0001X\u0003Í)\u0004\b\u0010¨]@þý\u0017Ð\u0000ô¿2 @\u0000\u0001\u0002+\u000bh\u0000V&s\u0002\u0001\u0002\u0004j\u0017ÿ\u0010\u00044\u0000C¨¢\u001c\b\u0010 @À\u0002\u001a\u0015Á\u001cN\u0000Ú\u0005ä?\f\u0001\rÀ0ê(\u000b\u0002\u0004\b\u0010 °\u0006`%.\u0007\u0013 @ v\u0001ù\u000fE@\u00030JÊ\u0000\u0001\u0002\u0004\b¬  \u0001X\u0001Ë¡\u0004\b\u0010¨]@þÃ\u0011Ð\u0000\f§2!@\u0000\u0001\u0002K\u000bh\u0000¦r \u0001\u0002\u0004j\u0017ÿ\u00044\u0000Cª¦\\\b\u0010 @À\u0002\u001a%¡\u001cF\u0000Ú\u0005ä?,\u0001\rÀ°ê)\u001b\u0002\u0004\b\u0010 °\u0006`)&\u0007\u0011 @ v\u0001ù\u000fM@\u00030´Ê\u0000\u0001\u0002\u0004\b,! \u0001X\u0002É!\u0004\b\u0010¨]@þÃ\u0013Ð\u0000\f¯¦2\"@\u0000\u0001\u0002Ç\nh\u0000%r\u0000\u0001\u0002\u0004j\u0017ÿ\u0010\u00054\u0000C¬ª\b\u0010 @À1\u0002\u001acì&@@í\u0002ò\u001f¦\u0006`u\u0015\u0001\u0002\u0004\b\u0010X( \u0001XÈc'\u0001\u0002\u0004j\u0017ÿP\u00054\u0000C­¬¼\b\u0010 @À\u0002\u0001\rÀ\u0002\u001c»\b\u0010 P»ü+ \u0001\u0018nmeF\u0000\u0001\u0002\u0004\u0014Ð\u0000\u001cIc\u0007\u0001\u0002\u0004j\u0017ÿ\u00054\u0000C®®Ü\b\u0010 @À\u0011\u0002\u001a#`l&@@í\u0002ò\u001f¶\u0006`Øõ\u001d\u0001\u0002\u0004\b\u0010+ \u0001Ëb#\u0001\u0002\u0004j\u0017ÿÐ\u00054\u0000C¯°ü\b\u0010 @À\u001c\u0001\rÀ\u001c\u0014\b\u0010 P»ü/ \u0001\u0018~eH\u0000\u0001\u0002\u0004.\u0013Ð\u0000\\Fb\u0003\u0001\u0002\u0004j\u0017\r\u0002\u001a\u001aª,G\u0002\u0004\b\u0010 pH@\u0003p\bÄS\u0002\u0004\bÔ. ÿ:\u00044\u0000uÔY\u0004\b\u0010 @à\u0012\u0001\rÀ%\u001c\u0010 @ v\u0001ù×\" \u0001¨¥Òò$@\u0000\u0001\u0002\u0007\u00044\u0000\u00070¬\u0012 @ v\u0001ù×# \u0001¨§Ö2%@\u0000\u0001\u0002\u0017\u00044\u0000\u0017(¬\u0010 @ v\u0001ù×$ \u0001¨©Úr%@\u0000\u0001\u0002û\u0002\u001a}\b\u000b\u0002\u0004\bÔ. ÿº\u00044\u0000uÕ[¶\u0004\b\u0010 @`\" \u00010x @@í\u0002ò¯M@\u0003P[ÅåK\u0000\u0001\u0002\u0004²\u0006 #¸\u0013 @ v\u0001ù×' \u0001¨¯æ2&@\u0000\u0001\u0002¡\u0001ð\" @@õ\u0002\u0000j\u0014Ð\u0000ÔXu9\u0013 @@õ\u0002\u001aê_\u0002\u0000\b\u0010¨]@þu\nh\u0000ê¬»¬\t\u0010 @ r\u0001\r@å/\u0000é\u0013 P»ük\u0015Ð\u0000ÔZyy\u0013 @@Õ\u0002\u001aªË/y\u0002\u0004j\u0017½\u0002\u001azk/s\u0002\u0004\b\u0010¨X@\u0003Pqñ¥N@í\u0002ò¯Y@\u0003PsõåN\u0000\u0001\u0002Õ\nh\u0000ª-½Ä\t\u0010¨]@þu\u000bü\u0000\u0000\u0000ÿÿ¤»ú\u0000\u0000\u0000\u0006IDAT\u0003\u0000ü^\u0018¤OP>c\u0000\u0000\u0000\u0000IEND®B`",
+      "path": "main\\resources\\assets\\f1mod\\textures\\entity\\f1_car_entity.png",
+      "content": "PNG\r\n\u001a\n\u0000\u0000\u0000\rIHDR\u0000\u0000\u0000\u0000\u0000\u0000\b\u0006\u0000\u0000\u0000Ã>aË\u0000\u0000\u000bzIDATx\u0001ì=¨¦G\u0015Ç{\t¬E\u001aMa\u0012\u001f°A\u000b\u000b±YÁ&fI\n\u001bA¬ \u0016!\u0016J\u0004X©°X\u0018\u0011t\u0011\t66\u0016ÄX\bj!\u0016)\u0014\u0017\tAÉÆ½M\u0002KnøÝ»ÿË¹³óõÌ;ÏÇû¾'ðÏ9çÌ3gÎÌ3óÜçÞ=\u001c:ÿwù±Çç@g·«Ì}â§·cxçÿOEùÒ­2nÔ\u000eZ²i:ºØ=\u0001F{à\r\u0011øë\u0017¾õ\u0012x\u0002ôäDv>ùÂO&²|jÖ\u0013à4\u000eÿ­\\3µ¯vPµ­¥\u0000µÚQ=O\u001dØÚay\u0002ÔFjGõ<\u0001vtbKÃÜ\u0013@XþíËw\u001d\boÜ|}k!ÉÄ{ÿwÿu<f(\u0000·£Å\tºÛªw\u0010Në\u001fýÓSC\n_¼ò¥c³Ñ\u0018\u00003\u0005z­Ý,\u0000¿¾þö`±ÖàÌé\u0017[·pùµï\r1\\yúÖ\u0000J~É\u000e´¤»H\u0002ÚGùÑ·\u001f:xàÞ\fà\u001fúÙ\u0000®ýø®Á\u0002\u001e@'\u0006l(ÅÒ\u0013 \u0014¡ä\u000fÂ®8[X O3àsÎ@g\f<\u0001ÆDk\u0007u\u0017I'.^\u0018,Ö\u0010W]ÁDïùÍg18::\u001aJ°öÔè\\1\bûY$\u0001B'¼¾\\\u0004<\u0001ý*zö\u0004XÅ4,ç'ÀíØ±ÝfOFÂþ8\u000bèunHyý\u000bà¿ôà·\u0014~yí\u0017\u0007c\u001d>\f\u001dÙ´>ÖVýMý\fÛ·úÑ«\u001d/mb/àÑ^\u0000QOÁ¯Dª\u0011/ýîÅÞ\u0018ãÊÇÿüLò\u0016ñØçoÈB\u001dV¼\u0005·\u0010\u0012{L¿½\u0007ý¿Ïýv\u0000½íö¶@vÇ\u0004mºvâm¹ä«\u0001J\u0011Ú\u0012¹\u0012Y4t;U÷\u0004HE¦Ïê\u0013\u001aMT7S?ÐêF¢'@\u0010}«z\u0002tqmÁ9ÊÙ\u0003ätr²W/]\u001d,Ðm\u001d'@käv¤'ÀLdë0<\u0001Z#·#í<\u0001vd\"[á\tÐ\u001a¹Úñ8DØu(§.\u0012õ\u0004(Eh\u000båÿüùWª½ö\u0004¨\u000eÕn*z\u0002,0¯|À9e·\u000f?ù|µyOêPÕ)ò#Y¾ð\u0001\u0019¥å¡k?ó}\nnyVW}¨'@)B\u001då|ÓßÑ\\\u0017S\u0000]Â¸½F<\u0001&;ñ)íÎ>\u0012B¡-«\u001bÊRuOTd\u001aùúB¯sr°¿#*ÓÞÊ¨Ë>ï\bAè*¼ªïm\u0002ðe*(ûÄßÛ\u0004jù8\u0003lýCûÜèQÖÀ{ØÒÆT~ÊîÔT±áª¨³ú\f*^ú\u000eL#3Ô%6J`ÒÑç, ðì\u000fN\u000e{\u0000üÚu.0­²\u001eÛ\u000f\u001bµþwO\u0000ef­\u0003»¦WZ¹µò¹âr\u0018n\u0019Ôq·]Øª-¾ÙÿýÐW\f<AL¶\u0014¯û\u000e°Ô@¼ßÓ\bý¿'ÀØí¾'ÀÊ'k^\frGJ\bô%/QOR\u0016sÅã\\\u0015¿\u001er6)YÈ÷\u0004\b#²²:«;æ\u0012×ØÔ+Õ&fÇ\u0013 \u0016=ây\u0002ìÑdÇê\t\u0010Ê\u001eñ<\u0001vd²[á\tÐ\u001a¹\u001diç\t°áDrâ®ºªÕGÏ¾²V{Q®*CsºÈcð\u0004Eex\u0000{4Ù±¡z\u0002Ä¢²\"\u001e\u0001\u0017?\u0016¡Ò²TÝ\u0013 \u0015ðísW¼\u0016V\u0016kÝ÷\u0004¨TBOçÏ¸ÆÀ7\b &³<Ù\t©ºåW¾ê½¨'@¯HfìÜ÷£od¤6m½ú\u0004àyÖ\u0003a zØÄ\u0006«\u0012¤þ~/ý\"æ\rÓBÖõ³p\u000e(8I`z!Ü\u0012Sõÿ>÷¡¡\u0007.¾xNÊ^-_¿«g3ws\u000b~jG]z%JüæD×\u001dÎé¼÷µy\u0004º&Àæî¸¹#à\t0QÄ9ù·æ\u001c\u0010lÅdc>\u0001\u001dÑâgá¥çj(¯yvªsÑT°°%\u001d§ÓD`ö\u001dÃa8\u0014\u000eJ!zL\u0017¾£_\u0004fO~®ï·¥^£÷\u0004è\u0015ÉNvr×DÞ'P+hk÷\u0000­Ûv\u0000;2­ÃX}\u0002Üÿ\u0007kÐ\u001a\u001aÛèp ­AÊ¶è¤ÚOÅ=\u0001Â«]ì\nÀÀÿ~áâ\u0003:kCêf³6?\u000fÉî\u001cÆ:³¬&Ëc:\u001f{ûú\u0010ÃXÿ\\ÿ|\u0004NvÔê:¯:Mm[VÊ4£_ÞêI\u0002àF¸ºà­\u0011<úè\u0000Öè[\u000fx­\u0002öAJ\u000e\u001fù\u0018%\u0000\b, ì8\u001f\u0001Ij¨ZÖè:Üé\u0001?Yå7¡1 \u0013ú®¥ç\u0012 ¶Ñz¯¼üò\u0000ôaú>\u0000\u0004\u0016ìÒ\u0000},ù\b%@x\u0010Ì7k²åÙ¿**-ôOõvO¼%\u00118Ið\u0000¨:\n½\u0011NlÎ¾tåOæll«¯\u0005~çnHV2ú-8|óÍ\u001b\u0007Â}Ïý{°xãúãçêV+Ë^ÆþN\u001eÿ*Éb6R<|ùÒñ±\u0001BYKp·¡ÍÉ\u000e°\rºÓD \u0000±WµÓ¸âVs\u0011Jvî³p>ë¶¸òô­\u0001÷ûï_Îú¡dá$d\u001b¸pñ\b\u0014w\u0000yxõÿQ1Isd£\u0002% hi%ª¨Ú¨.*þTÛ\u0011HÝJüV¿ª\u0013 µ¹Û`î~·µ¿K©&B;A\r\u000f5ºÒáÊ\u000bÔv,¥-\u0018Ûnë\u0012@\u0001ÑÔÊéW³í¢36°Û¢_\u0000Ï|ú\u0003ØÕúY³jjtjûKéñ\u000eäÕKWMý\u0014ÿÜ/Ä~º\u0004O?¢Ìj(á;n\f\u001fþË7\u0007ô´ÒrTÎåt$n/JÐjÐ«¿\u001d~ã'%³|¾\nNaã\u001f\u0007ÛZËÜüÁñ\u000b7ï\u0019®=ô¾á­×¾vÜjgîv¬ò\u001cJ§ðE\u0010Â\u001b\u000b°ÿ\u0006°-e\u0016#\u000b1µ9¦\\ý\b¨5úÊ½_?øÕgî>¸ûÙg\u000fÞóà\u000f\u000fjÚñ¡FoWuRg9ÆÛ=\u0001¬ÓlÛªå*¬¶¼pÅäêjÓL«Tu¨V½ìô¦SÛgÛ\u0007ò2P½D'MRçsÊ\bõgËâMMY\fí«eõË\u000eÔÚj)ïM\u0002\u0007=\u0007ø)¤E¨\u0017«[}Ê1\u001dx\u0010[\u0016o-´{\u0002\u0010TÁ\u000erL¦«=ÔÚØ¦²Ýelymcè\u0000k\u001bàRþØUoËKùê·*\u0001r\u0007¸á}çÛUoËkË!Ûl\trº¤\\ºsÑÚ+$¾YÐN°¾Z\u001dÊV6¦Ìªç| Ø¶¥\u0005Åí$\u0005Ù<|\u001f ºôJ´j\u0007(\u0019Ùe9I\u0010\"\u001co(W=ÔS½t\u001e¢½t§¦g¯ÕQ,;­ÃÊ<KÕ6¤VÇC=Õ­ÊÜi\t\u0005<Am­<,£+=KùÆ\u0001XÞ¾W¿\u0003°¥Â#\f(Yô¢'¤è6¼~\u001a³3Àiu\u0018ìj\u0017ÏR­.Ë[C9wÐÊÉÖàû>4ï\u0000J\u0004¶W\u001d¦ v0Ò±´VßÚñòt\u0011hN\u0000m»l¯lÇuU:ÖêÛ¤!±\u0004kßêpê\u0016tò¶v¡\u001fï}ý\u000f\u0007O\\¼0\f[·mTÆøZyKÙÍeËòlYòZÚ\u0000µ\u001d´êÙ`*¹ Ø³2áÏØaÙö_¶N\u0019ý÷\u0002l\u0019\u001dôçÀj\u0013`êÁs.\u0000¥~Ð\u0001VÝÈÖ[Ê©\u000f@°!ï³k`,ëà¥ m§ö>Vì ç´oü¾\u0004\u0014¨o(õ\u001aØ¿õ\u0017~ô,\u0016wÙÉà!\u001fã\u0003úM;:¡Sé\u0016ð0\f(@­\u001cP¶rmðè\u0003Ø\u0004Ã&/Pgê¹}tt4\b²/\u0019v\u0001uÚéÌ@\u0019äê´¡-6e:@\u0006(Ë¯\u001a¿é³'Zv¦¦\u0004hé¨4P»í\u0011<\t\b¸@=\u0004²\fHN\u0019LYò\u0019*¥ò¡'eQµwö\u001e 3±@FÍPñ -\u001dÑn\thUÏEkÇHLA)îè\u0000éaz\f;+C?³3\u0000*ØLUYF[\u001d)µÏ9&6×vIâªCÅQä &\u0013/&/±ú\u0011`;u$94'G\u0006Ð³°îûûy\u001b©ËÕ\t0µ#n\b¬2\u0001\u001e~òùe¢±`¯Ku½\u0004àîk±T@ö­ßÕ$À¾\u0005~-ãõ\u0004XËL,ä'ÀB_K·\u0000küð\u0004X(ðkéÖ\u0013`-3±\u001f\u0000\u000b\u0005^Ý.Mß\u0005\u0000\u0000ÿÿ1Vy·\u0000\u0000\u0000\u0006IDAT\u0003\u0000{\u000fñõºÕ\u0000\u0000\u0000\u0000IEND®B`",
       "info": {
-        "size": 12271,
-        "last_modified": "2026-03-25T17:09:12.8581141",
+        "size": 3013,
+        "last_modified": "2026-03-27T11:58:01.6707056",
         "mime_type": "image/png",
         "extension": ".png"
       }
@@ -939,7 +939,7 @@
       "content": "PNG\r\n\u001a\n\u0000\u0000\u0000\rIHDR\u0000\u0000\u0000\u0010\u0000\u0000\u0000\u0010\b\u0006\u0000\u0000\u0000\u001fóÿa\u0000\u0000\u0000\u0001sRGB\u0000®Î\u001cé\u0000\u0000\u0000\u0004gAMA\u0000\u0000±\u000büa\u0005\u0000\u0000\u0000\tpHYs\u0000\u0000\u000eÃ\u0000\u0000\u000eÃ\u0001Ço¨d\u0000\u0000\u0000CIDAT8OcøO!`@\u0017 \u0015\fb\u0003\u000e\u001f>q\u0001¬\u0006 kÆgÈp5\u0000\u0004\u0018\u0018\u0018à\u001aAl\\\u0000§\fHÓÎªp0\u001e5L\u0003@\u0000¤\u0011f\u0010\u0000\u0000\rÇ®ÂUK1\u0000\u0000\u0000\u0000IEND®B`",
       "info": {
         "size": 174,
-        "last_modified": "2026-03-25T17:09:12.8751155",
+        "last_modified": "2026-03-27T11:58:01.6887145",
         "mime_type": "image/png",
         "extension": ".png"
       }
@@ -949,7 +949,7 @@
       "content": "PNG\r\n\u001a\n\u0000\u0000\u0000\rIHDR\u0000\u0000\u0000\u0010\u0000\u0000\u0000\u0010\b\u0006\u0000\u0000\u0000\u001fóÿa\u0000\u0000\u0000\u0001sRGB\u0000®Î\u001cé\u0000\u0000\u0000\u0004gAMA\u0000\u0000±\u000büa\u0005\u0000\u0000\u0000\tpHYs\u0000\u0000\u000eÃ\u0000\u0000\u000eÃ\u0001Ço¨d\u0000\u0000\u0000pIDAT8O\u0001\nÀ \f\u0003ûÿO;\u00144Þª\u0007Û IoÑÀ8R\u001dú!Ivâã×,\t\u001c\u001f++\u001fïjTuóËN%èÌþ:ðxS\nÖq%ù\u0015ø1m:( \u0003Ê$?Ç\u0004IF¦%\u0014í÷Ê\nÿQ\u0012¼¢Ûtåv:\\ªè&ý\u0000+ß\n!§ñ5\u0000\u0000\u0000\u0000IEND®B`",
       "info": {
         "size": 219,
-        "last_modified": "2026-03-25T17:09:12.8841171",
+        "last_modified": "2026-03-27T11:58:01.6992207",
         "mime_type": "image/png",
         "extension": ".png"
       }
@@ -959,7 +959,7 @@
       "content": "{\r\n  \"type\": \"minecraft:block\",\r\n  \"pools\": [\r\n    {\r\n      \"rolls\": 1,\r\n      \"entries\": [\r\n        {\r\n          \"type\": \"minecraft:item\",\r\n          \"name\": \"f1mod:factory_block\"\r\n        }\r\n      ]\r\n    }\r\n  ]\r\n}\r\n",
       "info": {
         "size": 217,
-        "last_modified": "2026-03-25T17:09:12.9263581",
+        "last_modified": "2026-03-27T11:58:01.7407374",
         "mime_type": "text/plain",
         "extension": ".json"
       }
@@ -969,7 +969,7 @@
       "content": "{\r\n  \"type\": \"minecraft:block\",\r\n  \"pools\": [\r\n    {\r\n      \"rolls\": 1,\r\n      \"entries\": [\r\n        {\r\n          \"type\": \"minecraft:item\",\r\n          \"name\": \"f1mod:track_block\"\r\n        }\r\n      ]\r\n    }\r\n  ]\r\n}\r\n",
       "info": {
         "size": 215,
-        "last_modified": "2026-03-25T17:09:12.935358",
+        "last_modified": "2026-03-27T11:58:01.7502431",
         "mime_type": "text/plain",
         "extension": ".json"
       }
@@ -979,7 +979,7 @@
       "content": "{\r\n  \"type\": \"minecraft:crafting_shaped\",\r\n  \"category\": \"misc\",\r\n  \"key\": {\r\n    \"B\": {\r\n      \"item\": \"minecraft:brick\"\r\n    },\r\n    \"I\": {\r\n      \"item\": \"minecraft:iron_ingot\"\r\n    }\r\n  },\r\n  \"pattern\": [\r\n    \"III\",\r\n    \"BBB\",\r\n    \"BBB\"\r\n  ],\r\n  \"result\": {\r\n    \"count\": 1,\r\n    \"id\": \"f1mod:factory_block\"\r\n  }\r\n}",
       "info": {
         "size": 322,
-        "last_modified": "2026-03-25T17:09:12.9603581",
+        "last_modified": "2026-03-27T11:58:01.7762504",
         "mime_type": "text/plain",
         "extension": ".json"
       }
@@ -989,7 +989,7 @@
       "content": "{\r\n  \"replace\": false,\r\n  \"values\": [\r\n    \"f1mod:factory_block\",\r\n    \"f1mod:track_block\"\r\n  ]\r\n}",
       "info": {
         "size": 98,
-        "last_modified": "2026-03-25T17:09:12.9853577",
+        "last_modified": "2026-03-27T11:58:01.8027609",
         "mime_type": "text/plain",
         "extension": ".json"
       }
@@ -999,7 +999,7 @@
       "content": "{\r\n  \"replace\": false,\r\n  \"values\": [\r\n    \"f1mod:factory_block\",\r\n    \"f1mod:track_block\"\r\n  ]\r\n}",
       "info": {
         "size": 98,
-        "last_modified": "2026-03-25T17:09:13.0033571",
+        "last_modified": "2026-03-27T11:58:01.8207676",
         "mime_type": "text/plain",
         "extension": ".json"
       }
@@ -1009,7 +1009,7 @@
       "content": "# This is an example mods.toml file. It contains the data relating to the loading mods.\n# There are several mandatory fields (#mandatory), and many more that are optional (#optional).\n# The overall format is standard TOML format, v0.5.0.\n# Note that there are a couple of TOML lists in this file.\n# Find more information on toml format here:  https://github.com/toml-lang/toml\n# The name of the mod loader type to load - for regular FML @Mod mods it should be javafml\nmodLoader=\"javafml\" #mandatory\n# A version range to match for said mod loader - for regular FML @Mod it will be the forge version\nloaderVersion=\"${loader_version_range}\" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.\n# The license for you mod. This is mandatory metadata and allows for easier comprehension of your redistributive properties.\n# Review your options at https://choosealicense.com/. All rights reserved is the default copyright stance, and is thus the default here.\nlicense=\"${mod_license}\"\n# A URL to refer people to when problems occur with this mod\n#issueTrackerURL=\"https://change.me.to.your.issue.tracker.example.invalid/\" #optional\n# If your mod is purely client-side and has no multiplayer functionality (be it dedicated servers or Open to LAN),\n# set this to true, and Forge will set the correct displayTest for you and skip loading your mod on dedicated servers.\n#clientSideOnly=true #optional - defaults to false if absent\n# A list of mods - how many allowed here is determined by the individual mod loader\n[[mods]] #mandatory\n# The modid of the mod\nmodId=\"${mod_id}\" #mandatory\n# The version number of the mod\nversion=\"${mod_version}\" #mandatory\n# A display name for the mod\ndisplayName=\"${mod_name}\" #mandatory\n# A URL to query for updates for this mod. See the JSON update specification https://docs.minecraftforge.net/en/latest/misc/updatechecker/\n#updateJSONURL=\"https://change.me.example.invalid/updates.json\" #optional\n# A URL for the \"homepage\" for this mod, displayed in the mod UI\n#displayURL=\"https://change.me.to.your.mods.homepage.example.invalid/\" #optional\n# A file name (in the root of the mod JAR) containing a logo for display\n#logoFile=\"examplemod.png\" #optional\n# A text field displayed in the mod UI\n#credits=\"\" #optional\n# A text field displayed in the mod UI\nauthors=\"${mod_authors}\" #optional\n# Display Test controls the display for your mod in the server connection screen\n# MATCH_VERSION means that your mod will cause a red X if the versions on client and server differ. This is the default behaviour and should be what you choose if you have server and client elements to your mod.\n# IGNORE_SERVER_VERSION means that your mod will not cause a red X if it's present on the server but not on the client. This is what you should use if you're a server only mod.\n# IGNORE_ALL_VERSION means that your mod will not cause a red X if it's present on the client or the server. This is a special case and should only be used if your mod has no server component.\n# NONE means that no display test is set on your mod. You need to do this yourself, see IExtensionPoint.DisplayTest for more information. You can define any scheme you wish with this value.\n# IMPORTANT NOTE: this is NOT an instruction as to which environments (CLIENT or DEDICATED SERVER) your mod loads on. Your mod should load (and maybe do nothing!) whereever it finds itself.\n#displayTest=\"MATCH_VERSION\" # if nothing is specified, MATCH_VERSION is the default when clientSideOnly=false, otherwise IGNORE_ALL_VERSION when clientSideOnly=true (#optional)\n\n# The description text for the mod (multi line!) (#mandatory)\ndescription='''${mod_description}'''\n# A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.\n[[dependencies.${mod_id}]] #optional\n    # the modid of the dependency\n    modId=\"forge\" #mandatory\n    # Does this dependency have to exist - if not, ordering below must be specified\n    mandatory=true #mandatory\n    # The version range of the dependency\n    versionRange=\"${forge_version_range}\" #mandatory\n    # An ordering relationship for the dependency - BEFORE or AFTER required if the dependency is not mandatory\n    # BEFORE - This mod is loaded BEFORE the dependency\n    # AFTER - This mod is loaded AFTER the dependency\n    ordering=\"NONE\"\n    # Side this dependency is applied on - BOTH, CLIENT, or SERVER\n    side=\"BOTH\"\n# Here's another dependency\n[[dependencies.${mod_id}]]\n    modId=\"minecraft\"\n    mandatory=true\n    # This version range declares a minimum of the current minecraft version up to but not including the next major version\n    versionRange=\"${minecraft_version_range}\"\n    ordering=\"NONE\"\n    side=\"BOTH\"\n\n# Features are specific properties of the game environment, that you may want to declare you require. This example declares\n# that your mod requires GL version 3.2 or higher. Other features will be added. They are side aware so declaring this won't\n# stop your mod loading on the server for example.\n#[features.${mod_id}]\n#openGLVersion=\"[3.2,)\"\n",
       "info": {
         "size": 5079,
-        "last_modified": "2026-03-25T17:09:13.0443573",
+        "last_modified": "2026-03-27T11:58:01.8632878",
         "mime_type": "text/plain",
         "extension": ".toml"
       }
@@ -1019,7 +1019,7 @@
       "content": "{\n  \"pack\": {\n    \"description\": \"${mod_id} resources\",\n    \"pack_format\": 34\n  }\n}",
       "info": {
         "size": 83,
-        "last_modified": "2026-03-25T17:09:13.0693551",
+        "last_modified": "2026-03-27T11:58:01.8875407",
         "mime_type": "text/plain",
         "extension": ".mcmeta"
       }

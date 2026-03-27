@@ -5,6 +5,7 @@ import net.grodax.f1mod.entity.ModEntities;
 import net.grodax.f1mod.block.ModBlocks;
 import net.grodax.f1mod.item.ModCreativeModeTabs;
 import net.grodax.f1mod.item.ModItems;
+import net.grodax.f1mod.sound.ModSounds;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -42,6 +43,7 @@ public class F1Mod
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
         ModEntities.register(modEventBus);
+        ModSounds.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);

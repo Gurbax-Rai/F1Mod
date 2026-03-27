@@ -5,6 +5,7 @@ package net.grodax.f1mod.entity.client.model;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.vertex.VertexConsumer;
+import net.grodax.f1mod.entity.custom.F1CarEntity;
 import net.minecraft.client.model.EntityModel;
 import net.minecraft.client.model.geom.ModelLayerLocation;
 import net.minecraft.client.model.geom.ModelPart;
@@ -25,13 +26,16 @@ public class F1CarModel<T extends Entity> extends EntityModel<T> {
 	private final ModelPart nose;
 	private final ModelPart front_suspension;
 	private final ModelPart floor;
-	private final ModelPart front_wheel;
+	private final ModelPart front_wheels;
+	private final ModelPart left;
+	private final ModelPart right;
 	private final ModelPart sidepod_front;
 	private final ModelPart sidepod_back;
 	private final ModelPart divider;
 	private final ModelPart rear_suspension;
 	private final ModelPart rear_wheel;
 	private final ModelPart rear_wing;
+	private final ModelPart drs_flap;
 	private final ModelPart front_wing;
 	private final ModelPart first_flap;
 	private final ModelPart second_flap;
@@ -39,24 +43,32 @@ public class F1CarModel<T extends Entity> extends EntityModel<T> {
 	private final ModelPart fourth_flap;
 	private final ModelPart endplate;
 
+	private float steeringAngle;
+
 	public F1CarModel(ModelPart root) {
 		this.f1_car = root.getChild("f1_car");
 		this.nose = this.f1_car.getChild("nose");
 		this.front_suspension = this.f1_car.getChild("front_suspension");
 		this.floor = this.f1_car.getChild("floor");
-		this.front_wheel = this.f1_car.getChild("front_wheel");
+		this.front_wheels = this.f1_car.getChild("front_wheels");
+		this.left = this.front_wheels.getChild("left");
+		this.right = this.front_wheels.getChild("right");
 		this.sidepod_front = this.f1_car.getChild("sidepod_front");
 		this.sidepod_back = this.f1_car.getChild("sidepod_back");
 		this.divider = this.f1_car.getChild("divider");
 		this.rear_suspension = this.f1_car.getChild("rear_suspension");
 		this.rear_wheel = this.f1_car.getChild("rear_wheel");
 		this.rear_wing = this.f1_car.getChild("rear_wing");
+		this.drs_flap = this.rear_wing.getChild("drs_flap");
 		this.front_wing = this.f1_car.getChild("front_wing");
 		this.first_flap = this.front_wing.getChild("first_flap");
 		this.second_flap = this.front_wing.getChild("second_flap");
 		this.third_flap = this.front_wing.getChild("third_flap");
 		this.fourth_flap = this.front_wing.getChild("fourth_flap");
 		this.endplate = this.front_wing.getChild("endplate");
+
+		this.steeringAngle = 0;
+
 	}
 
 	public static LayerDefinition createBodyLayer() {
@@ -120,8 +132,11 @@ public class F1CarModel<T extends Entity> extends EntityModel<T> {
 				.texOffs(50, 106).mirror().addBox(7.0F, -2.0F, -7.0F, 3.0F, 2.0F, 1.0F, new CubeDeformation(0.0F)).mirror(false)
 				.texOffs(48, 113).mirror().addBox(8.0F, -2.0F, 15.0F, 3.0F, 2.0F, 1.0F, new CubeDeformation(0.0F)).mirror(false), PartPose.offset(0.0F, -1.0F, 0.0F));
 
-		PartDefinition front_wheel = f1_car.addOrReplaceChild("front_wheel", CubeListBuilder.create().texOffs(0, 69).addBox(-25.0F, -4.0001F, -4.0F, 6.0F, 8.0F, 8.0F, new CubeDeformation(0.0F))
-				.texOffs(0, 69).mirror().addBox(-3.0F, -4.0001F, -4.0F, 6.0F, 8.0F, 8.0F, new CubeDeformation(0.0F)).mirror(false), PartPose.offset(11.0F, -4.0F, -21.0F));
+		PartDefinition front_wheels = f1_car.addOrReplaceChild("front_wheels", CubeListBuilder.create(), PartPose.offset(11.0F, -4.0F, -21.0F));
+
+		PartDefinition left = front_wheels.addOrReplaceChild("left", CubeListBuilder.create().texOffs(0, 69).mirror().addBox(-3.0F, -4.0001F, -4.0F, 6.0F, 8.0F, 8.0F, new CubeDeformation(0.0F)).mirror(false), PartPose.offset(0.0F, 0.0F, 0.0F));
+
+		PartDefinition right = front_wheels.addOrReplaceChild("right", CubeListBuilder.create().texOffs(0, 69).addBox(-3.0F, -4.0001F, -4.0F, 6.0F, 8.0F, 8.0F, new CubeDeformation(0.0F)), PartPose.offset(-22.0F, 0.0F, 0.0F));
 
 		PartDefinition sidepod_front = f1_car.addOrReplaceChild("sidepod_front", CubeListBuilder.create().texOffs(28, 76).mirror().addBox(0.0F, -1.0F, -9.0F, 4.0F, 6.0F, 1.0F, new CubeDeformation(0.0F)).mirror(false)
 				.texOffs(28, 76).addBox(-4.0F, -1.0F, -9.0F, 4.0F, 6.0F, 1.0F, new CubeDeformation(0.0F))
@@ -180,8 +195,6 @@ public class F1CarModel<T extends Entity> extends EntityModel<T> {
 
 		PartDefinition rear_wing = f1_car.addOrReplaceChild("rear_wing", CubeListBuilder.create().texOffs(98, 8).mirror().addBox(0.0F, -13.0F, 30.0F, 8.0F, 1.0F, 3.0F, new CubeDeformation(0.0F)).mirror(false)
 				.texOffs(98, 8).addBox(-8.0F, -13.0F, 30.0F, 8.0F, 1.0F, 3.0F, new CubeDeformation(0.0F))
-				.texOffs(80, 62).mirror().addBox(0.0F, -14.0F, 33.0F, 8.0F, 1.0F, 2.0F, new CubeDeformation(0.0F)).mirror(false)
-				.texOffs(80, 62).addBox(-8.0F, -14.0F, 33.0F, 8.0F, 1.0F, 2.0F, new CubeDeformation(0.0F))
 				.texOffs(98, 19).mirror().addBox(0.0F, -15.0F, 35.0F, 8.0F, 1.0F, 1.0F, new CubeDeformation(0.0F)).mirror(false)
 				.texOffs(98, 19).addBox(-8.0F, -15.0F, 35.0F, 8.0F, 1.0F, 1.0F, new CubeDeformation(0.0F))
 				.texOffs(100, 62).mirror().addBox(8.0F, -15.0F, 30.0F, 1.0F, 4.0F, 6.0F, new CubeDeformation(0.0F)).mirror(false)
@@ -198,6 +211,9 @@ public class F1CarModel<T extends Entity> extends EntityModel<T> {
 				.texOffs(34, 113).addBox(-1.0F, -11.0F, 35.0F, 1.0F, 6.0F, 1.0F, new CubeDeformation(0.0F))
 				.texOffs(94, 110).addBox(-4.0F, -11.0F, 35.0F, 3.0F, 1.0F, 1.0F, new CubeDeformation(0.0F))
 				.texOffs(94, 110).mirror().addBox(1.0F, -11.0F, 35.0F, 3.0F, 1.0F, 1.0F, new CubeDeformation(0.0F)).mirror(false), PartPose.offset(0.0F, 0.0F, 0.0F));
+
+		PartDefinition drs_flap = rear_wing.addOrReplaceChild("drs_flap", CubeListBuilder.create().texOffs(80, 62).mirror().addBox(0.0F, -13.0F, 33.0F, 8.0F, 1.0F, 2.0F, new CubeDeformation(0.0F)).mirror(false)
+				.texOffs(80, 62).addBox(-8.0F, -13.0F, 33.0F, 8.0F, 1.0F, 2.0F, new CubeDeformation(0.0F)), PartPose.offset(0.0F, -1.0F, 0.0F));
 
 		PartDefinition front_wing = f1_car.addOrReplaceChild("front_wing", CubeListBuilder.create(), PartPose.offset(0.0F, 0.0F, 0.0F));
 
@@ -254,21 +270,41 @@ public class F1CarModel<T extends Entity> extends EntityModel<T> {
 	}
 
 	@Override
-	public void setupAnim(T entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch) {
+	public void setupAnim(T entity, float limbSwing, float limbSwingAmount,
+						  float ageInTicks, float netHeadYaw, float headPitch) {
 
-		// Check if the car is moving
 		double speed = entity.getDeltaMovement().lengthSqr();
 
-		if (speed > 0.001) {
-			float rotationSpeed = ageInTicks * 0.5f; // adjust speed
+		float steeringAngle = ((F1CarEntity)entity).getSteeringAngle();
+		float steeringRad = -steeringAngle * ((float)Math.PI / 180F);
 
-			front_wheel.xRot = rotationSpeed;
+		// Always apply steering
+		left.yRot = steeringRad;
+		right.yRot = steeringRad;
+
+		// Only spin when moving
+		if (speed > 0.001) {
+			float rotationSpeed = ageInTicks * 0.5f;
+
+			front_wheels.xRot = rotationSpeed;
 			rear_wheel.xRot = rotationSpeed;
+		}
+
+		if (entity instanceof F1CarEntity car) {
+			if (car.isDrsActive()) {
+				drs_flap.y = -2.0F;
+			} else {
+				drs_flap.y = -1.0F;
+			}
 		}
 	}
 
 	@Override
 	public void renderToBuffer(PoseStack pPoseStack, VertexConsumer pBuffer, int pPackedLight, int pPackedOverlay, int pColor) {
 		f1_car.render(pPoseStack, pBuffer, pPackedLight, pPackedOverlay, pColor);
+	}
+
+	public void setSteeringAngle(float angle) {
+		this.steeringAngle = angle;
 	}
 }

@@ -1,0 +1,11 @@
+{
+  "engine_sound": {
+    "subtitle": "sound.f1mod.engine_sound",
+    "sounds": [
+      {
+        "name": "f1mod:engine_sound",
+        "stream": true
+      }
+    ]
+  }
+}

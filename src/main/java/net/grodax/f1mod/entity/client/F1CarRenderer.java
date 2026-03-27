@@ -48,6 +48,8 @@ public class F1CarRenderer extends EntityRenderer<F1CarEntity> {
         float scale = 2f; // Adjust this value if car still looks too small or large
         poseStack.scale(scale, scale , scale); // 16 = pixels per block
 
+        model.setSteeringAngle(entity.getSteeringAngle());
+
         model.setupAnim(entity, 0, 0, partialTicks, 0, 0);
 
         // Render the model
