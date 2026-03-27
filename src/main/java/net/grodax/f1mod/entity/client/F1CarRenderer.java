@@ -42,7 +42,7 @@ public class F1CarRenderer extends EntityRenderer<F1CarEntity> {
 
         poseStack.mulPose(Axis.YP.rotationDegrees(180.0F - entity.getYRot()));
 
-        poseStack.translate(0.0f, 0f, 0.0f);
+        poseStack.translate(0.0f, 0.55f, 0.0f);
 
         // Scale the model so it's roughly 1 Minecraft block in size
         float scale = 2f; // Adjust this value if car still looks too small or large

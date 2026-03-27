@@ -138,17 +138,17 @@ public class F1CarEntity extends Boat {
     // UPDATE PASSENGER ROTATION
     // ===============================
     private void updatePassengerRotation(Player player) {
-        // If car is moving, make passenger look forward in the direction of travel
-        if (Minecraft.getInstance().options.keyUp.isDown() || Minecraft.getInstance().options.keyLeft.isDown() || Minecraft.getInstance().options.keyRight.isDown() || Minecraft.getInstance().options.keyDown.isDown()) {
-            // Set passenger's body rotation to match car's rotation
-
-            // Keep passenger facing forward relative to car movement
-            player.absRotateTo(this.getYRot(), player.getXRot());
-        } else {
-            // If not moving, let player control their own rotation freely
-            // But still update body rotation to match current car rotation for consistency
-            player.setYBodyRot(this.getYRot());
-        }
+//        // If car is moving, make passenger look forward in the direction of travel
+//        if (Minecraft.getInstance().options.keyUp.isDown() || Minecraft.getInstance().options.keyLeft.isDown() || Minecraft.getInstance().options.keyRight.isDown() || Minecraft.getInstance().options.keyDown.isDown()) {
+//            // Set passenger's body rotation to match car's rotation
+//
+//            // Keep passenger facing forward relative to car movement
+//            player.absRotateTo(this.getYRot(), player.getXRot());
+//        } else {
+//            // If not moving, let player control their own rotation freely
+//            // But still update body rotation to match current car rotation for consistency
+//            player.setYBodyRot(this.getYRot());
+//        }
     }
 
     // ===============================
@@ -178,7 +178,7 @@ public class F1CarEntity extends Boat {
     protected void positionRider(Entity passenger, MoveFunction moveFunction) {
         passenger.setPos(
                 this.getX(),
-                this.getY() + 0.4,
+                this.getY(),
                 this.getZ()
         );
     }

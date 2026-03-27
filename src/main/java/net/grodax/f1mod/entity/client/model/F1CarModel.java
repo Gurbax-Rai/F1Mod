@@ -63,7 +63,7 @@ public class F1CarModel<T extends Entity> extends EntityModel<T> {
 		MeshDefinition meshdefinition = new MeshDefinition();
 		PartDefinition partdefinition = meshdefinition.getRoot();
 
-		PartDefinition f1_car = partdefinition.addOrReplaceChild("f1_car", CubeListBuilder.create(), PartPose.offsetAndRotation(0.0F, 24.0F, 0.0F, 0.0F, 0.0F, -3.1416F));
+		PartDefinition f1_car = partdefinition.addOrReplaceChild("f1_car", CubeListBuilder.create(), PartPose.offsetAndRotation(0.0F, -5.0F, 0.0F, 0.0F, 0.0F, -3.1416F));
 
 		PartDefinition nose = f1_car.addOrReplaceChild("nose", CubeListBuilder.create().texOffs(0, 94).mirror().addBox(0.0F, -4.0F, -37.0F, 1.0F, 2.0F, 9.0F, new CubeDeformation(0.0F)).mirror(false)
 				.texOffs(42, 22).mirror().addBox(0.0F, -6.0F, -36.0F, 1.0F, 4.0F, 20.0F, new CubeDeformation(0.0F)).mirror(false)
