@@ -1,0 +1,18 @@
+{
+  "type": "f1mod:factory_crafting",
+  "pattern": [
+    "RRRRR",
+    "R I R",
+    "R I R",
+    "R I R",
+    "RRRRR"
+  ],
+  "key": {
+    "R": { "item": "minecraft:redstone_block" },
+    "I": { "item": "minecraft:iron_block" }
+  },
+  "result": {
+    "count": 1,
+    "id": "f1mod:f1_car"
+  }
+}

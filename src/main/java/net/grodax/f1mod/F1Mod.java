@@ -1,10 +1,14 @@
 package net.grodax.f1mod;
 
 import com.mojang.logging.LogUtils;
+import net.grodax.f1mod.block.entity.ModBlockEntities;
 import net.grodax.f1mod.entity.ModEntities;
 import net.grodax.f1mod.block.ModBlocks;
 import net.grodax.f1mod.item.ModCreativeModeTabs;
 import net.grodax.f1mod.item.ModItems;
+import net.grodax.f1mod.recipe.ModRecipes;
+import net.grodax.f1mod.screen.ModMenuTypes;
+import net.grodax.f1mod.screen.custom.FactoryScreen;
 import net.grodax.f1mod.sound.ModSounds;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -42,8 +46,15 @@ public class F1Mod
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        // F1 Car
         ModEntities.register(modEventBus);
         ModSounds.register(modEventBus);
+
+        // Factory
+        ModMenuTypes.register(modEventBus);
+        ModBlockEntities.register(modEventBus);
+        ModRecipes.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
@@ -81,12 +92,16 @@ public class F1Mod
 
     // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
     @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
-    public static class ClientModEvents
-    {
+    public static class ClientModEvents {
         @SubscribeEvent
-        public static void onClientSetup(FMLClientSetupEvent event)
-        {
-
+        public static void onClientSetup(FMLClientSetupEvent event) {
+            event.enqueueWork(() -> {
+                // This links your MenuType to your Screen!
+                net.minecraft.client.gui.screens.MenuScreens.register(
+                        ModMenuTypes.FACTORY_MENU.get(),
+                        FactoryScreen::new
+                );
+            });
         }
     }
 }
