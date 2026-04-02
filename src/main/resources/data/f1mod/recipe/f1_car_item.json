@@ -1,15 +1,19 @@
 {
   "type": "f1mod:factory_crafting",
   "pattern": [
-    "RRRRR",
-    "R I R",
-    "R I R",
-    "R I R",
-    "RRRRR"
+    " W W ",
+    " SPS ",
+    "FCCCR",
+    " SPS ",
+    " W W "
   ],
   "key": {
-    "R": { "item": "minecraft:redstone_block" },
-    "I": { "item": "minecraft:iron_block" }
+    "W": { "item": "f1mod:wheel" },
+    "S": { "item": "f1mod:suspension" },
+    "C": { "item": "f1mod:carbon_fiber" },
+    "F": { "item": "f1mod:front_wing" },
+    "R": { "item": "f1mod:rear_wing" },
+    "P": { "item": "f1mod:sidepod" }
   },
   "result": {
     "count": 1,

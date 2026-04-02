@@ -1,0 +1,19 @@
+{
+  "type": "f1mod:factory_crafting",
+  "pattern": [
+    "SSSSS",
+    "SICIS",
+    "SCCCS",
+    "SICIS",
+    "SSSSS"
+  ],
+  "key": {
+    "S": { "item": "minecraft:string" },
+    "I": { "item": "minecraft:iron_ingot" },
+    "C": { "item": "minecraft:coal"}
+  },
+  "result": {
+    "count": 4,
+    "id": "f1mod:carbon_fiber"
+  }
+}

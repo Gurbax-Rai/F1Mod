@@ -1,0 +1,18 @@
+{
+  "type": "f1mod:factory_crafting",
+  "pattern": [
+    " CCC ",
+    "CIIIC",
+    "CIIIC",
+    "CIIIC",
+    " CCC "
+  ],
+  "key": {
+    "C": { "item": "f1mod:carbon_fiber" },
+    "I": { "item": "minecraft:iron_ingot" }
+  },
+  "result": {
+    "count": 1,
+    "id": "f1mod:sidepod"
+  }
+}

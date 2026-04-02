@@ -1,12 +1,16 @@
 {
-  "item.f1mod.f1_car": "F1 Car",
-
-  "block.f1mod.factory_block": "Factory Block",
-  "item.f1mod.factory_block": "Factory Block",
-
   "creativetab.f1mod.f1_tab": "F1",
 
+  "item.f1mod.f1_car": "F1 Car",
   "item.f1mod.chisel": "Chisel",
+  "item.f1mod.carbon_fiber": "Carbon Fiber",
+  "item.f1mod.wheel": "Wheel",
+  "item.f1mod.front_wing": "Front Wing",
+  "item.f1mod.rear_wing": "Rear Wing",
+  "item.f1mod.suspension": "Suspension",
+  "item.f1mod.sidepod": "Sidepod",
+  "item.f1mod.factory_block": "Factory Block",
 
+  "block.f1mod.factory_block": "Factory Block",
   "block.f1mod.track_block": "Track Block"
 }

@@ -1,0 +1,18 @@
+{
+  "type": "f1mod:factory_crafting",
+  "pattern": [
+    "  W  ",
+    " WIW ",
+    "WIIIW",
+    " WIW ",
+    "  W  "
+  ],
+  "key": {
+    "W": { "item": "minecraft:black_wool" },
+    "I": { "item": "minecraft:iron_ingot" }
+  },
+  "result": {
+    "count": 1,
+    "id": "f1mod:wheel"
+  }
+}

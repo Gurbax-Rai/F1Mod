@@ -1,0 +1,18 @@
+{
+  "type": "f1mod:factory_crafting",
+  "pattern": [
+    " CC  ",
+    "CCI  ",
+    "CIIII",
+    "CCI  ",
+    " CC  "
+  ],
+  "key": {
+    "C": { "item": "f1mod:carbon_fiber" },
+    "I": { "item": "minecraft:iron_ingot" }
+  },
+  "result": {
+    "count": 1,
+    "id": "f1mod:front_wing"
+  }
+}
