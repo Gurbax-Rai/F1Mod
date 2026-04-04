@@ -24,7 +24,6 @@ import net.minecraft.world.phys.Vec3;
 import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 
-
 public class F1CarEntity extends Boat {
     private static final EntityDataAccessor<Boolean> IS_DRS_ACTIVE =
             SynchedEntityData.defineId(F1CarEntity.class, EntityDataSerializers.BOOLEAN);
@@ -46,16 +45,25 @@ public class F1CarEntity extends Boat {
     private boolean wasMoving = false;
     private static boolean drsPressedLastTick = false;
 
-    private int soundTick = 0;
+    private int soundCooldownTicks = 0;
 
     public F1CarEntity(EntityType<? extends Boat> type, Level level) {
         super(type, level);
-        this.setVariant(Boat.Type.OAK); // REQUIRED
+        this.setVariant(Boat.Type.OAK);
     }
 
     public F1CarEntity(Level level, double x, double y, double z) {
         this(ModEntities.F1_CAR_ENTITY.get(), level);
         this.setPos(x, y, z);
+    }
+
+    // ===============================
+    // STEP HEIGHT FIX (1.21+)
+    // ===============================
+    // Non-living entities control step height by overriding this method now.
+    @Override
+    public float maxUpStep() {
+        return 1.25f;
     }
 
     // ===============================
@@ -87,7 +95,6 @@ public class F1CarEntity extends Boat {
 
         if (this.isVehicle() && this.getControllingPassenger() instanceof Player player) {
             float turn = player.xxa; // A/D keys
-
             this.steeringAngle = turn * 30.0F; // max 30 degrees
         }
     }
@@ -128,9 +135,7 @@ public class F1CarEntity extends Boat {
 
         currentSpeed = clamp(currentSpeed, -0.3f, max);
 
-        // TURNING - fixed direction issue
-        boolean isMoving = Math.abs(forward) > 0.1f || Math.abs(strafe) > 0.1f;
-
+        // TURNING
         if (Math.abs(strafe) > 0.1f) {
             // Invert strafe for proper turning direction
             float invertedStrafe = -strafe;
@@ -149,11 +154,15 @@ public class F1CarEntity extends Boat {
             turnAngle *= 0.85f;
         }
 
-        // MOVEMENT - more car-like physics
+        // MOVEMENT - Calculate flat movement (ignore looking up/down)
         Vec3 look = this.getLookAngle();
-        Vec3 movement = look.scale(currentSpeed);
+        Vec3 horizontalLook = new Vec3(look.x, 0, look.z).normalize();
 
-        this.setDeltaMovement(movement);
+        // Calculate where we want to go horizontally
+        Vec3 horizontalMovement = horizontalLook.scale(currentSpeed);
+
+        // Apply our horizontal movement, but KEEP the car's existing Y velocity (gravity/falling)
+        this.setDeltaMovement(horizontalMovement.x, this.getDeltaMovement().y, horizontalMovement.z);
         this.move(MoverType.SELF, this.getDeltaMovement());
     }
 
@@ -222,7 +231,7 @@ public class F1CarEntity extends Boat {
     }
 
     // ===============================
-    // SAVE DATA (for fuel/gears later)
+    // SAVE DATA
     // ===============================
     @Override
     protected void readAdditionalSaveData(CompoundTag tag) {
@@ -242,37 +251,35 @@ public class F1CarEntity extends Boat {
 
     //SOUNDS
     @Override
-    protected void checkInsideBlocks() {
-        // Boats play splashing sounds here; overriding with empty logic stops it
-    }
+    protected void checkInsideBlocks() { }
 
     @Override
-    protected void playStepSound(BlockPos pos, BlockState state) {
-        // Cars don't "step," but if you want a custom tire-on-gravel sound later,
-        // you would put it here. For now, keep it empty.
-    }
+    protected void playStepSound(BlockPos pos, BlockState state) { }
 
     @Override
     public SoundEvent getPaddleSound() {
-        // Stops the "splashing" sounds when you press A/D (strafe)
         return null;
     }
 
     private void playEngineSound() {
-        soundTick++;
+        // Reduce the cooldown every tick until it hits 0
+        if (soundCooldownTicks > 0) {
+            soundCooldownTicks--;
+        }
 
-        // Calculate how often to loop based on speed.
-        // Faster speed = shorter delay between sound triggers.
-        int playInterval = currentSpeed > 0.5f ? 10 : 20;
+        // Only attempt to play if the car is moving and the previous sound is finished
+        if (currentSpeed != 0 && soundCooldownTicks <= 0) {
 
-        if (soundTick % playInterval == 0 && currentSpeed != 0) {
             // Pitch logic: 0.5f is low/idle, 2.0f is high/screaming
-            float pitch = 0.5f + (Math.min(currentSpeed, 1.5f) * 1.0f);
+            float pitch = 0.5f + (Math.min(Math.abs(currentSpeed), 1.5f) * 1.0f);
             float volume = 0.3f + (Math.min(Math.abs(currentSpeed), 0.6f) * 0.7f);
 
             this.level().playLocalSound(this.getX(), this.getY(), this.getZ(),
                     ModSounds.ENGINE_SOUND.get(), this.getSoundSource(),
                     volume, pitch, false);
+
+            // Set cooldown to 60 ticks (3 seconds * 20 ticks/sec)
+            soundCooldownTicks = 15;
         }
     }
 
@@ -282,7 +289,6 @@ public class F1CarEntity extends Boat {
     @Override
     protected void defineSynchedData(SynchedEntityData.Builder builder) {
         super.defineSynchedData(builder);
-        // 2. Initialize it as false (Closed)
         builder.define(IS_DRS_ACTIVE, false);
     }
 
@@ -291,5 +297,39 @@ public class F1CarEntity extends Boat {
     // ===============================
     private float clamp(float val, float min, float max) {
         return Math.max(min, Math.min(max, val));
+    }
+
+    // Add this to F1CarEntity.java
+
+    // ===============================
+    // DYNAMIC HITBOX FIX
+    // ===============================
+
+    @Override
+    public void setYRot(float pYRot) {
+        super.setYRot(pYRot);
+        // Refresh the bounding box dimensions whenever the rotation changes
+        this.refreshDimensions();
+    }
+
+    @Override
+    public EntityDimensions getDimensions(Pose pPose) {
+        float yaw = this.getYRot();
+
+        // Convert degrees to radians for math
+        float angleRadians = yaw * ((float)Math.PI / 180F);
+        float cos = Math.abs((float)Math.cos(angleRadians));
+        float sin = Math.abs((float)Math.sin(angleRadians));
+
+        // F1 Car Dimensions: Length is 4.0, Width is 1.5
+        // We calculate the "Projected" width and length
+        float projectedWidth = (2.5f * sin) + (1.5f * cos);
+        float projectedLength = (2.5f * cos) + (1.5f * sin);
+
+        // Minecraft's AABB is square on the XZ plane, so we take the max
+        // to ensure the car's nose or tail doesn't clip through blocks.
+        float finalSize = Math.max(projectedWidth, projectedLength);
+
+        return EntityDimensions.scalable(finalSize, 1.0f);
     }
 }

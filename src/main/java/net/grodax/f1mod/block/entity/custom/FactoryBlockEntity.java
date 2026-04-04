@@ -1,6 +1,7 @@
 package net.grodax.f1mod.block.entity.custom;
 
 import net.grodax.f1mod.block.entity.ModBlockEntities;
+import net.grodax.f1mod.recipe.FactoryInput;
 import net.grodax.f1mod.recipe.FactoryRecipe;
 import net.grodax.f1mod.recipe.ModRecipes;
 import net.grodax.f1mod.screen.custom.FactoryMenu;
@@ -79,18 +80,18 @@ public class FactoryBlockEntity extends BlockEntity implements MenuProvider {
 
     // --- NEW RECIPE LOGIC ---
 
-    private CraftingInput createInput() {
+    private FactoryInput createInput() {
         NonNullList<ItemStack> inputItems = NonNullList.withSize(25, ItemStack.EMPTY);
         for (int i = 0; i < 25; i++) {
             inputItems.set(i, itemHandler.getStackInSlot(i));
         }
-        return CraftingInput.of(5, 5, inputItems);
+        return new FactoryInput(inputItems);
     }
 
     private boolean hasRecipe() {
         if (this.level == null) return false;
 
-        // Ask the game if any JSON matches our 25 slots
+        // The RecipeManager will now correctly find recipes because it's not shrinking the grid
         Optional<RecipeHolder<FactoryRecipe>> recipe = level.getRecipeManager()
                 .getRecipeFor(ModRecipes.FACTORY_TYPE.get(), createInput(), level);
 

@@ -39,6 +39,7 @@ public class F1CarItem extends Item {
             level.addFreshEntity(car);
         }
 
+        context.getItemInHand().shrink(1);
         return InteractionResult.SUCCESS;
     }
 
