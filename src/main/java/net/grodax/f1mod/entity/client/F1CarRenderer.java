@@ -25,7 +25,7 @@ public class F1CarRenderer extends EntityRenderer<F1CarEntity> {
     public F1CarRenderer(EntityRendererProvider.Context context) {
         super(context);
         this.model = new F1CarModel<>(context.bakeLayer(F1CarModel.LAYER_LOCATION));
-        this.shadowRadius = 1.0f; // Adjust shadow size to match scaled car
+        this.shadowRadius = 1.0f;
     }
 
     @Override
@@ -35,29 +35,25 @@ public class F1CarRenderer extends EntityRenderer<F1CarEntity> {
 
     @Override
     public void render(F1CarEntity entity, float entityYaw, float partialTicks, PoseStack poseStack, MultiBufferSource buffer, int packedLight) {
-        // Get VertexConsumer from buffer for solid rendering
         VertexConsumer vertexConsumer = buffer.getBuffer(RenderType.entitySolid(getTextureLocation(entity)));
 
-        poseStack.pushPose(); // Save current transform state
+        poseStack.pushPose();
 
         poseStack.mulPose(Axis.YP.rotationDegrees(180.0F - entity.getYRot()));
 
         poseStack.translate(0.0f, 0.55f, 0.0f);
 
-        // Scale the model so it's roughly 1 Minecraft block in size
-        float scale = 2f; // Adjust this value if car still looks too small or large
-        poseStack.scale(scale, scale , scale); // 16 = pixels per block
+        float scale = 2f;
+        poseStack.scale(scale, scale , scale);
 
         model.setSteeringAngle(entity.getSteeringAngle());
 
         model.setupAnim(entity, 0, 0, partialTicks, 0, 0);
 
-        // Render the model
         model.renderToBuffer(poseStack, vertexConsumer, packedLight, OverlayTexture.NO_OVERLAY, 0xFFFFFF);
 
-        poseStack.popPose(); // Restore transform
+        poseStack.popPose();
 
-        // Call super to render shadows and other default entity features
         super.render(entity, entityYaw, partialTicks, poseStack, buffer, packedLight);
     }
 }
